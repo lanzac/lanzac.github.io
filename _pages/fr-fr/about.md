@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: sobre
 permalink: /
-subtitle: <a href='#'>Afiliações</a>. Endereço. Contatos. Lema. Etc.
+subtitle: Bioinformaticien | Développeur scientifique
 
 profile:
   align: right
@@ -20,8 +20,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Escreva sua biografia aqui. Diga ao mundo sobre você. Adicione o link para o seu [subreddit](http://reddit.com) favorito. Você pode colocar uma foto também. O código já está dentro, basta nomear sua foto como `prof_pic.jpg` e colocá-la na pasta `img/`.
+Je suis bioinformaticien spécialisé en bioinformatique structurale et en 
+simulations à grande échelle, travaillant à l'intersection de la physique, de 
+la chimie et de l'informatique. Je me suis particulièrement concentré sur le 
+développement et la mise en œuvre d'une suite logicielle complète pour les 
+simulations moléculaires interactives (IMS), permettant une interaction 
+humaine en temps réel avec les simulations en cours, notamment pour étudier 
+le profil d'insertion des protéines membranaires. Actuellement, je me 
+spécialise davantage en tant que développeur scientifique, améliorant mes 
+compétences en génie logiciel, en particulier en architecture logicielle.
 
-Coloque seu endereço / caixa postal / outras informações logo abaixo da sua foto. Você também pode desabilitar qualquer um desses elementos editando a propriedade `profile` do cabeçalho YAML do seu `_pages/about.md`. Edite `_bibliography/papers.bib` e o Jekyll renderizará sua [página de publicações](/multi-language-al-folio/publications/) automaticamente.
-
-Adicione links para seus perfis de mídias sociais também. Este tema está configurado para usar [Font Awesome icons](https://fontawesome.com/) e [Academicons](https://jpswalsh.github.io/academicons/), como os visto abaixo. Adicione seu Facebook, Twitter, LinkedIn, Google Scholar ou simplesmente desative todos eles.
