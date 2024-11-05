@@ -1,7 +1,7 @@
 ---
 page_id: blog
 layout: default
-permalink: /blog/
+permalink: #/blog/
 title: blog
 blog_name: al-folio em português brasileiro
 description: um tema simples para acadêmicos
