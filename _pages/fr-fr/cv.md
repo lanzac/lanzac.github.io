@@ -2,11 +2,11 @@
 page_id: cv
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 5
 cv_pdf: example_pdf.pdf
-description: Esta é uma descrição da página. Você pode modificá-la em '_pages/cv.md'. Também pode alterar ou remover o botão no topo de download de pdf.
+description: Ceci est une description de la page. Vous pouvez la modifier dans '_pages/cv.md'. Vous pouvez également changer ou retirer le bouton de téléchargement de PDF en haut de la page.
 toc:
   sidebar: left
 ---

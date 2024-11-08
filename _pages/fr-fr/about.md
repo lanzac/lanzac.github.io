@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: sobre
+title: À propos
 permalink: /
 subtitle: Bioinformaticien | Développeur scientifique
 

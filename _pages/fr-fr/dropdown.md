@@ -1,17 +1,17 @@
 ---
 id: dropdown
 layout: page
-title: submenus
+title: Sous-menus
 nav: false
 nav_order: 8
 dropdown: true
 children:
-  - title: publicações
+  - title: Publications
     permalink: /publications/
   - title: divider
-  - title: projetos
+  - title: Projets
     permalink: /projects/
   - title: divider
-  - title: blog
+  - title: Blog
     permalink: #/blog/
 ---

@@ -1,9 +1,9 @@
 ---
 page_id: profiles
 layout: profiles
-permalink: /people/
-title: membros
-description: membros do grupo de pesquisa ou laboratório
+permalink: #/people/
+title: Personnes
+description: membres du laboratoire ou du groupe
 nav: false
 nav_order: 7
 

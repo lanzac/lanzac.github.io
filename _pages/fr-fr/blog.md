@@ -2,9 +2,9 @@
 page_id: blog
 layout: default
 permalink: #/blog/
-title: blog
-blog_name: al-folio em português brasileiro
-description: um tema simples para acadêmicos
+title: Blog
+blog_name: al-folio en français
+description: un thème simple pour les universitaires
 nav: false
 nav_order: 1
 pagination:

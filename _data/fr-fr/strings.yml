@@ -1,144 +1,144 @@
-archive_category: um arquivo de postagens desta categoria
-archive_tag: um arquivo de postagens com este marcador
-archive_year: um arquivo de postagens deste ano
+archive_category: un fichier d'archives des publications de cette catégorie
+archive_tag: un fichier d'archives des publications avec ce tag
+archive_year: un fichier d'archives des publications de cette année
 blog:
   navigation_title: blog
 categories:
-  fun: diversão
-  work: trabalho
+  fun: divertissement
+  work: travail
 citation:
-  bibtex: "ou como uma citação em BibTeX:"
-  introduction: "Se você achou isso útil, por favor cite como:"
-contact_note: Você pode até adicionar uma pequena observação sobre qual dessas é a melhor maneira de entrar em contato com você.
+  bibtex: "ou comme une citation en BibTeX :"
+  introduction: "Si vous avez trouvé cela utile, merci de citer comme suit :"
+contact_note: Vous pouvez même ajouter une petite note sur la meilleure manière de vous contacter.
 cv:
-  address: Endereço
-  area: Área
-  awarder: Premiado por
-  awards: Prêmios
-  basics: Informações gerais
-  certificates: Certificados
-  city: Cidade
-  countryCode: Código do país
-  courses: Cursos
-  date: Data
-  education: Educação
+  address: Adresse
+  area: Domaine
+  awarder: Récompensé par
+  awards: Récompenses
+  basics: Informations générales
+  certificates: Certificats
+  city: Ville
+  countryCode: Code du pays
+  courses: Cours
+  date: Date
+  education: Formation
   email: Email
-  endDate: Data de término
-  fluency: Fluência
-  highlights: Destaques
-  image: Imagem
-  institution: Instituição
-  interests: Interesses
-  issuer: Emissor
-  keywords: Palavras chave
-  label: Título
-  language: Idioma
-  languages: Idiomas
-  level: Nível
-  location: Localização
-  name: Nome
-  network: Rede
-  organization: Organização
-  phone: Telefone
-  position: Posição
-  postalCode: Código postal
-  profiles: Perfis
-  projects: Projetos
-  publications: Publicações
-  publisher: Editora
-  reference: Referência
-  references: Referências
-  region: Região
-  releaseDate: Data de lançamento
-  score: Pontuação
-  skills: Habilidades
-  startDate: Data de início
-  studyType: Tipo de estudo
-  summary: Resumo
-  table_of_contents: Tópicos
-  title: Título
+  endDate: Date de fin
+  fluency: Maîtrise
+  highlights: Points forts
+  image: Image
+  institution: Institution
+  interests: Centres d'intérêt
+  issuer: Émetteur
+  keywords: Mots-clés
+  label: Intitulé
+  language: Langue
+  languages: Langues
+  level: Niveau
+  location: Lieu
+  name: Nom
+  network: Réseau
+  organization: Organisation
+  phone: Téléphone
+  position: Poste
+  postalCode: Code postal
+  profiles: Profils
+  projects: Projets
+  publications: Publications
+  publisher: Éditeur
+  reference: Référence
+  references: Références
+  region: Région
+  releaseDate: Date de sortie
+  score: Score
+  skills: Compétences
+  startDate: Date de début
+  studyType: Type d'étude
+  summary: Résumé
+  table_of_contents: Sommaire
+  title: Titre
   url: Url
-  username: Usuário
-  volunteer: Voluntário
-  work: Trabalho
-footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Desenvolvido em <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> com o tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
-  Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Fotos do <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-latest_posts: últimas postagens
+  username: Nom d'utilisateur
+  volunteer: Bénévole
+  work: Travail
+footer_text: > # le symbole ">" signifie ignorer les sauts de ligne jusqu'à "titles:"
+  Développé avec <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> avec le thème <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+  Hébergé par <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos de <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+latest_posts: dernières publications
 months:
   long:
-    january: Janeiro
-    february: Fevereiro
-    march: Março
-    april: Abril
-    may: Maio
-    june: Junho
-    july: Julho
-    august: Agosto
-    september: Setembro
-    october: Outubro
-    november: Novembro
-    december: Dezembro
-  short:
-    january: Jan
-    february: Fev
-    march: Mar
-    april: Abr
+    january: Janvier
+    february: Février
+    march: Mars
+    april: Avril
     may: Mai
-    june: Jun
-    july: Jul
-    august: Ago
-    september: Set
-    october: Out
+    june: Juin
+    july: Juillet
+    august: Août
+    september: Septembre
+    october: Octobre
+    november: Novembre
+    december: Décembre
+  short:
+    january: Janv
+    february: Févr
+    march: Mars
+    april: Avr
+    may: Mai
+    june: Juin
+    july: Juill
+    august: Août
+    september: Sept
+    october: Oct
     november: Nov
-    december: Dez
-news: novidades
+    december: Déc
+news: nouveautés
 newsletter:
-  back: Voltar
-  error: "Oops! Algo deu errado, por favor tente novamente."
-  subscribe: inscrever-se
-  subscribed: "Você se inscreveu com sucesso na newsletter."
-  subscribe_to_receive: "Inscreva-se para ser notificado de futuros artigos:"
-  too_many_signups: "Muitas inscrições, por favor tente novamente em breve"
-  wait: "Por favor, aguarde..."
-no_news: Nenhuma novidade no momento...
+  back: Retour
+  error: "Oups ! Quelque chose s'est mal passé, veuillez réessayer."
+  subscribe: s'inscrire
+  subscribed: "Vous vous êtes inscrit avec succès à la newsletter."
+  subscribe_to_receive: "Inscrivez-vous pour recevoir des notifications des futurs articles :"
+  too_many_signups: "Trop d'inscriptions, veuillez réessayer plus tard"
+  wait: "Veuillez patienter..."
+no_news: Pas de nouveautés pour le moment...
 pagination:
-  newer: Recentes
-  older: Antigas
-  page: página
+  newer: Récentes
+  older: Anciennes
+  page: page
 post:
-  created_in: Criado em
-  created_by: por
-  last_updated: última atualização em
-references: Referências
+  created_in: Créé en
+  created_by: par
+  last_updated: dernière mise à jour le
+references: Références
 related_posts:
-  description: "Aqui estão alguns artigos relacionados que você pode gostar de ler:"
-  title: Gostou de Ler este Artigo?
+  description: "Voici quelques articles similaires que vous aimeriez lire :"
+  title: Vous avez aimé lire cet article ?
 search:
   dark_theme:
-    description: Muda o tema do site para escuro
-    title: Muda o tema para escuro
-  dropdown: Outras opções
-  email: Enviar um email
+    description: Passe le thème du site en mode sombre
+    title: Change pour le thème sombre
+  dropdown: Autres options
+  email: Envoyer un email
   footer:
-    close: para fechar
-    navigate: para navegar
-    parent: voltar um nível
-    select: para selecionar
-  languages: Idiomas
+    close: pour fermer
+    navigate: pour naviguer
+    parent: revenir d'un niveau
+    select: pour sélectionner
+  languages: Langues
   light_theme:
-    description: Muda o tema do site para claro
-    title: Muda o tema para claro
-  navigation: Menu de navegação
-  news: Novidades
-  placeholder: Digite para iniciar a busca
-  posts: Postagens
-  projects: Projetos
-  socials: Redes sociais
+    description: Passe le thème du site en mode clair
+    title: Change pour le thème clair
+  navigation: Menu de navigation
+  news: Nouveautés
+  placeholder: Tapez pour commencer la recherche
+  posts: Publications
+  projects: Projets
+  socials: Réseaux sociaux
   system_theme:
-    description: Muda o tema do site para o padrão do sistema
-    title: Usa o tema padrão do sistema
-  theme: Tema
-selected_publications: publicações selecionadas
-site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).
+    description: Passe le thème du site au thème par défaut du système
+    title: Utilise le thème par défaut du système
+  theme: Thème
+selected_publications: Publications Sélectionnées
+site_description: Un thème simple pour les universitaires. Basé sur le design de [*folio](https://github.com/bogoli/-folio).
