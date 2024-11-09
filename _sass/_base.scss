@@ -1342,3 +1342,30 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+.alert-warning {
+  border-style: none;
+  border-left-style: solid;
+  border-left-width: thick;
+  border-color: #f44336;
+  background-color: #f4c3c6;
+  padding-left: 4px;
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 20px;
+  color: black;
+  }
+  .alert {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  }
+  .alert:hover {
+  color: white;
+  }

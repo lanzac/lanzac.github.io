@@ -216,4 +216,13 @@
       </div>
     </progress>
   {% endif %}
+
+  {% comment %} https://forum.ghost.org/t/how-can-i-create-a-warning-banner/21239/5 {% endcomment %}
+  {% if site.warningbar.enabled %}
+    <div class="alert-warning">
+      <span class="alert" onclick="this.parentElement.style.display='none';">&times;</span>
+      <strong>Warning!</strong><br>{{ site.warningbar.content }}
+    </div>
+  {% endif %}
+
 </header>
