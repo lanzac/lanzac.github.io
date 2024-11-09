@@ -3,15 +3,13 @@
   contents:
     - name: Nome Completo
       value: Albert Einstein
-    - name: Data de Nascimento
-      value: 14 de março de 1879
-    - name: Idiomas
-      value: Inglês, Alemão
+    - name: Langues
+      value: Français (natif), Anglais (maîtrisé)
 
 - title: Educação
   type: time_table
   contents:
-    - title: PhD
+    - title: Doctorat en Bioinformatique
       institution: University of Zurich, Zurique, Suíça
       year: 1905
       description:
