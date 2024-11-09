@@ -57,7 +57,7 @@ jobs:
           # be installed through NPM.
           # Type: boolean
           # Default: "false"
-          theme-local: ""
+          theme-local: "false"
 
           # Name of the theme to
           # use.
