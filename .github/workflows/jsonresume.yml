@@ -39,7 +39,7 @@ jobs:
           # be the same for all
           # files.
           # Type: string
-          folder: "json"
+          folder: "assets/json"
 
           # Type of the output file.
           # Can be either PDF or
