@@ -63,4 +63,4 @@ jobs:
           # use.
           # Type: string
           # Default: "jsonresume-theme-even"
-          theme-name: "jsonresume-theme-professional"
+          theme-name: "jsonresume-theme-even"
