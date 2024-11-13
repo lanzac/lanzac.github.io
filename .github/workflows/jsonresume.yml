@@ -9,58 +9,18 @@ on:
 jobs:
   generate-resume:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate Json Resume
-        uses: Devleaps/jsonresume-generator@v1.0.2
-        id: jsonresume-generator
+      - uses: addnab/docker-run-action@v3
         with:
-          # Action to perform. Can be
-          # either `render` or `validate`.
-          # Type: string
-          # Default: "render"
-          action: "render"
-
-          # Name of the resume file.
-          # Support for JSON and YAML
-          # files.
-          # Type: string
-          # Default: "resume.json"
-          file: "resume_en-us.json"
-
-          # Name of the folder where
-          # the resume file is located.
-          # Can also be a wildcard
-          # (e.g. resumes/**). The file name is
-          # still required and expected to
-          # be the same for all
-          # files.
-          # Type: string
-          folder: "assets/json"
-
-          # Type of the output file.
-          # Can be either PDF or
-          # HTML.
-          # Type: string
-          # Default: "html"
-          output-type: "pdf"
-
-          # Where the theme is located.
-          # Can be either local or
-          # npm. If true, the theme
-          # is expected to be in
-          # a folder with the theme-name.
-          # If false, the theme will
-          # be installed through NPM.
-          # Type: boolean
-          # Default: "false"
-          theme-local: "false"
-
-          # Name of the theme to
-          # use.
-          # Type: string
-          # Default: "jsonresume-theme-even"
-          theme-name: "jsonresume-theme-even"
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          registry: gcr.io
+          image: andrelanrezac/latex:latest:latest
+          options: -v ${{ github.workspace }}:/work -e ABC=123
+          run: |
+            python3 prepare_resume.py assets/json/template_resume.json assets/tex/template_resume.tex 
+            pdflatex assets/tex/output.tex
+    
