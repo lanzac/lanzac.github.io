@@ -18,6 +18,7 @@ on:
       - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
+      - "!.github/workflows/jsonresume.yml"
       - "!lighthouse_results/**"
   pull_request:
     branches:
@@ -36,6 +37,7 @@ on:
       - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
+      - "!.github/workflows/jsonresume.yml"
       - "!lighthouse_results/**"
 
 jobs:
