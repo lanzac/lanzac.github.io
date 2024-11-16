@@ -13,18 +13,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # - name: Cache Docker Image
-      #   uses: docker/build-push-action@v5
-      #   with:
-      #     context: .
-      #     push: false
-      #     load: true
-      #     tags: andrelanrezac/latex:latest
+      - name: Cache Docker Image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: false
+          load: true
+          tags: andrelanrezac/latex:latest
 
       - name: Run Jsonresume convert
         uses: addnab/docker-run-action@v3
         with:
-          image: andrelanrezac/latex:v0.01
+          image: andrelanrezac/latex:v0.03
           options: -v ${{ github.workspace }}:/data
           run: |
             python3 /usr/local/bin/prepare_resume.py assets/json/resume_en-us.json assets/tex/template_resume.tex -o assets/tex/resume_en-us.tex
