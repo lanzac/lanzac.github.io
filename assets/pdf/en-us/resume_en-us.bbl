@@ -1,0 +1,258 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{lanrezac2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=867e71dd0050be8001879e04d0ca5f8c}{%
+           family={Lanrezac},
+           familyi={L\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cbd007dd50eadec9c891a91e657b63f7}{%
+           family={Férey},
+           familyi={F\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0217c76cc9add9c462e147c0782d4b94}{%
+           family={Baaden},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{fullhash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{bibnamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{authorbibnamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{authornamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{authorfullhash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1759-0876, 1759-0884}
+      \field{journaltitle}{WIREs Computational Molecular Science}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{Wielding the power of interactive molecular simulations}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1002/wcms.1594
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/andrelanrezac/Zotero/storage/H5UMC2YC/Lanrezac et al. - 2022 - Wielding the power of interactive molecular simula.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/wcms.1594
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/wcms.1594
+      \endverb
+    \endentry
+    \entry{lanrezac2022a}{article}{}
+      \name{author}{5}{}{%
+        {{hash=867e71dd0050be8001879e04d0ca5f8c}{%
+           family={Lanrezac},
+           familyi={L\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=de1a74dd31c511110df752813a3b28bb}{%
+           family={Laurent},
+           familyi={L\bibinitperiod},
+           given={Benoist},
+           giveni={B\bibinitperiod}}}%
+        {{hash=65863ac5089320310b5187eda5fccc66}{%
+           family={Santuz},
+           familyi={S\bibinitperiod},
+           given={Hubert},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cbd007dd50eadec9c891a91e657b63f7}{%
+           family={Férey},
+           familyi={F\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0217c76cc9add9c462e147c0782d4b94}{%
+           family={Baaden},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4bd92bd33de38ee0d41757835938d821}
+      \strng{fullhash}{2ff768f4a30fdf151dd75fa383226040}
+      \strng{bibnamehash}{4bd92bd33de38ee0d41757835938d821}
+      \strng{authorbibnamehash}{4bd92bd33de38ee0d41757835938d821}
+      \strng{authornamehash}{4bd92bd33de38ee0d41757835938d821}
+      \strng{authorfullhash}{2ff768f4a30fdf151dd75fa383226040}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{(1) Background: We developed an algorithm to perform interactive molecular simulations (IMS) of protein alignment in membranes, allowing on-the-fly monitoring and manipulation of such molecular systems at various scales. (2) Methods: UnityMol, an advanced molecular visualization software; MDDriver, a socket for data communication; and BioSpring, a Spring network simulation engine, were extended to perform IMS. These components are designed to easily communicate with each other, adapt to other molecular simulation software, and provide a development framework for adding new interaction models to simulate biological phenomena such as protein alignment in the membrane at a fast enough rate for real-time experiments. (3) Results: We describe in detail the integration of an implicit membrane model for Integral Membrane Protein And Lipid Association (IMPALA) into our IMS framework. Our implementation can cover multiple levels of representation, and the degrees of freedom can be tuned to optimize the experience. We explain the validation of this model in an interactive and exhaustive search mode. (4) Conclusions: Protein positioning in model membranes can now be performed interactively in real time.}
+      \field{issn}{1999-4893}
+      \field{journaltitle}{Algorithms}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Fast and {Interactive} {Positioning} of {Proteins} within {Membranes}}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{15}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{415}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/a15110415
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/andrelanrezac/Zotero/storage/IL52MGT2/Lanrezac et al. - 2022 - Fast and Interactive Positioning of Proteins withi.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1999-4893/15/11/415
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1999-4893/15/11/415
+      \endverb
+    \endentry
+    \entry{lanrezac2023a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=867e71dd0050be8001879e04d0ca5f8c}{%
+           family={Lanrezac},
+           familyi={L\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0217c76cc9add9c462e147c0782d4b94}{%
+           family={Baaden},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8f3411b702e389c1ff5068d0d24d3bc7}
+      \strng{fullhash}{8f3411b702e389c1ff5068d0d24d3bc7}
+      \strng{bibnamehash}{8f3411b702e389c1ff5068d0d24d3bc7}
+      \strng{authorbibnamehash}{8f3411b702e389c1ff5068d0d24d3bc7}
+      \strng{authornamehash}{8f3411b702e389c1ff5068d0d24d3bc7}
+      \strng{authorfullhash}{8f3411b702e389c1ff5068d0d24d3bc7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The insertion of proteins into membranes is crucial for understanding their function in many biological processes. In this work, we present UNILIPID, a universal implicit lipid-protein description as a methodology for dealing with implicit membranes. UNILIPID is independent of the scale of representation and can be applied at the level of all atoms, coarse-grained particles down to the level of a single bead per amino acid. We provide example implementations for these scales and demonstrate the versatility of our approach by accurately reflecting the free energy of transfer for each amino acid. In addition to single membranes, we describe the analytical implementation of double membranes and show that UNILIPID is well suited for modeling at multiple scales. We generalize to membranes of arbitrary shape. With UNILIPID, we provide a methodological framework for a simple and general parameterization tuned to reproduce a selected reference hydrophobicity scale. The software we provide along with the methodological description is optimized for specific user features such as real-time response, live visual analysis, and virtual reality experiences.}
+      \field{issn}{2077-0375}
+      \field{journaltitle}{Membranes}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{UNILIPID}, a {Methodology} for {Energetically} {Accurate} {Prediction} of {Protein} {Insertion} into {Implicit} {Membranes} of {Arbitrary} {Shape}}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{362}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/membranes13030362
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/andrelanrezac/Zotero/storage/NZA2QI9Q/Lanrezac and Baaden - 2023 - UNILIPID, a Methodology for Energetically Accurate.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2077-0375/13/3/362
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2077-0375/13/3/362
+      \endverb
+    \endentry
+    \entry{lanrezac2023b}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=867e71dd0050be8001879e04d0ca5f8c}{%
+           family={Lanrezac},
+           familyi={L\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cbd007dd50eadec9c891a91e657b63f7}{%
+           family={Férey},
+           familyi={F\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0217c76cc9add9c462e147c0782d4b94}{%
+           family={Baaden},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{fullhash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{bibnamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{authorbibnamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{authornamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{authorfullhash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reference {Module} in {Chemistry}, {Molecular} {Sciences} and {Chemical} {Engineering}}
+      \field{isbn}{978-0-12-409547-2}
+      \field{title}{Interactive {Molecular} {Dynamics}}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{B978012821978200115X}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-821978-2.00115-X
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B978012821978200115X
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B978012821978200115X
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
