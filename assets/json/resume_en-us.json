@@ -2,146 +2,221 @@
   "basics": {
     "name": "André Lanrezac",
     "label": "Bioinformatician | Scientific Developer",
+    "image": "",
     "email": "a.lanrezac@gmail.com",
-    "summary": "blablabla"
+    "phone": "",
+    "url": "https://lanzac.github.io/",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Paris",
+      "countryCode": "FR",
+      "region": ""
+    },
+    "profiles": [{
+      "network": "",
+      "username": "",
+      "url": ""
+    }]
   },
-  "education": [
-    {
-      "institution": "Laboratory of Theoretical Biochemistry - CNRS",
-      "location": "Paris, France",
-      "url": "http://www-lbt.ibpc.fr/",
-      "area": "Bioinformatics",
-      "studyType": "Ph.D.",
-      "startDate": "2019",
-      "endDate": "2023",
-      "courses": ["Interpretation of experimental data through interactive simulation and molecular visualization"]
-    },
-    {
-      "institution": "Sorbonne Université",
-      "location": "Paris, France",
-      "url": "https://www.sorbonne-universite.fr/",
-      "area": "Bioinformatics and Modelisation",
-      "studyType": "M.S.",
-      "startDate": "2017",
-      "endDate": "2019",
-      "courses": ["Structural bioinformatics and modelisation"]
-    },
-    {
-      "institution": "Sorbonne Université",
-      "location": "Paris, France",
-      "url": "https://www.sorbonne-universite.fr/",
-      "area": "Molecular and cellular biology",
-      "studyType": "B.S.",
-      "startDate": "2014",
-      "endDate": "2017",
-      "courses": ["Biology, Bioinformatics"]
-    }
-  ],
-  "experience": [
-    {
-      "name": "Laboratory of Theoretical Biochemistry, CNRS",
-      "position": "Reseach engineer",
-      "url": "http://www-lbt.ibpc.fr/",
-      "startDate": "2023",
-      "endDate": "2024",
-      "summary": "",
-      "highlights": [
-        "Research on MDverse, a web app for large-scale molecular simulation data analysis",
-        "Development of a molecular simulations software suite (Unity, C#, C++, Python, C)"]
-    },
-    {
-      "name": "Laboratory of Theoretical Biochemistry, CNRS",
-      "position": "Research Assistant",
-      "url": "http://www-lbt.ibpc.fr/",
-      "startDate": "2019",
-      "endDate": "2023",
-      "summary": "",
-      "highlights": [
-        "Lead author of an advanced review on interactive molecular simulations (IMS)",
-        "Development of a software suite integrating visualisation and molecular simulation with human interaction (Unity, C#, C++, Python, C)"]
-    },
-    {
-      "name": "Institute of Mineralogy, Physics of Materials and Cosmochemistry, Sorbonne Université - CNRS",
-      "position": "Bioinformatics Drug Design Intern",
-      "url": "https://impmc.sorbonne-universite.fr/fr/index.html",
-      "startDate": "Feb 2019",
-      "endDate": "July 2019",
-      "summary": "",
-      "highlights": [
-        "Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool.",
-        "Manual design of cyclic peptides with UCSF-Chimera."]
-    },
-    {
-      "name": "Institute of Systematics, Evolution and Biodiversity, Sorbonne Université - CNRS",
-      "position": "Bioinformatics Structural Analysis Intern",
-      "url": "https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384",
-      "startDate": "2019",
-      "endDate": "July 2019",
-      "summary": "",
-      "highlights": [
-        "Contributed to developing a program for rapid protein structure similarity searches. (Python, C)."]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ]
+  "work": [{
+    "name": "Laboratory of Theoretical Biochemistry, CNRS",
+    "location": "Paris",
+    "position": "Research Assistant \\& Reseach engineer",
+    "url": "http://www-lbt.ibpc.fr/",
+    "startDate": "2019",
+    "endDate": "2024",
+    "summary": "",
+    "highlights": [
+      "Lead author of an advanced review on interactive molecular simulations (IMS) \\cite{lanrezac2022}",
+      "Development of a software suite integrating visualisation and molecular simulation with human interaction \\cite{lanrezac2022a,lanrezac2023a}",
+      "Exploratory research on MDverse web app for large-scale molecular simulation data analysis."
+    ]
+  },{
+    "name": "Institute of Mineralogy, Physics of Materials and Cosmochemistry, CNRS",
+    "location": "Paris",
+    "position": "Bioinformatics Drug Design Intern",
+    "url": "https://impmc.sorbonne-universite.fr/fr/equipes/biophysique_et_bioinformatique.html",
+    "startDate": "2019",
+    "endDate": "2019",
+    "summary": "",
+    "highlights": [
+      "Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool.",
+      "Manual design of cyclic peptides with UCSF-Chimera."
+    ]
+  },{
+    "name": "Institute of Systematics, Evolution and Biodiversity, CNRS",
+    "location": "Paris",
+    "position": "Bioinformatics Structural Analysis Intern",
+    "url": "https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384",
+    "startDate": "2018",
+    "endDate": "2018",
+    "summary": "",
+    "highlights": [
+      "Contributed to developing a program for rapid protein structure similarity searches. (Python, C)."
+    ]
+  }],
+  "volunteer": [{
+    "organization": "",
+    "position": "",
+    "url": "",
+    "startDate": "",
+    "endDate": "",
+    "summary": "",
+    "highlights": []
+  }],
+  "education": [{
+    "institution": "Université Paris Cité",
+    "location": "Paris",
+    "url": "https://u-paris.fr/en/",
+    "area": "Bioinformatics",
+    "studyType": "Ph.D.",
+    "startDate": "2019",
+    "endDate": "2023",
+    "score": "",
+    "courses": [
+      "Interpretation of experimental data through interactive simulation and molecular visualization"
+    ],
+    "advisors": ["Dr Marc Baaden"]
+  },{
+    "institution": "Sorbonne Université",
+    "location": "Paris",
+    "url": "https://www.sorbonne-universite.fr/",
+    "area": "Biology \\& M.S. in Bioinformatics",
+    "studyType": "B.S.",
+    "startDate": "2014",
+    "endDate": "2019",
+    "score": "",
+    "courses": [
+      "Structural bioinformatics and modelisation"
+    ],
+    "advisors": []
+  }],
+  "awards": [{
+    "title": "",
+    "date": "",
+    "awarder": "",
+    "summary": ""
+  }],
+  "certificates": [{
+    "name": "",
+    "date": "",
+    "issuer": "",
+    "url": ""
+  }],
+  "publications": [{
+    "name": "",
+    "publisher": "",
+    "releaseDate": "",
+    "url": "",
+    "summary": ""
+  }],
+  "skills": [{
+    "name": "Programming languages",
+    "level": "",
+    "keywords": [
+      "Python3", "\\Cpp11" , "\\Cs", "Bash", "C", "Unix", "HTML/CSS"
+    ]
+  },{
+    "name": "Development tools",
+    "level": "",
+    "keywords": [
+      "git", "gdb", "lldb", "CMake", "Unity", "Docker", "Pixlr E", "Jekyll",
+      "MongoDB", "Streamlit"
+    ]
+  },{
+    "name": "Scientific software",
+    "level": "",
+    "keywords": [
+      "VMD","PyMol", "APBS", "GROMACS", "NAMD", "HADDOCK", "Desmos", "AutoDock",
+      "Chimera", "HADDOCK"
+    ]
+  },{
+    "name": "OS",
+    "level": "",
+    "keywords": [
+      "macOS", "Linux"
+    ]
+  },{
+    "name": "Communication",
+    "level": "",
+    "keywords": [
+      "Apple/Microsoft office suites", "Website design", "Authorea",
+      "\\LaTeX"
+    ]
+  },{
+    "name": "Languages",
+    "level": "",
+    "keywords": [
+      "French (native)",
+      "English (proficient)"
+    ]
+  }],
+  "languages": [{
+    "language": "",
+    "fluency": ""
+  }],
+  "interests": [{
+    "name": "",
+    "keywords": [
+      "",
+      ""
+    ]
+  }],
+  "references": [{
+    "name": "",
+    "reference": ""
+  }],
+  "projects": [{
+    "name": "BioSpring",
+    "startDate": "2019",
+    "endDate": "Present",
+    "role": "Developer • \\Cpp",
+    "description": "Interactive simulation engine based on an extended elastic network model.",
+    "highlights": [
+      ""
+    ],
+    "url": ""
+  },{
+    "name": "UnityMol",
+    "startDate": "2019",
+    "endDate": "Present",
+    "role": "Developer • \\Cs",
+    "description": "Molecular viewer using Unity game engine.",
+    "highlights": [
+      ""
+    ],
+    "url": ""
+  },{
+    "name": "MDDriver",
+    "startDate": "2019",
+    "endDate": "Present",
+    "role": "Developer • C",
+    "description": "Socket for data communication of molecular simulation software.",
+    "highlights": [
+      ""
+    ],
+    "url": ""
+  },{
+    "name": "UNILIPID",
+    "startDate": "2019",
+    "endDate": "Present",
+    "role": "Designer \\& Developer • Python3",
+    "description": "UNiversal Implicit LIPId-protein Description. It is versatile implicit lipid-protein framework for modeling membrane interactions across multiple scales, offering support for complex membrane geometries, and advanced user features like real-time analysis.",
+    "highlights": [
+      ""
+    ],
+    "url": ""
+  },{
+    "name": "NutoMetrics",
+    "startDate": "2024",
+    "endDate": "Present",
+    "role": "Designer \\& Developer • Python3, MongoDB, Streamlit",
+    "description": "Side project application that performs detailed nutritional analysis by inventorying food products and analyzing their nutrients. The app provides users with a scientific overview of their dietary intake and allows for experimental combinations of foods to optimize nutritional value.",
+    "highlights": [
+      ""
+    ],
+    "url": ""
+  }]
 }

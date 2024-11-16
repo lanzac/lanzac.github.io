@@ -142,20 +142,33 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{ {{- basics.url -}} }{\Large {{ basics.name }}}} & \href{mailto:{{ basics.email }}}{ {{- basics.email -}} }\\
-  {{ basics.label }} & \href{ {{- basics.url -}} }{ {{- basics.url -}} } \\
-  % Mobile: \href{tel:{{ basics.phone }}}{ {{- basics.phone -}} }
+  \textbf{\href{https://lanzac.github.io/}{\Large André Lanrezac}} & \href{mailto:a.lanrezac@gmail.com}{a.lanrezac@gmail.com}\\
+  Bioinformatician | Scientific Developer & \href{https://lanzac.github.io/}{https://lanzac.github.io/} \\
+  % Mobile: \href{tel:}{}
 \end{tabular*}
 
 %--------SKILLS------------
 \section{Skills}
   \resumeSubHeadingListStart
-    {% for entry in skills -%}
     \item{
-      \textbf{ {{- entry.name -}} }{: {{ entry.keywords | join(", ") -}} }
+      \textbf{Programming languages}{: Python3, \Cpp11, \Cs, Bash, C, Unix, HTML/CSS}
     }
-    {% endfor -%}
-  \resumeSubHeadingListEnd
+    \item{
+      \textbf{Development tools}{: git, gdb, lldb, CMake, Unity, Docker, Pixlr E, Jekyll, MongoDB, Streamlit}
+    }
+    \item{
+      \textbf{Scientific software}{: VMD, PyMol, APBS, GROMACS, NAMD, HADDOCK, Desmos, AutoDock, Chimera, HADDOCK}
+    }
+    \item{
+      \textbf{OS}{: macOS, Linux}
+    }
+    \item{
+      \textbf{Communication}{: Apple/Microsoft office suites, Website design, Authorea, \LaTeX}
+    }
+    \item{
+      \textbf{Languages}{: French (native), English (proficient)}
+    }
+    \resumeSubHeadingListEnd
 
 %\section{Skills}
 %  \resumeSubHeadingListStart
@@ -169,18 +182,31 @@
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-    {% for entry in work -%}
     \resumeSubheading
-      { {{- entry.name -}} }{ {{- entry.location -}} }
-      { {{- entry.position -}} }{\formatDate{ {{- entry.startDate -}} }{ {{- entry.endDate -}} }}
+      {Laboratory of Theoretical Biochemistry, CNRS}{Paris}
+      {Research Assistant \& Reseach engineer}{\formatDate{2019}{2024}}
       {}
       \resumeItemListStart
-        {%- for item in entry.highlights %}
-        \resumeItem{ {{- item -}} }
-        {%- endfor %}
+        \resumeItem{Lead author of an advanced review on interactive molecular simulations (IMS) \cite{lanrezac2022}}
+        \resumeItem{Development of a software suite integrating visualisation and molecular simulation with human interaction \cite{lanrezac2022a,lanrezac2023a}}
+        \resumeItem{Exploratory research on MDverse web app for large-scale molecular simulation data analysis.}
       \resumeItemListEnd
-    {% endfor -%}
-  \resumeSubHeadingListEnd
+    \resumeSubheading
+      {Institute of Mineralogy, Physics of Materials and Cosmochemistry, CNRS}{Paris}
+      {Bioinformatics Drug Design Intern}{\formatDate{2019}{2019}}
+      {}
+      \resumeItemListStart
+        \resumeItem{Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool.}
+        \resumeItem{Manual design of cyclic peptides with UCSF-Chimera.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Institute of Systematics, Evolution and Biodiversity, CNRS}{Paris}
+      {Bioinformatics Structural Analysis Intern}{\formatDate{2018}{2018}}
+      {}
+      \resumeItemListStart
+        \resumeItem{Contributed to developing a program for rapid protein structure similarity searches. (Python, C).}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
 
 % --------Multiple Positions Heading------------
   %  \resumeSubSubheading
@@ -195,34 +221,43 @@
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
-  {% for entry in projects -%}
   \resumeSubheadingBis
-    { {{- entry.name -}} } { {{- entry.role -}} }{ {{- entry.startDate }} -- {{ entry.endDate }} }
-    { {{- entry.description -}} }
+    {BioSpring} {Developer • \Cpp}{2019 -- Present }
+    {Interactive simulation engine based on an extended elastic network model.}
     
-  {% endfor -%}
-\resumeSubHeadingListEnd
+  \resumeSubheadingBis
+    {UnityMol} {Developer • \Cs}{2019 -- Present }
+    {Molecular viewer using Unity game engine.}
+    
+  \resumeSubheadingBis
+    {MDDriver} {Developer • C}{2019 -- Present }
+    {Socket for data communication of molecular simulation software.}
+    
+  \resumeSubheadingBis
+    {UNILIPID} {Designer \& Developer • Python3}{2019 -- Present }
+    {UNiversal Implicit LIPId-protein Description. It is versatile implicit lipid-protein framework for modeling membrane interactions across multiple scales, offering support for complex membrane geometries, and advanced user features like real-time analysis.}
+    
+  \resumeSubheadingBis
+    {NutoMetrics} {Designer \& Developer • Python3, MongoDB, Streamlit}{2024 -- Present }
+    {Side project application that performs detailed nutritional analysis by inventorying food products and analyzing their nutrients. The app provides users with a scientific overview of their dietary intake and allows for experimental combinations of foods to optimize nutritional value.}
+    
+  \resumeSubHeadingListEnd
 
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
-    {% for entry in education -%}
     \resumeSubheading
-      { {{- entry.institution -}} }{ {{- entry.location -}} }
-      { {{- entry.studyType }} in {{ entry.area -}} }{ {{- entry.startDate }} -- {{ entry.endDate -}} }
-      {%- if entry.advisors %}
-        {%- if entry.advisors|length > 1 %}
-      {Advisors: {{ entry.advisors | join(", ") -}} }
-        {%- else %}
-      {Advisor: {{ entry.advisors[0] -}} }
-        {%- endif %}
-      {%- else %}
-      {}
-      {%- endif %}
+      {Université Paris Cité}{Paris}
+      {Ph.D. in Bioinformatics}{2019 -- 2023}
+      {Advisor: Dr Marc Baaden}
       
-    {% endfor -%}
-  \resumeSubHeadingListEnd
+    \resumeSubheading
+      {Sorbonne Université}{Paris}
+      {B.S. in Biology \& M.S. in Bioinformatics}{2014 -- 2019}
+      {}
+      
+    \resumeSubHeadingListEnd
 
 %--------PUBLICATIONS------------
 \nocite{*}
