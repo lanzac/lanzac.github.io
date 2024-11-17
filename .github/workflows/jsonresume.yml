@@ -28,8 +28,8 @@ jobs:
           options: -v ${{ github.workspace }}:/data
           run: |
             python3 /usr/local/bin/prepare_resume.py assets/json/resume_en-us.json assets/tex/template_resume.tex -o assets/tex/resume_en-us.tex
-            pdflatex -output-directory=assets/pdf/en-us assets/tex/resume_en-us.tex
+            lualatex -output-directory=assets/pdf/en-us assets/tex/resume_en-us.tex
             biber assets/pdf/en-us/resume_en-us.bcf
-            pdflatex -output-directory=assets/pdf/en-us assets/tex/resume_en-us.tex
+            lualatex -output-directory=assets/pdf/en-us assets/tex/resume_en-us.tex
             
 

@@ -30,8 +30,7 @@
     "summary": "",
     "highlights": [
       "Lead author of an advanced review on interactive molecular simulations (IMS) \\cite{lanrezac2022}",
-      "Development of a software suite integrating visualisation and molecular simulation with human interaction \\cite{lanrezac2022a,lanrezac2023a}",
-      "Exploratory research on MDverse web app for large-scale molecular simulation data analysis."
+      "Development of a software suite integrating visualisation and molecular simulation with human interaction \\cite{lanrezac2022a,lanrezac2023a}"
     ]
   },{
     "name": "Institute of Mineralogy, Physics of Materials and Cosmochemistry, CNRS",
@@ -122,15 +121,8 @@
     "name": "Development tools",
     "level": "",
     "keywords": [
-      "git", "gdb", "lldb", "CMake", "Unity", "Docker", "Pixlr E", "Jekyll",
+      "git", "gdb/lldb", "CMake", "Unity", "Docker", "Pixlr E", "Jekyll",
       "MongoDB", "Streamlit"
-    ]
-  },{
-    "name": "Scientific software",
-    "level": "",
-    "keywords": [
-      "VMD","PyMol", "APBS", "GROMACS", "NAMD", "HADDOCK", "Desmos", "AutoDock",
-      "Chimera", "HADDOCK"
     ]
   },{
     "name": "OS",
@@ -150,7 +142,8 @@
     "level": "",
     "keywords": [
       "French (native)",
-      "English (proficient)"
+      "English (proficient)",
+      "Chinese (一点)"
     ]
   }],
   "languages": [{
@@ -169,51 +162,11 @@
     "reference": ""
   }],
   "projects": [{
-    "name": "BioSpring",
-    "startDate": "2019",
-    "endDate": "Present",
-    "role": "Developer • \\Cpp",
-    "description": "Interactive simulation engine based on an extended elastic network model.",
-    "highlights": [
-      ""
-    ],
-    "url": ""
-  },{
-    "name": "UnityMol",
-    "startDate": "2019",
-    "endDate": "Present",
-    "role": "Developer • \\Cs",
-    "description": "Molecular viewer using Unity game engine.",
-    "highlights": [
-      ""
-    ],
-    "url": ""
-  },{
-    "name": "MDDriver",
-    "startDate": "2019",
-    "endDate": "Present",
-    "role": "Developer • C",
-    "description": "Socket for data communication of molecular simulation software.",
-    "highlights": [
-      ""
-    ],
-    "url": ""
-  },{
-    "name": "UNILIPID",
-    "startDate": "2019",
-    "endDate": "Present",
-    "role": "Designer \\& Developer • Python3",
-    "description": "UNiversal Implicit LIPId-protein Description. It is versatile implicit lipid-protein framework for modeling membrane interactions across multiple scales, offering support for complex membrane geometries, and advanced user features like real-time analysis.",
-    "highlights": [
-      ""
-    ],
-    "url": ""
-  },{
-    "name": "NutoMetrics",
-    "startDate": "2024",
-    "endDate": "Present",
-    "role": "Designer \\& Developer • Python3, MongoDB, Streamlit",
-    "description": "Side project application that performs detailed nutritional analysis by inventorying food products and analyzing their nutrients. The app provides users with a scientific overview of their dietary intake and allows for experimental combinations of foods to optimize nutritional value.",
+    "name": "",
+    "startDate": "",
+    "endDate": "",
+    "role": "",
+    "description": "",
     "highlights": [
       ""
     ],

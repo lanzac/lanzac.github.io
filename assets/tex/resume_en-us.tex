@@ -4,7 +4,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -20,6 +20,8 @@
 \usepackage{multicol}
 \usepackage{pifont}
 \usepackage{ifthen}
+\usepackage{fontspec}
+\usepackage{luatexja-fontspec}
 
 \usepackage[
   style=numeric-comp,
@@ -35,8 +37,6 @@
 \renewbibmacro{in:}{}
 \addbibresource{assets/tex/publications.bib}
 \usepackage{csquotes}
-
-\input{glyphtounicode}
 
 \pagestyle{fancy}
 \fancyhf{} % Clear all header and footer fields
@@ -57,13 +57,18 @@
 \raggedright
 \setlength{\tabcolsep}{0in}
 
+% fc-list  | cut -d\  -f2-99 | cut -d: -f1 | sort -u
+% Linux Libertine O
+\setmainfont{Open Sans}[
+    BoldFont = {Open Sans SemiBold},
+    SmallCapsFont = {TeX Gyre Termes},
+    SmallCapsFeatures = {Letters=SmallCaps}
+]
+
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-4pt}\raggedright\bfseries\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Ensure that generate PDF is machine readable/ATS parsable
-\pdfgentounicode=1
 
 %-------------------------
 % Custom commands
@@ -73,14 +78,14 @@
 %   }
 % }
 \newcommand{\resumeItem}[1]{
-  \item\small{#1 \vspace{-2pt}}
+  \item \begin{minipage}[t]{0.85\textwidth} #1 \end{minipage} \vspace{-2pt}
 }
 
 % Just in case someone needs a heading that does not need to be in a list
 \newcommand{\resumeHeading}[4]{
     \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \textit{#3} & \textit{#4} \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -88,24 +93,25 @@
   \vspace{-1pt}\item
     \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-      \ifx&#5&\else \textit{\small #5} \\ \fi
-    \end{tabular*}\vspace{-5pt}
+      \textit{#3} & \textit{#4} \\
+      \ifx&#5&\else \textit{#5} \\ \fi
+    \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubheadingBis}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} \textit{\small #2} & \textit{\small #3} \\
+      \textbf{#1} & \textit{#2} \\
+      \textit{#3}
     \end{tabular*}
-    \small #4
-    \vspace{-4pt}
+    \begin{minipage}[t]{0.85\textwidth} #4 \end{minipage} \vspace{-2pt}
+    \vspace{2pt}
 }
 
 
 \newcommand{\resumeSubSubheading}[2]{
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
+      \textit{#1} & \textit{#2} \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -121,7 +127,7 @@
 
 
 % https://www.johndcook.com/blog/2011/10/18/typesetting-c-in-latex/
-\newcommand{\Cs}{C\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\tiny\bf \#}}
+\newcommand{\Cs}{C\nolinebreak\hspace{-.05em}\raisebox{.2ex}{\small \#}}
 \newcommand{\Cpp}{C\texttt{++}}
 
 \newcommand{\sbt}{\,\begin{picture}(-1,1)(-1,-3)\circle*{3}\end{picture}\ }
@@ -148,36 +154,34 @@
 \end{tabular*}
 
 %--------SKILLS------------
-\section{Skills}
-  \resumeSubHeadingListStart
-    \item{
-      \textbf{Programming languages}{: Python3, \Cpp11, \Cs, Bash, C, Unix, HTML/CSS}
-    }
-    \item{
-      \textbf{Development tools}{: git, gdb, lldb, CMake, Unity, Docker, Pixlr E, Jekyll, MongoDB, Streamlit}
-    }
-    \item{
-      \textbf{Scientific software}{: VMD, PyMol, APBS, GROMACS, NAMD, HADDOCK, Desmos, AutoDock, Chimera, HADDOCK}
-    }
-    \item{
-      \textbf{OS}{: macOS, Linux}
-    }
-    \item{
-      \textbf{Communication}{: Apple/Microsoft office suites, Website design, Authorea, \LaTeX}
-    }
-    \item{
-      \textbf{Languages}{: French (native), English (proficient)}
-    }
-    \resumeSubHeadingListEnd
+% \section{Skills}
+%   \resumeSubHeadingListStart
+%     %     \item{
+%         \textbf{Programming languages}\sffamily{: Python3, \Cpp11, \Cs, Bash, C, Unix, HTML/CSS}
+%     }
+%     %     \item{
+%         \textbf{Development tools}\sffamily{: git, gdb, lldb, CMake, Unity, Docker, Pixlr E, Jekyll, MongoDB, Streamlit}
+%     }
+%     %     \item{
+%         \textbf{OS}\sffamily{: macOS, Linux}
+%     }
+%     %     \item{
+%         \textbf{Communication}\sffamily{: Apple/Microsoft office suites, Website design, Authorea, \LaTeX}
+%     }
+%     %     \item{
+%         \textbf{Languages}\sffamily{: French (native), English (proficient), Chinese (一点)}
+%     }
+%     %   \resumeSubHeadingListEnd
 
-%\section{Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, JavaScript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+  \section{Skills}
+  \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
+    \textbf{Programming languages: } & \sffamily{ Python3, \Cpp11, \Cs, Bash, C, Unix, HTML/CSS } \\
+    \textbf{Development tools: } & \sffamily{ git, gdb, lldb, CMake, Unity, Docker, Pixlr E, Jekyll, MongoDB, Streamlit } \\
+    \textbf{OS: } & \sffamily{ macOS, Linux } \\
+    \textbf{Communication: } & \sffamily{ Apple/Microsoft office suites, Website design, Authorea, \LaTeX } \\
+    \textbf{Languages: } & \sffamily{ French (native), English (proficient), Chinese (一点) } \\
+    \end{tabularx}
+
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
@@ -189,8 +193,8 @@
       \resumeItemListStart
         \resumeItem{Lead author of an advanced review on interactive molecular simulations (IMS) \cite{lanrezac2022}}
         \resumeItem{Development of a software suite integrating visualisation and molecular simulation with human interaction \cite{lanrezac2022a,lanrezac2023a}}
-        \resumeItem{Exploratory research on MDverse web app for large-scale molecular simulation data analysis.}
       \resumeItemListEnd
+      \vspace{5pt}
     \resumeSubheading
       {Institute of Mineralogy, Physics of Materials and Cosmochemistry, CNRS}{Paris}
       {Bioinformatics Drug Design Intern}{\formatDate{2019}{2019}}
@@ -199,6 +203,7 @@
         \resumeItem{Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool.}
         \resumeItem{Manual design of cyclic peptides with UCSF-Chimera.}
       \resumeItemListEnd
+      \vspace{5pt}
     \resumeSubheading
       {Institute of Systematics, Evolution and Biodiversity, CNRS}{Paris}
       {Bioinformatics Structural Analysis Intern}{\formatDate{2018}{2018}}
@@ -206,6 +211,7 @@
       \resumeItemListStart
         \resumeItem{Contributed to developing a program for rapid protein structure similarity searches. (Python, C).}
       \resumeItemListEnd
+      \vspace{5pt}
     \resumeSubHeadingListEnd
 
 % --------Multiple Positions Heading------------
@@ -219,29 +225,13 @@
 %-------------------------------------------
 
 %-----------PROJECTS-----------------
-\section{Projects}
-\resumeSubHeadingListStart
-  \resumeSubheadingBis
-    {BioSpring} {Developer • \Cpp}{2019 -- Present }
-    {Interactive simulation engine based on an extended elastic network model.}
-    
-  \resumeSubheadingBis
-    {UnityMol} {Developer • \Cs}{2019 -- Present }
-    {Molecular viewer using Unity game engine.}
-    
-  \resumeSubheadingBis
-    {MDDriver} {Developer • C}{2019 -- Present }
-    {Socket for data communication of molecular simulation software.}
-    
-  \resumeSubheadingBis
-    {UNILIPID} {Designer \& Developer • Python3}{2019 -- Present }
-    {UNiversal Implicit LIPId-protein Description. It is versatile implicit lipid-protein framework for modeling membrane interactions across multiple scales, offering support for complex membrane geometries, and advanced user features like real-time analysis.}
-    
-  \resumeSubheadingBis
-    {NutoMetrics} {Designer \& Developer • Python3, MongoDB, Streamlit}{2024 -- Present }
-    {Side project application that performs detailed nutritional analysis by inventorying food products and analyzing their nutrients. The app provides users with a scientific overview of their dietary intake and allows for experimental combinations of foods to optimize nutritional value.}
-    
-  \resumeSubHeadingListEnd
+% \section{Projects}
+% \resumeSubHeadingListStart
+%   %   \resumeSubheadingBis
+%     {}{ --  }
+%     {}
+%     {}
+%   % \resumeSubHeadingListEnd
 
 
 %-----------EDUCATION-----------------
