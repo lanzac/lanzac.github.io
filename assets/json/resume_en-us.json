@@ -21,7 +21,8 @@
     }]
   },
   "work": [{
-    "name": "Laboratory of Theoretical Biochemistry, CNRS",
+    "name": "Laboratory of Theoretical Biochemistry (LBT), CNRS",
+    "institution": "Institute of Physico-Chemical Biology (IBPC)/CNRS",
     "location": "Paris",
     "position": "Research Assistant \\& Reseach engineer",
     "url": "http://www-lbt.ibpc.fr/",
@@ -33,24 +34,26 @@
       "Development of a software suite integrating visualisation and molecular simulation with human interaction \\cite{lanrezac2022a,lanrezac2023a}"
     ]
   },{
-    "name": "Institute of Mineralogy, Physics of Materials and Cosmochemistry, CNRS",
+    "name": "Bioinformatics and biophysics team, IMPMC · Sorbonne université",
+    "institution": "Institute of Mineralogy, Physics of Materials and Cosmochemistry (IMPMC)",
     "location": "Paris",
     "position": "Bioinformatics Drug Design Intern",
     "url": "https://impmc.sorbonne-universite.fr/fr/equipes/biophysique_et_bioinformatique.html",
-    "startDate": "2019",
-    "endDate": "2019",
+    "startDate": "Feb 2019",
+    "endDate": "June 2019",
     "summary": "",
     "highlights": [
       "Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool.",
       "Manual design of cyclic peptides with UCSF-Chimera."
     ]
   },{
-    "name": "Institute of Systematics, Evolution and Biodiversity, CNRS",
+    "name": "Bioinformatics Research Group, ISYEB · Sorbonne université",
+    "institution": "Institute of Systematics, Evolution and Biodiversity",
     "location": "Paris",
     "position": "Bioinformatics Structural Analysis Intern",
     "url": "https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384",
-    "startDate": "2018",
-    "endDate": "2018",
+    "startDate": "July 2018",
+    "endDate": "July 2018",
     "summary": "",
     "highlights": [
       "Contributed to developing a program for rapid protein structure similarity searches. (Python, C)."
@@ -67,7 +70,7 @@
   }],
   "education": [{
     "institution": "Université Paris Cité",
-    "location": "Paris",
+    "location": "",
     "url": "https://u-paris.fr/en/",
     "area": "Bioinformatics",
     "studyType": "Ph.D.",
@@ -112,16 +115,16 @@
     "summary": ""
   }],
   "skills": [{
-    "name": "Programming languages",
+    "name": "Programming",
     "level": "",
     "keywords": [
       "Python3", "\\Cpp11" , "\\Cs", "Bash", "C", "Unix", "HTML/CSS"
     ]
   },{
-    "name": "Development tools",
+    "name": "Technologies",
     "level": "",
     "keywords": [
-      "git", "gdb/lldb", "CMake", "Unity", "Docker", "Pixlr E", "Jekyll",
+      "git", "GitHub's CI/CD", "Docker", "gdb/lldb", "CMake", "Unity", "Pixlr E", "Jekyll",
       "MongoDB", "Streamlit"
     ]
   },{
@@ -131,19 +134,12 @@
       "macOS", "Linux"
     ]
   },{
-    "name": "Communication",
-    "level": "",
-    "keywords": [
-      "Apple/Microsoft office suites", "Website design", "Authorea",
-      "\\LaTeX"
-    ]
-  },{
     "name": "Languages",
     "level": "",
     "keywords": [
       "French (native)",
       "English (proficient)",
-      "Chinese (一点)"
+      "Chinese (beginner)"
     ]
   }],
   "languages": [{

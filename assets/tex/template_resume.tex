@@ -89,15 +89,6 @@
     \end{tabular*}\vspace{-5pt}
 }
 
-\newcommand{\resumeSubheading}[5]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{#3} & \textit{#4} \\
-      \ifx&#5&\else \textit{#5} \\ \fi
-    \end{tabular*}\vspace{-7pt}
-}
-
 \newcommand{\resumeSubheadingBis}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -172,13 +163,20 @@
 
 
 %-----------EXPERIENCE-----------------
+\newcommand{\resumeSubheadingExperience}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      #3 & #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
 \section{Experience}
   \resumeSubHeadingListStart
     {% for entry in work -%}
-    \resumeSubheading
+    \resumeSubheadingExperience
       { {{- entry.name -}} }{ {{- entry.location -}} }
       { {{- entry.position -}} }{\formatDate{ {{- entry.startDate -}} }{ {{- entry.endDate -}} }}
-      {}
       \resumeItemListStart
         {%- for item in entry.highlights %}
         \resumeItem{ {{- item -}} }
@@ -211,12 +209,23 @@
 
 
 %-----------EDUCATION-----------------
+\newcommand{\resumeSubheadingEducation}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} -- #2 & #3 \\
+      \ifx&#4&\else \textit{#4} \\ \fi
+    \end{tabular*}\vspace{-7pt}
+}
+
 \section{Education}
   \resumeSubHeadingListStart
     {% for entry in education -%}
-    \resumeSubheading
-      { {{- entry.institution -}} }{ {{- entry.location -}} }
-      { {{- entry.studyType }} in {{ entry.area -}} }{ {{- entry.startDate }} -- {{ entry.endDate -}} }
+    \resumeSubheadingEducation
+      {%- if entry.location %}
+        { {{- entry.institution -}}, {{ entry.location -}} }{ {{- entry.studyType }} in {{ entry.area -}} }{ {{ entry.endDate -}} }
+      {%- else %}
+      { {{- entry.institution -}} }{ {{- entry.studyType }} in {{ entry.area -}} }{ {{ entry.endDate -}} }
+      {%- endif %}
       {%- if entry.advisors %}
         {%- if entry.advisors|length > 1 %}
       {Advisors: {{ entry.advisors | join(", ") -}} }
