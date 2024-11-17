@@ -89,15 +89,6 @@
     \end{tabular*}\vspace{-5pt}
 }
 
-\newcommand{\resumeSubheading}[5]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{#3} & \textit{#4} \\
-      \ifx&#5&\else \textit{#5} \\ \fi
-    \end{tabular*}\vspace{-7pt}
-}
-
 \newcommand{\resumeSubheadingBis}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -157,57 +148,58 @@
 % \section{Skills}
 %   \resumeSubHeadingListStart
 %     %     \item{
-%         \textbf{Programming languages}\sffamily{: Python3, \Cpp11, \Cs, Bash, C, Unix, HTML/CSS}
+%         \textbf{Programming}\sffamily{: Python3, \Cpp11, \Cs, Bash, C, Unix, HTML/CSS}
 %     }
 %     %     \item{
-%         \textbf{Development tools}\sffamily{: git, gdb, lldb, CMake, Unity, Docker, Pixlr E, Jekyll, MongoDB, Streamlit}
+%         \textbf{Technologies}\sffamily{: git, GitHub's CI/CD, Docker, gdb/lldb, CMake, Unity, Pixlr E, Jekyll, MongoDB, Streamlit}
 %     }
 %     %     \item{
 %         \textbf{OS}\sffamily{: macOS, Linux}
 %     }
 %     %     \item{
-%         \textbf{Communication}\sffamily{: Apple/Microsoft office suites, Website design, Authorea, \LaTeX}
-%     }
-%     %     \item{
-%         \textbf{Languages}\sffamily{: French (native), English (proficient), Chinese (一点)}
+%         \textbf{Languages}\sffamily{: French (native), English (proficient), Chinese (beginner)}
 %     }
 %     %   \resumeSubHeadingListEnd
 
   \section{Skills}
   \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
-    \textbf{Programming languages: } & \sffamily{ Python3, \Cpp11, \Cs, Bash, C, Unix, HTML/CSS } \\
-    \textbf{Development tools: } & \sffamily{ git, gdb, lldb, CMake, Unity, Docker, Pixlr E, Jekyll, MongoDB, Streamlit } \\
+    \textbf{Programming: } & \sffamily{ Python3, \Cpp11, \Cs, Bash, C, Unix, HTML/CSS } \\
+    \textbf{Technologies: } & \sffamily{ git, GitHub's CI/CD, Docker, gdb/lldb, CMake, Unity, Pixlr E, Jekyll, MongoDB, Streamlit } \\
     \textbf{OS: } & \sffamily{ macOS, Linux } \\
-    \textbf{Communication: } & \sffamily{ Apple/Microsoft office suites, Website design, Authorea, \LaTeX } \\
-    \textbf{Languages: } & \sffamily{ French (native), English (proficient), Chinese (一点) } \\
+    \textbf{Languages: } & \sffamily{ French (native), English (proficient), Chinese (beginner) } \\
     \end{tabularx}
 
 
 %-----------EXPERIENCE-----------------
+\newcommand{\resumeSubheadingExperience}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      #3 & #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
 \section{Experience}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {Laboratory of Theoretical Biochemistry, CNRS}{Paris}
+    \resumeSubheadingExperience
+      {Laboratory of Theoretical Biochemistry (LBT), CNRS}{Paris}
       {Research Assistant \& Reseach engineer}{\formatDate{2019}{2024}}
-      {}
       \resumeItemListStart
         \resumeItem{Lead author of an advanced review on interactive molecular simulations (IMS) \cite{lanrezac2022}}
         \resumeItem{Development of a software suite integrating visualisation and molecular simulation with human interaction \cite{lanrezac2022a,lanrezac2023a}}
       \resumeItemListEnd
       \vspace{5pt}
-    \resumeSubheading
-      {Institute of Mineralogy, Physics of Materials and Cosmochemistry, CNRS}{Paris}
-      {Bioinformatics Drug Design Intern}{\formatDate{2019}{2019}}
-      {}
+    \resumeSubheadingExperience
+      {Bioinformatics and biophysics team, IMPMC · Sorbonne université}{Paris}
+      {Bioinformatics Drug Design Intern}{\formatDate{Feb 2019}{June 2019}}
       \resumeItemListStart
         \resumeItem{Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool.}
         \resumeItem{Manual design of cyclic peptides with UCSF-Chimera.}
       \resumeItemListEnd
       \vspace{5pt}
-    \resumeSubheading
-      {Institute of Systematics, Evolution and Biodiversity, CNRS}{Paris}
-      {Bioinformatics Structural Analysis Intern}{\formatDate{2018}{2018}}
-      {}
+    \resumeSubheadingExperience
+      {Bioinformatics Research Group, ISYEB · Sorbonne université}{Paris}
+      {Bioinformatics Structural Analysis Intern}{\formatDate{July 2018}{July 2018}}
       \resumeItemListStart
         \resumeItem{Contributed to developing a program for rapid protein structure similarity searches. (Python, C).}
       \resumeItemListEnd
@@ -235,16 +227,22 @@
 
 
 %-----------EDUCATION-----------------
+\newcommand{\resumeSubheadingEducation}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} -- #2 & #3 \\
+      \ifx&#4&\else \textit{#4} \\ \fi
+    \end{tabular*}\vspace{-7pt}
+}
+
 \section{Education}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {Université Paris Cité}{Paris}
-      {Ph.D. in Bioinformatics}{2019 -- 2023}
+    \resumeSubheadingEducation
+      {Université Paris Cité}{Ph.D. in Bioinformatics}{ 2023}
       {Advisor: Dr Marc Baaden}
       
-    \resumeSubheading
-      {Sorbonne Université}{Paris}
-      {B.S. in Biology \& M.S. in Bioinformatics}{2014 -- 2019}
+    \resumeSubheadingEducation
+        {Sorbonne Université, Paris}{B.S. in Biology \& M.S. in Bioinformatics}{ 2019}
       {}
       
     \resumeSubHeadingListEnd
