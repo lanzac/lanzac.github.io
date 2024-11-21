@@ -5,7 +5,7 @@
     "image": "",
     "email": "a.lanrezac@gmail.com",
     "phone": "",
-    "url": "https://lanzac.github.io/",
+    "url": "https://lanzac.github.io",
     "summary": "",
     "location": {
       "address": "",
@@ -56,7 +56,7 @@
     "endDate": "July 2018",
     "summary": "",
     "highlights": [
-      "Contributed to developing a program for rapid protein structure similarity searches. (Python, C)."
+      "Contributed to developing a program for rapid protein structure similarity searches. (Python)."
     ]
   }],
   "volunteer": [{
@@ -118,20 +118,14 @@
     "name": "Programming",
     "level": "",
     "keywords": [
-      "Python3", "\\Cpp11" , "\\Cs", "Bash", "C", "Unix", "HTML/CSS"
+      "Python3", "\\Cpp" , "\\Cs", "Bash", "C", "HTML", "CSS"
     ]
   },{
     "name": "Technologies",
     "level": "",
     "keywords": [
-      "git", "GitHub's CI/CD", "Docker", "gdb/lldb", "CMake", "Unity", "Pixlr E", "Jekyll",
+      "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "GDB/LLDB", "CMake",
       "MongoDB", "Streamlit"
-    ]
-  },{
-    "name": "OS",
-    "level": "",
-    "keywords": [
-      "macOS", "Linux"
     ]
   },{
     "name": "Languages",
@@ -139,7 +133,7 @@
     "keywords": [
       "French (native)",
       "English (proficient)",
-      "Chinese (beginner)"
+      "Mandarin (beginner)"
     ]
   }],
   "languages": [{
