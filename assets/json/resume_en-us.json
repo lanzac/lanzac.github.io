@@ -21,7 +21,7 @@
     }]
   },
   "work": [{
-    "name": "Laboratory of Theoretical Biochemistry (LBT), CNRS",
+    "name": "Laboratory of Theoretical Biochemistry, IBPC · CNRS",
     "institution": "Institute of Physico-Chemical Biology (IBPC)/CNRS",
     "location": "Paris",
     "position": "Research Assistant \\& Reseach engineer",
@@ -30,7 +30,7 @@
     "endDate": "2024",
     "summary": "",
     "highlights": [
-      "Lead author of an advanced review on interactive molecular simulations (IMS) \\cite{lanrezac2022}",
+      "Led the writing of a detailed review article on interactive molecular simulations (IMS) \\cite{lanrezac2022} after decades of diverse research by the community, resulting in its publication in a high-impact journal and providing ongoing support for researchers in this area",
       "Development of a software suite integrating visualisation and molecular simulation with human interaction \\cite{lanrezac2022a,lanrezac2023a}"
     ]
   },{
