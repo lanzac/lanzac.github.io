@@ -23,14 +23,29 @@
 \usepackage{fontspec}
 \usepackage{luatexja-fontspec}
 
+% p.62 of: https://mirrors.ibiblio.org/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf
 \usepackage[
   style=numeric-comp,
-  doi=false,
+  doi=true,
   isbn=false,
   url=false,
   sorting=none,
   backend=biber
 ]{biblatex}
+
+% Hide fileds "pages", "volume", "number"
+\AtEveryBibitem{
+  \clearfield{pages} % Masque le champ "pages"
+  \clearfield{volume} % Masque le champ "volume"
+  \clearfield{number} % Masque le champ "number"
+}
+
+
+\DeclareFieldFormat{doi}{
+  \mbox{\href{https://doi.org/#1}{\texttt{DOI:#1}}}
+}
+
+
 % https://tex.stackexchange.com/questions/401020/how-to-remove-the-language-information-in-a-bibliography
 \AtEveryBibitem{\clearlist{language}}
 % https://tex.stackexchange.com/questions/10682/suppress-in-biblatex
@@ -78,7 +93,7 @@
 %   }
 % }
 \newcommand{\resumeItem}[1]{
-  \item \begin{minipage}[t]{0.85\textwidth} #1 \end{minipage} \vspace{-2pt}
+  \item \begin{minipage}[t]{0.98\textwidth} #1 \end{minipage} \vspace{-2pt}
 }
 
 % Just in case someone needs a heading that does not need to be in a list
@@ -118,7 +133,8 @@
 
 
 % https://www.johndcook.com/blog/2011/10/18/typesetting-c-in-latex/
-\newcommand{\Cs}{C\nolinebreak\hspace{-.05em}\raisebox{.2ex}{\small \#}}
+\usepackage{relsize}
+\newcommand{\Cs}{C\nolinebreak\hspace{-.15em}\textscale{0.9}{\symbol{"266F}}}
 \newcommand{\Cpp}{C\texttt{++}}
 
 \newcommand{\sbt}{\,\begin{picture}(-1,1)(-1,-3)\circle*{3}\end{picture}\ }
@@ -140,7 +156,7 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{ {{- basics.url -}} }{\Large {{ basics.name }}}} & \href{mailto:{{ basics.email }}}{ {{- basics.email -}} }\\
-  {{ basics.label }} & \href{ {{- basics.url -}} }{ {{- basics.url -}} } \\
+  {{ basics.label }} & \href{ {{- basics.url -}} }{ {{- basics.url | replace("https://", "") -}} } \\
   % Mobile: \href{tel:{{ basics.phone }}}{ {{- basics.phone -}} }
 \end{tabular*}
 
@@ -167,7 +183,7 @@
   \vspace{-1pt}\item
     \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      #3 & #4 \\
+      #3, #4 & \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -175,8 +191,8 @@
   \resumeSubHeadingListStart
     {% for entry in work -%}
     \resumeSubheadingExperience
-      { {{- entry.name -}} }{ {{- entry.location -}} }
       { {{- entry.position -}} }{\formatDate{ {{- entry.startDate -}} }{ {{- entry.endDate -}} }}
+      { \href{ {{- entry.url -}} }{ {{- entry.name -}} } }{ {{- entry.location -}} }
       \resumeItemListStart
         {%- for item in entry.highlights %}
         \resumeItem{ {{- item -}} }
@@ -213,7 +229,7 @@
   \vspace{-1pt}\item
     \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} -- #2 & #3 \\
-      \ifx&#4&\else \textit{#4} \\ \fi
+      \ifx&#4&\else #4 \\ \fi
     \end{tabular*}\vspace{-7pt}
 }
 

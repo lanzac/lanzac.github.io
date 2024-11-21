@@ -23,14 +23,29 @@
 \usepackage{fontspec}
 \usepackage{luatexja-fontspec}
 
+% p.62 of: https://mirrors.ibiblio.org/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf
 \usepackage[
   style=numeric-comp,
-  doi=false,
+  doi=true,
   isbn=false,
   url=false,
   sorting=none,
   backend=biber
 ]{biblatex}
+
+% Hide fileds "pages", "volume", "number"
+\AtEveryBibitem{
+  \clearfield{pages} % Masque le champ "pages"
+  \clearfield{volume} % Masque le champ "volume"
+  \clearfield{number} % Masque le champ "number"
+}
+
+
+\DeclareFieldFormat{doi}{
+  \mbox{\href{https://doi.org/#1}{\texttt{DOI:#1}}}
+}
+
+
 % https://tex.stackexchange.com/questions/401020/how-to-remove-the-language-information-in-a-bibliography
 \AtEveryBibitem{\clearlist{language}}
 % https://tex.stackexchange.com/questions/10682/suppress-in-biblatex
@@ -78,7 +93,7 @@
 %   }
 % }
 \newcommand{\resumeItem}[1]{
-  \item \begin{minipage}[t]{0.85\textwidth} #1 \end{minipage} \vspace{-2pt}
+  \item \begin{minipage}[t]{0.98\textwidth} #1 \end{minipage} \vspace{-2pt}
 }
 
 % Just in case someone needs a heading that does not need to be in a list
@@ -118,7 +133,8 @@
 
 
 % https://www.johndcook.com/blog/2011/10/18/typesetting-c-in-latex/
-\newcommand{\Cs}{C\nolinebreak\hspace{-.05em}\raisebox{.2ex}{\small \#}}
+\usepackage{relsize}
+\newcommand{\Cs}{C\nolinebreak\hspace{-.15em}\textscale{0.9}{\symbol{"266F}}}
 \newcommand{\Cpp}{C\texttt{++}}
 
 \newcommand{\sbt}{\,\begin{picture}(-1,1)(-1,-3)\circle*{3}\end{picture}\ }
@@ -139,8 +155,8 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://lanzac.github.io/}{\Large André Lanrezac}} & \href{mailto:a.lanrezac@gmail.com}{a.lanrezac@gmail.com}\\
-  Bioinformatician | Scientific Developer & \href{https://lanzac.github.io/}{https://lanzac.github.io/} \\
+  \textbf{\href{https://lanzac.github.io}{\Large André Lanrezac}} & \href{mailto:a.lanrezac@gmail.com}{a.lanrezac@gmail.com}\\
+  Bioinformatician | Scientific Developer & \href{https://lanzac.github.io}{lanzac.github.io} \\
   % Mobile: \href{tel:}{}
 \end{tabular*}
 
@@ -148,25 +164,21 @@
 % \section{Skills}
 %   \resumeSubHeadingListStart
 %     %     \item{
-%         \textbf{Programming}\sffamily{: Python3, \Cpp11, \Cs, Bash, C, Unix, HTML/CSS}
+%         \textbf{Programming}\sffamily{: Python3, \Cpp, \Cs, Bash, C, HTML, CSS}
 %     }
 %     %     \item{
-%         \textbf{Technologies}\sffamily{: git, GitHub's CI/CD, Docker, gdb/lldb, CMake, Unity, Pixlr E, Jekyll, MongoDB, Streamlit}
+%         \textbf{Technologies}\sffamily{: Git, CI/CD (GitHub Actions), Docker, Unity, GDB/LLDB, CMake, MongoDB, Streamlit}
 %     }
 %     %     \item{
-%         \textbf{OS}\sffamily{: macOS, Linux}
-%     }
-%     %     \item{
-%         \textbf{Languages}\sffamily{: French (native), English (proficient), Chinese (beginner)}
+%         \textbf{Languages}\sffamily{: French (native), English (proficient), Mandarin (beginner)}
 %     }
 %     %   \resumeSubHeadingListEnd
 
   \section{Skills}
   \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
-    \textbf{Programming: } & \sffamily{ Python3, \Cpp11, \Cs, Bash, C, Unix, HTML/CSS } \\
-    \textbf{Technologies: } & \sffamily{ git, GitHub's CI/CD, Docker, gdb/lldb, CMake, Unity, Pixlr E, Jekyll, MongoDB, Streamlit } \\
-    \textbf{OS: } & \sffamily{ macOS, Linux } \\
-    \textbf{Languages: } & \sffamily{ French (native), English (proficient), Chinese (beginner) } \\
+    \textbf{Programming: } & \sffamily{ Python3, \Cpp, \Cs, Bash, C, HTML, CSS } \\
+    \textbf{Technologies: } & \sffamily{ Git, CI/CD (GitHub Actions), Docker, Unity, GDB/LLDB, CMake, MongoDB, Streamlit } \\
+    \textbf{Languages: } & \sffamily{ French (native), English (proficient), Mandarin (beginner) } \\
     \end{tabularx}
 
 
@@ -175,33 +187,33 @@
   \vspace{-1pt}\item
     \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      #3 & #4 \\
+      #3, #4 & \\
     \end{tabular*}\vspace{-7pt}
 }
 
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheadingExperience
-      {Laboratory of Theoretical Biochemistry (LBT), CNRS}{Paris}
       {Research Assistant \& Reseach engineer}{\formatDate{2019}{2024}}
+      { \href{http://www-lbt.ibpc.fr/}{Laboratory of Theoretical Biochemistry, IBPC · CNRS} }{Paris}
       \resumeItemListStart
-        \resumeItem{Lead author of an advanced review on interactive molecular simulations (IMS) \cite{lanrezac2022}}
+        \resumeItem{Led the writing of a detailed review article on interactive molecular simulations (IMS) \cite{lanrezac2022} after decades of diverse research by the community, resulting in its publication in a high-impact journal and providing ongoing support for researchers in this area}
         \resumeItem{Development of a software suite integrating visualisation and molecular simulation with human interaction \cite{lanrezac2022a,lanrezac2023a}}
       \resumeItemListEnd
       \vspace{5pt}
     \resumeSubheadingExperience
-      {Bioinformatics and biophysics team, IMPMC · Sorbonne université}{Paris}
       {Bioinformatics Drug Design Intern}{\formatDate{Feb 2019}{June 2019}}
+      { \href{https://impmc.sorbonne-universite.fr/fr/equipes/biophysique_et_bioinformatique.html}{Bioinformatics and biophysics team, IMPMC · Sorbonne université} }{Paris}
       \resumeItemListStart
         \resumeItem{Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool.}
         \resumeItem{Manual design of cyclic peptides with UCSF-Chimera.}
       \resumeItemListEnd
       \vspace{5pt}
     \resumeSubheadingExperience
-      {Bioinformatics Research Group, ISYEB · Sorbonne université}{Paris}
       {Bioinformatics Structural Analysis Intern}{\formatDate{July 2018}{July 2018}}
+      { \href{https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384}{Bioinformatics Research Group, ISYEB · Sorbonne université} }{Paris}
       \resumeItemListStart
-        \resumeItem{Contributed to developing a program for rapid protein structure similarity searches. (Python, C).}
+        \resumeItem{Contributed to developing a program for rapid protein structure similarity searches. (Python).}
       \resumeItemListEnd
       \vspace{5pt}
     \resumeSubHeadingListEnd
@@ -231,7 +243,7 @@
   \vspace{-1pt}\item
     \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} -- #2 & #3 \\
-      \ifx&#4&\else \textit{#4} \\ \fi
+      \ifx&#4&\else #4 \\ \fi
     \end{tabular*}\vspace{-7pt}
 }
 
