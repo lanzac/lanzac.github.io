@@ -82,7 +82,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\raggedright\bfseries\large
+  \vspace{-5pt}\raggedright\bfseries\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 %-------------------------
@@ -93,7 +93,9 @@
 %   }
 % }
 \newcommand{\resumeItem}[1]{
-  \item \begin{minipage}[t]{0.98\textwidth} #1 \end{minipage} \vspace{-2pt}
+  \item \begin{minipage}[t]{0.98\textwidth}
+    \raggedright #1
+  \end{minipage}\vspace{-2pt}
 }
 
 % Just in case someone needs a heading that does not need to be in a list
@@ -141,11 +143,19 @@
 
 \newcommand{\formatDate}[2]{
   \ifthenelse{\equal{#1}{#2}}
-    {#1}%
-    {#1 -- #2}%
+    {#1}
+    {#1 -- #2}
 }
 
 \setlength{\footskip}{4.1pt}
+
+\usepackage[none]{hyphenat} % Désactive les césures globalement
+\raggedright               % Texte aligné à gauche, sans justification
+
+\setlength{\spaceskip}{3pt}
+\setlength{\xspaceskip}{3pt}
+
+
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -167,7 +177,7 @@
 %         \textbf{Programming}\sffamily{: Python3, \Cpp, \Cs, Bash, C, HTML, CSS}
 %     }
 %     %     \item{
-%         \textbf{Technologies}\sffamily{: Git, CI/CD (GitHub Actions), Docker, Unity, GDB/LLDB, CMake, MongoDB, Streamlit}
+%         \textbf{Technologies}\sffamily{: Git, CI/CD (GitHub Actions), Docker, Unity, GDB, LLDB, CMake, MongoDB, Streamlit}
 %     }
 %     %     \item{
 %         \textbf{Languages}\sffamily{: French (native), English (proficient), Mandarin (beginner)}
@@ -177,7 +187,7 @@
   \section{Skills}
   \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
     \textbf{Programming: } & \sffamily{ Python3, \Cpp, \Cs, Bash, C, HTML, CSS } \\
-    \textbf{Technologies: } & \sffamily{ Git, CI/CD (GitHub Actions), Docker, Unity, GDB/LLDB, CMake, MongoDB, Streamlit } \\
+    \textbf{Technologies: } & \sffamily{ Git, CI/CD (GitHub Actions), Docker, Unity, GDB, LLDB, CMake, MongoDB, Streamlit } \\
     \textbf{Languages: } & \sffamily{ French (native), English (proficient), Mandarin (beginner) } \\
     \end{tabularx}
 
@@ -197,23 +207,27 @@
       {Research Assistant \& Reseach engineer}{\formatDate{2019}{2024}}
       { \href{http://www-lbt.ibpc.fr/}{Laboratory of Theoretical Biochemistry, IBPC · CNRS} }{Paris}
       \resumeItemListStart
-        \resumeItem{Led the writing of a detailed review article on interactive molecular simulations (IMS) \cite{lanrezac2022} after decades of diverse research by the community, resulting in its publication in a high-impact journal and providing ongoing support for researchers in this area}
-        \resumeItem{Development of a software suite integrating visualisation and molecular simulation with human interaction \cite{lanrezac2022a,lanrezac2023a}}
+        \resumeItem{Led the writing of the first detailed review article on interactive molecular simulations (IMS) \cite{lanrezac2022} synthesizing decades of community research and published in a high-impact journal}
+        \resumeItem{Enhanced a 3D molecular visualization interface (Unity, \Cs) for real-time interaction and visualization of protein-membrane insertion studies \cite{lanrezac2022a,lanrezac2023a}}
+        \resumeItem{Standardized multi-threaded workflows (\Cpp, Python) for real-time simulation control, enabling seamless data exchange and live analysis of diverse metrics}
+        \resumeItem{Developed custom Python algorithms adapting all-atom implicit membrane models to coarse-grained Martini3, enabling interactive simulations with curved geometries \cite{lanrezac2023a}}
+        \resumeItem{Built a CI/CD pipeline (GitHub Actions, Docker) automating simulation engine releases, resolving multi-year dependency issues, and ensuring broader software accessibility}
       \resumeItemListEnd
       \vspace{5pt}
     \resumeSubheadingExperience
       {Bioinformatics Drug Design Intern}{\formatDate{Feb 2019}{June 2019}}
       { \href{https://impmc.sorbonne-universite.fr/fr/equipes/biophysique_et_bioinformatique.html}{Bioinformatics and biophysics team, IMPMC · Sorbonne université} }{Paris}
       \resumeItemListStart
-        \resumeItem{Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool.}
-        \resumeItem{Manual design of cyclic peptides with UCSF-Chimera.}
+        \resumeItem{Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool}
+        \resumeItem{Developed a cyclic peptide docking method by combining}
+        \resumeItem{Manual design of cyclic peptides with UCSF-Chimera}
       \resumeItemListEnd
       \vspace{5pt}
     \resumeSubheadingExperience
       {Bioinformatics Structural Analysis Intern}{\formatDate{July 2018}{July 2018}}
       { \href{https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384}{Bioinformatics Research Group, ISYEB · Sorbonne université} }{Paris}
       \resumeItemListStart
-        \resumeItem{Contributed to developing a program for rapid protein structure similarity searches. (Python).}
+        \resumeItem{Optimized a protein similarity search by re-implementing Bellman's algorithm (Python) to find the longest path through shared motifs, and developing heuristic algorithms for faster matching}
       \resumeItemListEnd
       \vspace{5pt}
     \resumeSubHeadingListEnd

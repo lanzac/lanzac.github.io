@@ -82,7 +82,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\raggedright\bfseries\large
+  \vspace{-5pt}\raggedright\bfseries\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 %-------------------------
@@ -93,7 +93,9 @@
 %   }
 % }
 \newcommand{\resumeItem}[1]{
-  \item \begin{minipage}[t]{0.98\textwidth} #1 \end{minipage} \vspace{-2pt}
+  \item \begin{minipage}[t]{0.98\textwidth}
+    \raggedright #1
+  \end{minipage}\vspace{-2pt}
 }
 
 % Just in case someone needs a heading that does not need to be in a list
@@ -141,11 +143,19 @@
 
 \newcommand{\formatDate}[2]{
   \ifthenelse{\equal{#1}{#2}}
-    {#1}%
-    {#1 -- #2}%
+    {#1}
+    {#1 -- #2}
 }
 
 \setlength{\footskip}{4.1pt}
+
+\usepackage[none]{hyphenat} % Désactive les césures globalement
+\raggedright               % Texte aligné à gauche, sans justification
+
+\setlength{\spaceskip}{3pt}
+\setlength{\xspaceskip}{3pt}
+
+
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
