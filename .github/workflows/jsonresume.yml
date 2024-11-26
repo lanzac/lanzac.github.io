@@ -31,5 +31,8 @@ jobs:
             lualatex -output-directory=assets/pdf/en-us assets/tex/resume_en-us.tex
             biber assets/pdf/en-us/resume_en-us.bcf
             lualatex -output-directory=assets/pdf/en-us assets/tex/resume_en-us.tex
-            
+            python3 /usr/local/bin/prepare_resume.py assets/json/resume_fr-fr.json assets/tex/template_resume.tex -o assets/tex/resume_fr-fr.tex
+            lualatex -output-directory=assets/pdf/fr-fr assets/tex/resume_fr-fr.tex
+            biber assets/pdf/fr-fr/resume_fr-fr.bcf
+            lualatex -output-directory=assets/pdf/fr-fr assets/tex/resume_fr-fr.tex
 

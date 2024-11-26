@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.11.17)  26 NOV 2024 09:17
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.11.17)  26 NOV 2024 09:16
  restricted system commands enabled.
-**assets/tex/resume_en-us.tex
-(./assets/tex/resume_en-us.tex
+**assets/tex/resume_fr-fr.tex
+(./assets/tex/resume_fr-fr.tex
 LaTeX2e <2022-11-01> patch level 1
 Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
 Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
@@ -1173,8 +1173,8 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 
-(./assets/pdf/en-us/resume_en-us.aux)
-\openout1 = resume_en-us.aux
+(./assets/pdf/fr-fr/resume_fr-fr.aux)
+\openout1 = resume_fr-fr.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
 LaTeX Font Info:    ... okay on input line 164.
@@ -1222,10 +1222,10 @@ LaTeX Font Info:    ... okay on input line 164.
 \everyMPtoPDFconversion=\toks36
 )
 Package hyperref Info: Link coloring OFF on input line 164.
- (./assets/pdf/en-us/resume_en-us.out) (./assets/pdf/en-us/resume_en-us.out)
+ (./assets/pdf/fr-fr/resume_fr-fr.out) (./assets/pdf/fr-fr/resume_fr-fr.out)
 \@outlinefile=\write4
 
-\openout4 = resume_en-us.out
+\openout4 = resume_fr-fr.out
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
@@ -1299,11 +1299,11 @@ Package biblatex Info: LuaTeX detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 
-\openout3 = resume_en-us.bcf
+\openout3 = resume_fr-fr.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'resume_en-us.bbl' found.
+Package biblatex Info: ... file 'resume_fr-fr.bbl' found.
 
-(./assets/pdf/en-us/resume_en-us.bbl)
+(./assets/pdf/fr-fr/resume_fr-fr.bbl)
 Package biblatex Info: Reference section=0 on input line 164.
 Package biblatex Info: Reference segment=0 on input line 164.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1348,6 +1348,11 @@ LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <12> not available
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 174.
 (load cache: extra_lmsans10-regular.luc)(load cache: extra_lmmono10-regular.luc)
+
+Overfull \hbox (1.14008pt too wide) in alignment at lines 205--205
+[] []
+ []
+
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 10.53629pt on input line 263.
 LaTeX Font Info:    Kanji font shape `JY3/gt/m/it' undefined
@@ -1358,15 +1363,15 @@ LaTeX Font Info:    Kanji font shape `JY3/gt/m/it' undefined
 (Font)              No change on input line 263.
 LaTeX Font Info:    Kanji font shape `JY3/gt/m/it' undefined
 (Font)              No change on input line 263.
- [1
+[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./assets/pdf/en-us/resume
-_en-us.aux)
-Package rerunfilecheck Info: File `resume_en-us.out' has not changed.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./assets/pdf/fr-fr/resume_fr-fr.aux)
+Package rerunfilecheck Info: File `resume_fr-fr.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package logreq Info: Writing requests to 'resume_en-us.run.xml'.
+Package logreq Info: Writing requests to 'resume_fr-fr.run.xml'.
 
-\openout1 = resume_en-us.run.xml
+\openout1 = resume_fr-fr.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -1375,8 +1380,8 @@ Here is how much of LuaTeX's memory you used:
  926 words of node memory still in use:
    7 hlist, 1 vlist, 4 rule, 2 glue, 3 kern, 1 glyph, 131 attribute, 75 glue_spe
 c, 20 attribute_list, 1 write, 9 user_defined nodes
-   avail lists: 1:40,2:54593,3:582,4:860,5:117,6:134,7:11342,8:71,9:939,10:15,11
-:936
+   avail lists: 1:46,2:58327,3:585,4:863,5:114,6:134,7:12185,8:71,9:942,10:17,11
+:925
  43228 multiletter control sequences out of 65536+600000
  64 fonts using 35682351 bytes
  106i,11n,98p,1754b,1730s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1387,7 +1392,7 @@ ho-Regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf><
 ve/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Regular.ttf></usr/share/
 fonts/truetype/open-sans/OpenSans-Semibold.ttf></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on resume_en-us.pdf (1 page, 45352 bytes).
+Output written on resume_fr-fr.pdf (1 page, 45461 bytes).
 
 PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream

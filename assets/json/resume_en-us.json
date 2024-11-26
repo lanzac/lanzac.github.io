@@ -1,4 +1,23 @@
 {
+  "l10n": {
+    "sectiontitle": {
+      "work": "Experience",
+      "volunteer": "Volunteer",
+      "education": "Education",
+      "awards": "Awards",
+      "certificates": "Certificates",
+      "publications": "Publications",
+      "skills": "Skills",
+      "languages": "languages",
+      "interests": "Interests",
+      "references": "References",
+      "projects": "Projects"
+    },
+    "misc": {
+      "in": "in",
+      "advisor": "Advisor"
+    }
+  },
   "basics": {
     "name": "André Lanrezac",
     "label": "Bioinformatician | Scientific Developer",
@@ -33,7 +52,7 @@
       "Led the writing of the first detailed review article on interactive molecular simulations (IMS) \\cite{lanrezac2022} synthesizing decades of community research and published in a high-impact journal",
       "Enhanced a 3D molecular visualization interface (Unity, \\Cs) for real-time interaction and visualization of protein-membrane insertion studies \\cite{lanrezac2022a,lanrezac2023a}",
       "Standardized multi-threaded workflows (\\Cpp, Python) for real-time simulation control, enabling seamless data exchange and live analysis of diverse metrics",
-      "Developed custom Python algorithms adapting all-atom implicit membrane models to coarse-grained Martini3, enabling interactive simulations with curved geometries \\cite{lanrezac2023a}",
+      "Developed specialized Python algorithms adapting all-atom implicit membrane models to coarse-grained Martini3, enabling interactive simulations with curved membrane geometries \\cite{lanrezac2023a}",
       "Built a CI/CD pipeline (GitHub Actions, Docker) automating simulation engine releases, resolving multi-year dependency issues, and ensuring broader software accessibility"
     ]
   },{
@@ -47,7 +66,6 @@
     "summary": "",
     "highlights": [
       "Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool",
-      "Developed a cyclic peptide docking method by combining",
       "Manual design of cyclic peptides with UCSF-Chimera"
     ]
   },{

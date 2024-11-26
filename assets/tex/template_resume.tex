@@ -171,22 +171,12 @@
 \end{tabular*}
 
 %--------SKILLS------------
-% \section{Skills}
-%   \resumeSubHeadingListStart
-%     {% for entry in skills -%}
-%     \item{
-%         \textbf{ {{- entry.name -}} }\sffamily{: {{ entry.keywords | join(", ") -}} }
-%     }
-%     {% endfor -%}
-%   \resumeSubHeadingListEnd
-
-  \section{Skills}
+  \section{ {{- l10n.sectiontitle.skills -}} }
   \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
     {% for entry in skills -%}
       \textbf{ {{- entry.name -}}: } & \sffamily{ {{ entry.keywords | join(", ") }} } \\
     {% endfor -%}
   \end{tabularx}
-
 
 %-----------EXPERIENCE-----------------
 \newcommand{\resumeSubheadingExperience}[4]{
@@ -197,7 +187,7 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\section{Experience}
+\section{ {{- l10n.sectiontitle.work -}} }
   \resumeSubHeadingListStart
     {% for entry in work -%}
     \resumeSubheadingExperience
@@ -223,7 +213,7 @@
 %-------------------------------------------
 
 %-----------PROJECTS-----------------
-% \section{Projects}
+% \section{ {{- l10n.sectiontitle.projects -}} }
 % \resumeSubHeadingListStart
 %   {% for entry in projects -%}
 %   \resumeSubheadingBis
@@ -243,20 +233,20 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\section{Education}
+\section{ {{- l10n.sectiontitle.education -}} }
   \resumeSubHeadingListStart
     {% for entry in education -%}
     \resumeSubheadingEducation
       {%- if entry.location %}
-        { {{- entry.institution -}}, {{ entry.location -}} }{ {{- entry.studyType }} in {{ entry.area -}} }{ {{ entry.endDate -}} }
+        { {{- entry.institution -}}, {{ entry.location -}} }{ {{- entry.studyType }} {{ l10n.misc.in }} {{ entry.area -}} }{ {{ entry.endDate -}} }
       {%- else %}
-      { {{- entry.institution -}} }{ {{- entry.studyType }} in {{ entry.area -}} }{ {{ entry.endDate -}} }
+      { {{- entry.institution -}} }{ {{- entry.studyType }} {{ l10n.misc.in }} {{ entry.area -}} }{ {{ entry.endDate -}} }
       {%- endif %}
       {%- if entry.advisors %}
         {%- if entry.advisors|length > 1 %}
-      {Advisors: {{ entry.advisors | join(", ") -}} }
+      { {{ l10n.misc.advisor }}s: {{ entry.advisors | join(", ") -}} }
         {%- else %}
-      {Advisor: {{ entry.advisors[0] -}} }
+      { {{ l10n.misc.advisor }}: {{ entry.advisors[0] -}} }
         {%- endif %}
       {%- else %}
       {}
