@@ -155,74 +155,17 @@
 \setlength{\spaceskip}{3pt}
 \setlength{\xspaceskip}{3pt}
 
-
-
 %-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\begin{document}
+%%%%%%  SECTIONS CONFIGURATION  %%%%%%%%%%%%
 
 %----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{ {{- basics.url -}} }{\Large {{ basics.name }}}} & \href{mailto:{{ basics.email }}}{ {{- basics.email -}} }\\
-  {{ basics.label }} & \href{ {{- basics.url -}} }{ {{- basics.url | replace("https://", "") -}} } \\
-  % Mobile: \href{tel:{{ basics.phone }}}{ {{- basics.phone -}} }
-\end{tabular*}
-
-%--------SKILLS------------
-  \section{ {{- l10n.sectiontitle.skills -}} }
-  \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
-    {% for entry in skills -%}
-      \textbf{ {{- entry.name -}}: } & \sffamily{ {{ entry.keywords | join(", ") }} } \\
-    {% endfor -%}
-  \end{tabularx}
-
-%-----------EXPERIENCE-----------------
-\newcommand{\resumeSubheadingExperience}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      #3, #4 & \\
-    \end{tabular*}\vspace{-7pt}
+\newcommand{\heading}{
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{\href{ {{- basics.url -}} }{\Large {{ basics.name }}}} & \href{mailto:{{ basics.email }}}{ {{- basics.email -}} }\\
+    {{ basics.label }} & \href{ {{- basics.url -}} }{ {{- basics.url | replace("https://", "") -}} } \\
+    % Mobile: \href{tel:{{ basics.phone }}}{ {{- basics.phone -}} }
+  \end{tabular*}
 }
-
-\section{ {{- l10n.sectiontitle.work -}} }
-  \resumeSubHeadingListStart
-    {% for entry in work -%}
-    \resumeSubheadingExperience
-      { {{- entry.position -}} }{\formatDate{ {{- entry.startDate -}} }{ {{- entry.endDate -}} }}
-      { \href{ {{- entry.url -}} }{ {{- entry.name -}} } }{ {{- entry.location -}} }
-      \resumeItemListStart
-        {%- for item in entry.highlights %}
-        \resumeItem{ {{- item -}} }
-        {%- endfor %}
-      \resumeItemListEnd
-      \vspace{5pt}
-    {% endfor -%}
-  \resumeSubHeadingListEnd
-
-% --------Multiple Positions Heading------------
-  %  \resumeSubSubheading
-  %   {Software Engineer I}{Oct 2014 -- Sep 2016}
-  %   \resumeItemListStart
-  %      \resumeItem{Apache Beam}
-  %        {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-  %   \resumeItemListEnd
-
-%-------------------------------------------
-
-%-----------PROJECTS-----------------
-% \section{ {{- l10n.sectiontitle.projects -}} }
-% \resumeSubHeadingListStart
-%   {% for entry in projects -%}
-%   \resumeSubheadingBis
-%     { {{- entry.name -}} }{ {{- entry.startDate }} -- {{ entry.endDate }} }
-%     { {{- entry.role -}} }
-%     { {{- entry.description -}} }
-%   {% endfor -%}
-% \resumeSubHeadingListEnd
-
 
 %-----------EDUCATION-----------------
 \newcommand{\resumeSubheadingEducation}[4]{
@@ -233,7 +176,8 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\section{ {{- l10n.sectiontitle.education -}} }
+\newcommand{\education}{
+  \section{ {{- l10n.sectiontitle.education -}} }
   \resumeSubHeadingListStart
     {% for entry in education -%}
     \resumeSubheadingEducation
@@ -254,10 +198,72 @@
       
     {% endfor -%}
   \resumeSubHeadingListEnd
+}
+
+%-----------EXPERIENCE-----------------
+\newcommand{\resumeSubheadingExperience}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      #3, #4 & \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\work}{
+  \section{ {{- l10n.sectiontitle.work -}} }
+  \resumeSubHeadingListStart
+    {% for entry in work -%}
+    \resumeSubheadingExperience
+      { {{- entry.position -}} }{\formatDate{ {{- entry.startDate -}} }{ {{- entry.endDate -}} }}
+      { \href{ {{- entry.url -}} }{ {{- entry.name -}} } }{ {{- entry.location -}} }
+      \resumeItemListStart
+        {%- for item in entry.highlights %}
+        \resumeItem{ {{- item -}} }
+        {%- endfor %}
+      \resumeItemListEnd
+      \vspace{5pt}
+    {% endfor -%}
+  \resumeSubHeadingListEnd
+}
+
+%-----------PROJECTS-----------------
+\newcommand{\projects}{
+  \section{ {{- l10n.sectiontitle.projects -}} }
+  \resumeSubHeadingListStart
+    {% for entry in projects -%}
+    \resumeSubheadingBis
+      { {{- entry.name -}} }{ {{- entry.startDate }} -- {{ entry.endDate }} }
+      { {{- entry.role -}} }
+      { {{- entry.description -}} }
+    {% endfor -%}
+  \resumeSubHeadingListEnd
+}
 
 %--------PUBLICATIONS------------
-\nocite{*}
-\printbibliography[title=Publications, nottype=cited]
+\newcommand{\publications}{
+  \nocite{*}
+  \printbibliography[title={{- l10n.sectiontitle.publications -}}, nottype=cited]
+}
+
+%--------SKILLS------------
+\newcommand{\skills}{
+  \section{ {{- l10n.sectiontitle.skills -}} }
+  \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
+    {% for entry in skills -%}
+      \textbf{ {{- entry.name -}}: } & \sffamily{ {{ entry.keywords | join(", ") }} } \\
+    {% endfor -%}
+  \end{tabularx}
+}
+
 %-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\heading
+
+{% for section in sections %}
+  \{{ section }}
+{% endfor %}
 
 \end{document}

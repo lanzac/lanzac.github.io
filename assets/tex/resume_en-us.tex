@@ -155,28 +155,40 @@
 \setlength{\spaceskip}{3pt}
 \setlength{\xspaceskip}{3pt}
 
-
-
 %-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\begin{document}
+%%%%%%  SECTIONS CONFIGURATION  %%%%%%%%%%%%
 
 %----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://lanzac.github.io}{\Large André Lanrezac}} & \href{mailto:a.lanrezac@gmail.com}{a.lanrezac@gmail.com}\\
-  Bioinformatician | Scientific Developer & \href{https://lanzac.github.io}{lanzac.github.io} \\
-  % Mobile: \href{tel:}{}
-\end{tabular*}
+\newcommand{\heading}{
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{\href{https://lanzac.github.io}{\Large André Lanrezac}} & \href{mailto:a.lanrezac@gmail.com}{a.lanrezac@gmail.com}\\
+    Bioinformatician | Scientific Developer & \href{https://lanzac.github.io}{lanzac.github.io} \\
+    % Mobile: \href{tel:}{}
+  \end{tabular*}
+}
 
-%--------SKILLS------------
-  \section{Skills}
-  \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
-    \textbf{Programming: } & \sffamily{ Python3, \Cpp, \Cs, Bash, C, HTML, CSS } \\
-    \textbf{Technologies: } & \sffamily{ Git, CI/CD (GitHub Actions), Docker, Unity, GDB, LLDB, CMake, MongoDB, Streamlit } \\
-    \textbf{Languages: } & \sffamily{ French (native), English (proficient), Mandarin (beginner) } \\
-    \end{tabularx}
+%-----------EDUCATION-----------------
+\newcommand{\resumeSubheadingEducation}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} -- #2 & #3 \\
+      \ifx&#4&\else #4 \\ \fi
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\education}{
+  \section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheadingEducation
+      {Université Paris Cité}{Ph.D. in Bioinformatics}{ 2023}
+      { Advisor: Dr Marc Baaden}
+      
+    \resumeSubheadingEducation
+        {Sorbonne Université, Paris}{B.S. in Biology \& M.S. in Bioinformatics}{ 2019}
+      {}
+      
+    \resumeSubHeadingListEnd
+}
 
 %-----------EXPERIENCE-----------------
 \newcommand{\resumeSubheadingExperience}[4]{
@@ -187,7 +199,8 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\section{Experience}
+\newcommand{\work}{
+  \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheadingExperience
       {Research Assistant \& Reseach engineer}{\formatDate{2019}{2024}}
@@ -216,51 +229,50 @@
       \resumeItemListEnd
       \vspace{5pt}
     \resumeSubHeadingListEnd
-
-% --------Multiple Positions Heading------------
-  %  \resumeSubSubheading
-  %   {Software Engineer I}{Oct 2014 -- Sep 2016}
-  %   \resumeItemListStart
-  %      \resumeItem{Apache Beam}
-  %        {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-  %   \resumeItemListEnd
-
-%-------------------------------------------
-
-%-----------PROJECTS-----------------
-% \section{Projects}
-% \resumeSubHeadingListStart
-%   %   \resumeSubheadingBis
-%     {}{ --  }
-%     {}
-%     {}
-%   % \resumeSubHeadingListEnd
-
-
-%-----------EDUCATION-----------------
-\newcommand{\resumeSubheadingEducation}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} -- #2 & #3 \\
-      \ifx&#4&\else #4 \\ \fi
-    \end{tabular*}\vspace{-7pt}
 }
 
-\section{Education}
+%-----------PROJECTS-----------------
+\newcommand{\projects}{
+  \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubheadingEducation
-      {Université Paris Cité}{Ph.D. in Bioinformatics}{ 2023}
-      { Advisor: Dr Marc Baaden}
-      
-    \resumeSubheadingEducation
-        {Sorbonne Université, Paris}{B.S. in Biology \& M.S. in Bioinformatics}{ 2019}
+    \resumeSubheadingBis
+      {}{ --  }
       {}
-      
+      {}
     \resumeSubHeadingListEnd
+}
 
 %--------PUBLICATIONS------------
-\nocite{*}
-\printbibliography[title=Publications, nottype=cited]
+\newcommand{\publications}{
+  \nocite{*}
+  \printbibliography[title=Publications, nottype=cited]
+}
+
+%--------SKILLS------------
+\newcommand{\skills}{
+  \section{Skills}
+  \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
+    \textbf{Programming: } & \sffamily{ Python3, \Cpp, \Cs, Bash, C, HTML, CSS } \\
+    \textbf{Technologies: } & \sffamily{ Git, CI/CD (GitHub Actions), Docker, Unity, GDB, LLDB, CMake, MongoDB, Streamlit } \\
+    \textbf{Languages: } & \sffamily{ French (native), English (proficient), Mandarin (beginner) } \\
+    \end{tabularx}
+}
+
 %-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\heading
+
+
+  \skills
+
+  \work
+
+  \education
+
+  \publications
+
 
 \end{document}

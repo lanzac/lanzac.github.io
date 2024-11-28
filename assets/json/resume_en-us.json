@@ -1,4 +1,10 @@
 {
+  "sections": [
+    "skills",
+    "work",
+    "education",
+    "publications"
+  ],
   "l10n": {
     "sectiontitle": {
       "work": "Experience",
