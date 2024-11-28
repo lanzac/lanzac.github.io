@@ -217,8 +217,9 @@
       { {{- entry.position -}} }{\formatDate{ {{- entry.startDate -}} }{ {{- entry.endDate -}} }}
       { \href{ {{- entry.url -}} }{ {{- entry.name -}} } }{ {{- entry.location -}} }
       \resumeItemListStart
-        {%- for item in entry.highlights %}
-        \resumeItem{ {{- item -}} }
+        {% set current_version = config.currentVersion %}
+        {%- for item in entry.highlights[current_version] %}
+          \resumeItem{ {{- item -}} }
         {%- endfor %}
       \resumeItemListEnd
       \vspace{5pt}
@@ -262,8 +263,9 @@
 
 \heading
 
-{% for section in sections %}
-  \{{ section }}
+{% set current_version = config.currentVersion %}
+{% for section in config.versions[current_version].sections %}
+\{{ section }}
 {% endfor %}
 
 \end{document}
