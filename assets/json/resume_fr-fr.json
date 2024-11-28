@@ -1,10 +1,26 @@
 {
-  "sections": [
-    "skills",
-    "work",
-    "education",
-    "publications"
-  ],
+  "config": {
+    "currentVersion": "v1",
+    "versions": {
+      "v1": {
+        "sections": [
+          "education",
+          "work",
+          "skills",
+          "publications"
+        ]
+      },
+      "v2": {
+        "sections": [
+          "skills",
+          "work",
+          "education",
+          "publications"
+        ]
+      }
+    }
+  },
+
   "l10n": {
     "sectiontitle": {
       "work": "Expériences professionnelles",
@@ -54,13 +70,19 @@
     "startDate": "2019",
     "endDate": "2024",
     "summary": "",
-    "highlights": [
-      "Auteur principal du premier article détaillé sur les simulations moléculaires interactives (IMS) \\cite{lanrezac2022}, synthétisant des décennies de recherches et publié dans une revue à fort impact",
-      "Amélioration d'une interface de visualisation moléculaire 3D (Unity, \\Cs) pour l'interaction et la visualisation en temps réel des études d'insertion de protéines dans des membranes \\cite{lanrezac2022a,lanrezac2023a}",
-      "Standardisation des workflows multi-threadés (\\Cpp, Python) pour contrôler les simulations en temps réel, permettant un échange fluide de données et une analyse directe des métriques",
-      "Développement d'algorithmes Python adaptant les modèles implicites tout-atomes à Martini3 en gros grain, permettant des simulations interactives avec des géométries membranaires courbées \\cite{lanrezac2023a}",
-      "Création d'un pipeline CI/CD (GitHub Actions, Docker) automatisant les versions du moteur de simulation, résolvant des problèmes de dépendances et améliorant l'accessibilité du logiciel"
-    ]
+    "highlights": {
+      "v1": [
+        "Auteur principal du premier article détaillé sur les simulations moléculaires interactives (IMS) \\cite{lanrezac2022}, synthétisant des décennies de recherches et publié dans une revue à fort impact",
+        "Amélioration d'une interface de visualisation moléculaire 3D (Unity, \\Cs) pour l'interaction et la visualisation en temps réel des études d'insertion de protéines dans des membranes \\cite{lanrezac2022a,lanrezac2023a}",
+        "Standardisation des workflows multi-threadés (\\Cpp, Python) pour contrôler les simulations en temps réel, permettant un échange fluide de données et une analyse directe des métriques",
+        "Développement d'algorithmes Python adaptant les modèles implicites tout-atomes à Martini3 en gros grain, permettant des simulations interactives avec des géométries membranaires courbées \\cite{lanrezac2023a}",
+        "Création d'un pipeline CI/CD (GitHub Actions, Docker) automatisant les versions du moteur de simulation, résolvant des problèmes de dépendances et améliorant l'accessibilité du logiciel"
+      ],
+      "v2":[
+        "blabla",
+        "blabla"
+      ]
+    }
   },{
     "name": "Équipe de bioinformatique et de biophysique, IMPMC · Sorbonne université",
     "institution": "Institut de minéralogie, de physique des matériaux et de cosmochimie (IMPMC)",
@@ -70,10 +92,16 @@
     "startDate": "Fev 2019",
     "endDate": "Juin 2019",
     "summary": "",
-    "highlights": [
-      "Développement d'une méthode d'amarrage de peptides cycliques en combinant Autodock avec des simulations REMD dans GROMACS, et comparaison des résultats avec l'outil d'amarrage HADDOCK",
-      "Conception manuelle de peptides cycliques avec UCSF-Chimera"
-    ]
+    "highlights": {
+      "v1": [
+        "Développement d'une méthode d'amarrage de peptides cycliques en combinant Autodock avec des simulations REMD dans GROMACS, et comparaison des résultats avec l'outil d'amarrage HADDOCK",
+        "Conception manuelle de peptides cycliques avec UCSF-Chimera"
+      ],
+      "v2":[
+        "blabla",
+        "blabla"
+      ]
+    }
   },{
     "name": "Bioinformatics Research Group, ISYEB · Sorbonne université",
     "institution": "Institute of Systematics, Evolution and Biodiversity",
@@ -83,9 +111,14 @@
     "startDate": "Juillet 2018",
     "endDate": "Juillet 2018",
     "summary": "",
-    "highlights": [
-      "Optimisation d'une recherche de similarité protéique en réimplémentant l'algorithme de Bellman (Python) pour identifier le plus long chemin à travers des motifs communs, et en développant des algorithmes heuristiques pour un alignement plus rapide"
-    ]
+    "highlights": {
+      "v1": [
+        "Optimisation d'une recherche de similarité protéique en réimplémentant l'algorithme de Bellman (Python) pour identifier le plus long chemin à travers des motifs communs, et en développant des algorithmes heuristiques pour un alignement plus rapide"
+      ],
+      "v2":[
+        "blabla"
+      ]
+    }
   }],
   "volunteer": [{
     "organization": "",
@@ -152,7 +185,7 @@
     "name": "Technologies",
     "level": "",
     "keywords": [
-      "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "GDB", "LLDB", 
+      "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "GDB", "LLDB",
       "CMake", "MongoDB", "Streamlit"
     ]
   },{
