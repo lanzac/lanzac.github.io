@@ -83,10 +83,10 @@
       ],
       "v2":[
         "Standardized multi-threaded workflows (\\Cpp, \\Cs) for real-time molecular simulation control and monitoring, ensuring seamless and extensible data exchange",
-        "Developed a Python algorithm to estimate interaction parameters between an reduced-resolution particle system and an analytical field, allowing large-scale dynamic simulations \\cite{lanrezac2023a}",
+        "Developed a Python algorithm to estimate interaction parameters between a reduced-resolution particle system and an analytical field, allowing large-scale dynamic simulations \\cite{lanrezac2023a}",
         "Enhanced a 3D visualization interface (Unity, \\Cs) for real-time Human-computer interaction and visualization of the complex dynamics of molecular shapes and their spatial evolution \\cite{lanrezac2022a,lanrezac2023a}",
         "Implemented a CI/CD pipeline (GitHub Actions, Docker), automating software releases, resolving dependency issues, and improving accessibility for end-users",
-        "Led the writing of the first review article on interactive molecular simulations (IMS) \\cite{lanrezac2022} synthesizing decades of community research"
+        "Led the writing of the first review article on interactive molecular simulations (IMS) \\cite{lanrezac2022}, synthesizing decades of community research"
       ]
     }
   },{
