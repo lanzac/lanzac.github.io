@@ -20,7 +20,7 @@
       }
     }
   },
-  
+
   "l10n": {
     "sectiontitle": {
       "work": "Experience",
@@ -42,7 +42,10 @@
   },
   "basics": {
     "name": "André Lanrezac",
-    "label": "Bioinformatician | Scientific Developer",
+    "label": {
+      "v1": "Bioinformatician | Scientific Developer",
+      "v2": "Scientific Software Developer"
+    },
     "image": "",
     "email": "a.lanrezac@gmail.com",
     "phone": "",
@@ -74,13 +77,16 @@
       "v1":[
         "Led the writing of the first detailed review article on interactive molecular simulations (IMS) \\cite{lanrezac2022} synthesizing decades of community research and published in a high-impact journal",
         "Enhanced a 3D molecular visualization interface (Unity, \\Cs) for real-time interaction and visualization of protein-membrane insertion studies \\cite{lanrezac2022a,lanrezac2023a}",
-        "Standardized multi-threaded workflows (\\Cpp, Python) for real-time simulation control, enabling seamless data exchange and live analysis of diverse metrics",
+        "Standardized multi-threaded workflows (\\Cpp, \\Cs) for real-time simulation control and monitoring, enabling seamless data exchange and live analysis of system state properties",
         "Developed specialized Python algorithms adapting all-atom implicit membrane models to coarse-grained Martini3, enabling interactive simulations with curved membrane geometries \\cite{lanrezac2023a}",
         "Built a CI/CD pipeline (GitHub Actions, Docker) automating simulation engine releases, resolving multi-year dependency issues, and ensuring broader software accessibility"
       ],
       "v2":[
-        "blabla",
-        "blabla"
+        "Standardized multi-threaded workflows (\\Cpp, \\Cs) for real-time molecular simulation control and monitoring, ensuring seamless and extensible data exchange",
+        "Developed a Python algorithm to estimate interaction parameters between an reduced-resolution particle system and an analytical field, allowing large-scale dynamic simulations \\cite{lanrezac2023a}",
+        "Enhanced a 3D visualization interface (Unity, \\Cs) for real-time Human-computer interaction and visualization of the complex dynamics of molecular shapes and their spatial evolution \\cite{lanrezac2022a,lanrezac2023a}",
+        "Implemented a CI/CD pipeline (GitHub Actions, Docker), automating software releases, resolving dependency issues, and improving accessibility for end-users",
+        "Led the writing of the first review article on interactive molecular simulations (IMS) \\cite{lanrezac2022} synthesizing decades of community research"
       ]
     }
   },{
@@ -94,16 +100,16 @@
     "summary": "",
     "highlights": {
       "v1":[
-        "Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool",
+        "Developed a workflow combining Autodock with REMD simulations in GROMACS (using a national supercomputer), and compared the results with HADDOCK",
         "Manual design of cyclic peptides with UCSF-Chimera"
       ],
       "v2":[
-        "blabla",
-        "blabla"
+        "Developed a workflow combining molecular docking and sampling simulations using a national supercomputer, with results compared to alternative methods",
+        "Designed cyclic peptides using molecular visualization and modeling tools"
       ]
     }
   },{
-    "name": "Bioinformatics Research Group, ISYEB · Sorbonne université",
+    "name": "Bioinformatics Research Team, ISYEB · Sorbonne université",
     "institution": "Institute of Systematics, Evolution and Biodiversity",
     "location": "Paris",
     "position": "Bioinformatics Structural Analysis Intern",
@@ -116,8 +122,7 @@
         "Optimized a protein similarity search by re-implementing Bellman's algorithm (Python) to find the longest path through shared motifs, and developing heuristic algorithms for faster matching"
       ],
       "v2":[
-        "blabla",
-        "blabla"
+        "Optimized a protein similarity search by re-implementing Bellman's algorithm (Python) to find the longest path through shared motifs, and developing heuristic algorithms for faster matching"
       ]
     }
   }],
@@ -186,8 +191,8 @@
     "name": "Technologies",
     "level": "",
     "keywords": [
-      "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "GDB", "LLDB", 
-      "CMake", "MongoDB", "Streamlit"
+      "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "GDB", "LLDB",
+      "CMake", "MongoDB"
     ]
   },{
     "name": "Languages",

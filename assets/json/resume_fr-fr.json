@@ -42,7 +42,10 @@
   },
   "basics": {
     "name": "André Lanrezac",
-    "label": "Bioinformaticien | Développeur scientifique",
+    "label": {
+      "v1": "Bioinformaticien | Développeur scientifique",
+      "v2": "Développeur en logiciels scientifiques"
+    },
     "image": "",
     "email": "a.lanrezac@gmail.com",
     "phone": "",
@@ -72,15 +75,18 @@
     "summary": "",
     "highlights": {
       "v1": [
-        "Auteur principal du premier article détaillé sur les simulations moléculaires interactives (IMS) \\cite{lanrezac2022}, synthétisant des décennies de recherches et publié dans une revue à fort impact",
+        "Auteur principal du premier article détaillé sur les simulations moléculaires interactives (IMS) \\cite{lanrezac2022}, synthétisant des décennies de recherches",
         "Amélioration d'une interface de visualisation moléculaire 3D (Unity, \\Cs) pour l'interaction et la visualisation en temps réel des études d'insertion de protéines dans des membranes \\cite{lanrezac2022a,lanrezac2023a}",
-        "Standardisation des workflows multi-threadés (\\Cpp, Python) pour contrôler les simulations en temps réel, permettant un échange fluide de données et une analyse directe des métriques",
+        "Standardisation des workflows multi-threads (\\Cpp, \\Cs) pour le contrôle et le suivi en temps réel des simulations, permettant un échange fluide de données et une analyse en direct des propriétés de l'état du système",
         "Développement d'algorithmes Python adaptant les modèles implicites tout-atomes à Martini3 en gros grain, permettant des simulations interactives avec des géométries membranaires courbées \\cite{lanrezac2023a}",
         "Création d'un pipeline CI/CD (GitHub Actions, Docker) automatisant les versions du moteur de simulation, résolvant des problèmes de dépendances et améliorant l'accessibilité du logiciel"
       ],
       "v2":[
-        "blabla",
-        "blabla"
+        "Standardisation des workflows multi-threads (\\Cpp, \\Cs) pour le contrôle et suivi en temps réel de simulations moléculaires, assurant un échange fluide et extensible des données",
+        "Développement d'un algorithme Python pour estimer les paramètres d'interaction entre un système de particules simplifié et un champ analytique, optimisant les simulations à grande échelle \\cite{lanrezac2023a}",
+        "Amélioration d'une interface 3D de visualisation (Unity, \\Cs), pour l'interaction homme-machine en temps réel et la visualisation des dynamiques complexes des molécules dans l'espace \\cite{lanrezac2022a,lanrezac2023a}",
+        "Mise en œuvre d'un pipeline CI/CD (GitHub Actions, Docker), automatisant les publications logicielles, résolvant les problèmes de dépendances et améliorant l'accessibilité pour les utilisateurs",
+        "Auteur principal du premier article de revue sur les simulations moléculaires interactives (IMS) \\cite{lanrezac2022}, synthétisant des décennies de recherches dans ce domaine"
       ]
     }
   },{
@@ -94,17 +100,17 @@
     "summary": "",
     "highlights": {
       "v1": [
-        "Développement d'une méthode d'amarrage de peptides cycliques en combinant Autodock avec des simulations REMD dans GROMACS, et comparaison des résultats avec l'outil d'amarrage HADDOCK",
+        "Développement d'une méthode d'amarrage de peptides cycliques en combinant Autodock avec des simulations REMD dans GROMACS (en utilisant un supercalculateur national), et comparaison des résultats avec l'outil d'amarrage HADDOCK",
         "Conception manuelle de peptides cycliques avec UCSF-Chimera"
       ],
       "v2":[
-        "blabla",
-        "blabla"
+        "Développé un workflow combinant des simulations de docking et d'échantillonnage, en utilisant un supercalculateur national, et comparé les résultats avec d'autres méthodes",
+        "Conception de peptides cycliques à l'aide d'outils de modélisation et de visualisation moléculaire"
       ]
     }
   },{
-    "name": "Bioinformatics Research Group, ISYEB · Sorbonne université",
-    "institution": "Institute of Systematics, Evolution and Biodiversity",
+    "name": "Équipe de recherche en bioinformatique, ISYEB · Sorbonne université",
+    "institution": "Institut de Systématique, Évolution, Biodiversité",
     "location": "Paris",
     "position": "Stagiaire en analyse structurale en bioinformatique",
     "url": "https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384",
@@ -116,7 +122,7 @@
         "Optimisation d'une recherche de similarité protéique en réimplémentant l'algorithme de Bellman (Python) pour identifier le plus long chemin à travers des motifs communs, et en développant des algorithmes heuristiques pour un alignement plus rapide"
       ],
       "v2":[
-        "blabla"
+        "Optimisation d'une recherche de similarité protéique en réimplémentant l'algorithme de Bellman (Python), et en développant des algorithmes heuristiques"
       ]
     }
   }],
@@ -186,7 +192,7 @@
     "level": "",
     "keywords": [
       "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "GDB", "LLDB",
-      "CMake", "MongoDB", "Streamlit"
+      "CMake", "MongoDB"
     ]
   },{
     "name": "Langues",

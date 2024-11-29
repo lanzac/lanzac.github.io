@@ -95,7 +95,7 @@
 \newcommand{\resumeItem}[1]{
   \item \begin{minipage}[t]{0.98\textwidth}
     \raggedright #1
-  \end{minipage}\vspace{-2pt}
+  \end{minipage}\vspace{1pt}
 }
 
 % Just in case someone needs a heading that does not need to be in a list
@@ -155,87 +155,18 @@
 \setlength{\spaceskip}{3pt}
 \setlength{\xspaceskip}{3pt}
 
-
-
 %-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\begin{document}
+%%%%%%  SECTIONS CONFIGURATION  %%%%%%%%%%%%
 
 %----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://lanzac.github.io}{\Large André Lanrezac}} & \href{mailto:a.lanrezac@gmail.com}{a.lanrezac@gmail.com}\\
-  Bioinformaticien | Développeur scientifique & \href{https://lanzac.github.io}{lanzac.github.io} \\
-  % Mobile: \href{tel:}{}
-\end{tabular*}
-
-%--------SKILLS------------
-  \section{Compétences}
-  \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
-    \textbf{Programmation: } & \sffamily{ Python3, \Cpp, \Cs, Bash, C, HTML, CSS } \\
-    \textbf{Technologies: } & \sffamily{ Git, CI/CD (GitHub Actions), Docker, Unity, GDB, LLDB, CMake, MongoDB, Streamlit } \\
-    \textbf{Langues: } & \sffamily{ Français (natif), Anglais (maîtrisé), Mandarin (débutant) } \\
-    \end{tabularx}
-
-%-----------EXPERIENCE-----------------
-\newcommand{\resumeSubheadingExperience}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      #3, #4 & \\
-    \end{tabular*}\vspace{-7pt}
+\newcommand{\heading}{
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{\href{https://lanzac.github.io}{\Large André Lanrezac}} & \href{mailto:a.lanrezac@gmail.com}{a.lanrezac@gmail.com}\\
+    
+    Développeur en logiciels scientifiques & \href{https://lanzac.github.io}{lanzac.github.io} \\
+    % Mobile: \href{tel:}{}
+  \end{tabular*}
 }
-
-\section{Expériences professionnelles}
-  \resumeSubHeadingListStart
-    \resumeSubheadingExperience
-      {Assistant de recherche \& Ingénieur de recherche}{\formatDate{2019}{2024}}
-      { \href{http://www-lbt.ibpc.fr/}{Laboratoire de Biochimie Théorique, IBPC · CNRS} }{Paris}
-      \resumeItemListStart
-        \resumeItem{Auteur principal du premier article détaillé sur les simulations moléculaires interactives (IMS) \cite{lanrezac2022}, synthétisant des décennies de recherches et publié dans une revue à fort impact}
-        \resumeItem{Amélioration d'une interface de visualisation moléculaire 3D (Unity, \Cs) pour l'interaction et la visualisation en temps réel des études d'insertion de protéines dans des membranes \cite{lanrezac2022a,lanrezac2023a}}
-        \resumeItem{Standardisation des workflows multi-threadés (\Cpp, Python) pour contrôler les simulations en temps réel, permettant un échange fluide de données et une analyse directe des métriques}
-        \resumeItem{Développement d'algorithmes Python adaptant les modèles implicites tout-atomes à Martini3 en gros grain, permettant des simulations interactives avec des géométries membranaires courbées \cite{lanrezac2023a}}
-        \resumeItem{Création d'un pipeline CI/CD (GitHub Actions, Docker) automatisant les versions du moteur de simulation, résolvant des problèmes de dépendances et améliorant l'accessibilité du logiciel}
-      \resumeItemListEnd
-      \vspace{5pt}
-    \resumeSubheadingExperience
-      {Stagiaire en conception de médicaments en bioinformatique}{\formatDate{Fev 2019}{Juin 2019}}
-      { \href{https://impmc.sorbonne-universite.fr/fr/equipes/biophysique_et_bioinformatique.html}{Équipe de bioinformatique et de biophysique, IMPMC · Sorbonne université} }{Paris}
-      \resumeItemListStart
-        \resumeItem{Développement d'une méthode d'amarrage de peptides cycliques en combinant Autodock avec des simulations REMD dans GROMACS, et comparaison des résultats avec l'outil d'amarrage HADDOCK}
-        \resumeItem{Conception manuelle de peptides cycliques avec UCSF-Chimera}
-      \resumeItemListEnd
-      \vspace{5pt}
-    \resumeSubheadingExperience
-      {Stagiaire en analyse structurale en bioinformatique}{\formatDate{Juillet 2018}{Juillet 2018}}
-      { \href{https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384}{Bioinformatics Research Group, ISYEB · Sorbonne université} }{Paris}
-      \resumeItemListStart
-        \resumeItem{Optimisation d'une recherche de similarité protéique en réimplémentant l'algorithme de Bellman (Python) pour identifier le plus long chemin à travers des motifs communs, et en développant des algorithmes heuristiques pour un alignement plus rapide}
-      \resumeItemListEnd
-      \vspace{5pt}
-    \resumeSubHeadingListEnd
-
-% --------Multiple Positions Heading------------
-  %  \resumeSubSubheading
-  %   {Software Engineer I}{Oct 2014 -- Sep 2016}
-  %   \resumeItemListStart
-  %      \resumeItem{Apache Beam}
-  %        {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-  %   \resumeItemListEnd
-
-%-------------------------------------------
-
-%-----------PROJECTS-----------------
-% \section{Projets}
-% \resumeSubHeadingListStart
-%   %   \resumeSubheadingBis
-%     {}{ --  }
-%     {}
-%     {}
-%   % \resumeSubHeadingListEnd
-
 
 %-----------EDUCATION-----------------
 \newcommand{\resumeSubheadingEducation}[4]{
@@ -246,7 +177,8 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\section{Formation}
+\newcommand{\education}{
+  \section{Formation}
   \resumeSubHeadingListStart
     \resumeSubheadingEducation
       {Université Paris Cité}{Doctorat en Bioinformatique}{ 2023}
@@ -257,10 +189,95 @@
       {}
       
     \resumeSubHeadingListEnd
+}
+
+%-----------EXPERIENCE-----------------
+\newcommand{\resumeSubheadingExperience}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      #3, #4 & \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\work}{
+  \section{Expériences professionnelles}
+  \resumeSubHeadingListStart
+    \resumeSubheadingExperience
+      {Assistant de recherche \& Ingénieur de recherche}{\formatDate{2019}{2024}}
+      { \href{http://www-lbt.ibpc.fr/}{Laboratoire de Biochimie Théorique, IBPC · CNRS} }{Paris}
+      \resumeItemListStart
+        
+          \resumeItem{Standardisation des workflows multi-threads (\Cpp, \Cs) pour le contrôle et suivi en temps réel de simulations moléculaires, assurant un échange fluide et extensible des données}
+          \resumeItem{Développement d'un algorithme Python pour estimer les paramètres d'interaction entre un système de particules simplifié et un champ analytique, optimisant les simulations à grande échelle \cite{lanrezac2023a}}
+          \resumeItem{Amélioration d'une interface 3D de visualisation (Unity, \Cs), pour l'interaction homme-machine en temps réel et la visualisation des dynamiques complexes des molécules dans l'espace \cite{lanrezac2022a,lanrezac2023a}}
+          \resumeItem{Mise en œuvre d'un pipeline CI/CD (GitHub Actions, Docker), automatisant les publications logicielles, résolvant les problèmes de dépendances et améliorant l'accessibilité pour les utilisateurs}
+          \resumeItem{Auteur principal du premier article de revue sur les simulations moléculaires interactives (IMS) \cite{lanrezac2022}, synthétisant des décennies de recherches dans ce domaine}
+      \resumeItemListEnd
+      \vspace{5pt}
+    \resumeSubheadingExperience
+      {Stagiaire en conception de médicaments en bioinformatique}{\formatDate{Fev 2019}{Juin 2019}}
+      { \href{https://impmc.sorbonne-universite.fr/fr/equipes/biophysique_et_bioinformatique.html}{Équipe de bioinformatique et de biophysique, IMPMC · Sorbonne université} }{Paris}
+      \resumeItemListStart
+        
+          \resumeItem{Développé un workflow combinant des simulations de docking et d'échantillonnage, en utilisant un supercalculateur national, et comparé les résultats avec d'autres méthodes}
+          \resumeItem{Conception de peptides cycliques à l'aide d'outils de modélisation et de visualisation moléculaire}
+      \resumeItemListEnd
+      \vspace{5pt}
+    \resumeSubheadingExperience
+      {Stagiaire en analyse structurale en bioinformatique}{\formatDate{Juillet 2018}{Juillet 2018}}
+      { \href{https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384}{Équipe de recherche en bioinformatique, ISYEB · Sorbonne université} }{Paris}
+      \resumeItemListStart
+        
+          \resumeItem{Optimisation d'une recherche de similarité protéique en réimplémentant l'algorithme de Bellman (Python), et en développant des algorithmes heuristiques}
+      \resumeItemListEnd
+      \vspace{5pt}
+    \resumeSubHeadingListEnd
+}
+
+%-----------PROJECTS-----------------
+\newcommand{\projects}{
+  \section{Projets}
+  \resumeSubHeadingListStart
+    \resumeSubheadingBis
+      {}{ --  }
+      {}
+      {}
+    \resumeSubHeadingListEnd
+}
 
 %--------PUBLICATIONS------------
-\nocite{*}
-\printbibliography[title=Publications, nottype=cited]
+\newcommand{\publications}{
+  \nocite{*}
+  \printbibliography[title=Publications, nottype=cited]
+}
+
+%--------SKILLS------------
+\newcommand{\skills}{
+  \section{Compétences}
+  \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
+    \textbf{Programmation: } & \sffamily{ Python3, \Cpp, \Cs, Bash, C, HTML, CSS } \\
+    \textbf{Technologies: } & \sffamily{ Git, CI/CD (GitHub Actions), Docker, Unity, GDB, LLDB, CMake, MongoDB } \\
+    \textbf{Langues: } & \sffamily{ Français (natif), Anglais (maîtrisé), Mandarin (débutant) } \\
+    \end{tabularx}
+}
+
 %-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\heading
+
+
+
+\skills
+
+\work
+
+\education
+
+\publications
+
 
 \end{document}

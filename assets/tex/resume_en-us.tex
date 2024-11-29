@@ -95,7 +95,7 @@
 \newcommand{\resumeItem}[1]{
   \item \begin{minipage}[t]{0.98\textwidth}
     \raggedright #1
-  \end{minipage}\vspace{-2pt}
+  \end{minipage}\vspace{1pt}
 }
 
 % Just in case someone needs a heading that does not need to be in a list
@@ -162,7 +162,8 @@
 \newcommand{\heading}{
   \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
     \textbf{\href{https://lanzac.github.io}{\Large André Lanrezac}} & \href{mailto:a.lanrezac@gmail.com}{a.lanrezac@gmail.com}\\
-    Bioinformatician | Scientific Developer & \href{https://lanzac.github.io}{lanzac.github.io} \\
+    
+    Scientific Software Developer & \href{https://lanzac.github.io}{lanzac.github.io} \\
     % Mobile: \href{tel:}{}
   \end{tabular*}
 }
@@ -207,11 +208,11 @@
       { \href{http://www-lbt.ibpc.fr/}{Laboratory of Theoretical Biochemistry, IBPC · CNRS} }{Paris}
       \resumeItemListStart
         
-          \resumeItem{Led the writing of the first detailed review article on interactive molecular simulations (IMS) \cite{lanrezac2022} synthesizing decades of community research and published in a high-impact journal}
-          \resumeItem{Enhanced a 3D molecular visualization interface (Unity, \Cs) for real-time interaction and visualization of protein-membrane insertion studies \cite{lanrezac2022a,lanrezac2023a}}
-          \resumeItem{Standardized multi-threaded workflows (\Cpp, Python) for real-time simulation control, enabling seamless data exchange and live analysis of diverse metrics}
-          \resumeItem{Developed specialized Python algorithms adapting all-atom implicit membrane models to coarse-grained Martini3, enabling interactive simulations with curved membrane geometries \cite{lanrezac2023a}}
-          \resumeItem{Built a CI/CD pipeline (GitHub Actions, Docker) automating simulation engine releases, resolving multi-year dependency issues, and ensuring broader software accessibility}
+          \resumeItem{Standardized multi-threaded workflows (\Cpp, \Cs) for real-time molecular simulation control and monitoring, ensuring seamless and extensible data exchange}
+          \resumeItem{Developed a Python algorithm to estimate interaction parameters between an reduced-resolution particle system and an analytical field, allowing large-scale dynamic simulations \cite{lanrezac2023a}}
+          \resumeItem{Enhanced a 3D visualization interface (Unity, \Cs) for real-time Human-computer interaction and visualization of the complex dynamics of molecular shapes and their spatial evolution \cite{lanrezac2022a,lanrezac2023a}}
+          \resumeItem{Implemented a CI/CD pipeline (GitHub Actions, Docker), automating software releases, resolving dependency issues, and improving accessibility for end-users}
+          \resumeItem{Led the writing of the first review article on interactive molecular simulations (IMS) \cite{lanrezac2022} synthesizing decades of community research}
       \resumeItemListEnd
       \vspace{5pt}
     \resumeSubheadingExperience
@@ -219,13 +220,13 @@
       { \href{https://impmc.sorbonne-universite.fr/fr/equipes/biophysique_et_bioinformatique.html}{Bioinformatics and biophysics team, IMPMC · Sorbonne université} }{Paris}
       \resumeItemListStart
         
-          \resumeItem{Developed a cyclic peptide docking method by combining Autodock with REMD simulations in GROMACS, and compared the results with the HADDOCK docking tool}
-          \resumeItem{Manual design of cyclic peptides with UCSF-Chimera}
+          \resumeItem{Developed a workflow combining molecular docking and sampling simulations using a national supercomputer, with results compared to alternative methods}
+          \resumeItem{Designed cyclic peptides using molecular visualization and modeling tools}
       \resumeItemListEnd
       \vspace{5pt}
     \resumeSubheadingExperience
       {Bioinformatics Structural Analysis Intern}{\formatDate{July 2018}{July 2018}}
-      { \href{https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384}{Bioinformatics Research Group, ISYEB · Sorbonne université} }{Paris}
+      { \href{https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384}{Bioinformatics Research Team, ISYEB · Sorbonne université} }{Paris}
       \resumeItemListStart
         
           \resumeItem{Optimized a protein similarity search by re-implementing Bellman's algorithm (Python) to find the longest path through shared motifs, and developing heuristic algorithms for faster matching}
@@ -256,7 +257,7 @@
   \section{Skills}
   \begin{tabularx}{\textwidth}[t]{@{}lX@{}}
     \textbf{Programming: } & \sffamily{ Python3, \Cpp, \Cs, Bash, C, HTML, CSS } \\
-    \textbf{Technologies: } & \sffamily{ Git, CI/CD (GitHub Actions), Docker, Unity, GDB, LLDB, CMake, MongoDB, Streamlit } \\
+    \textbf{Technologies: } & \sffamily{ Git, CI/CD (GitHub Actions), Docker, Unity, GDB, LLDB, CMake, MongoDB } \\
     \textbf{Languages: } & \sffamily{ French (native), English (proficient), Mandarin (beginner) } \\
     \end{tabularx}
 }
@@ -270,11 +271,11 @@
 
 
 
-\education
+\skills
 
 \work
 
-\skills
+\education
 
 \publications
 
