@@ -95,7 +95,7 @@
 \newcommand{\resumeItem}[1]{
   \item \begin{minipage}[t]{0.98\textwidth}
     \raggedright #1
-  \end{minipage}\vspace{-2pt}
+  \end{minipage}\vspace{1pt}
 }
 
 % Just in case someone needs a heading that does not need to be in a list
@@ -162,7 +162,8 @@
 \newcommand{\heading}{
   \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
     \textbf{\href{ {{- basics.url -}} }{\Large {{ basics.name }}}} & \href{mailto:{{ basics.email }}}{ {{- basics.email -}} }\\
-    {{ basics.label }} & \href{ {{- basics.url -}} }{ {{- basics.url | replace("https://", "") -}} } \\
+    {% set current_version = config.currentVersion %}
+    {{ basics.label[current_version] }} & \href{ {{- basics.url -}} }{ {{- basics.url | replace("https://", "") -}} } \\
     % Mobile: \href{tel:{{ basics.phone }}}{ {{- basics.phone -}} }
   \end{tabular*}
 }

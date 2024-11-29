@@ -19,18 +19,13 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{lanrezac2022}{article}{}
-      \name{author}{3}{}{%
+    \entry{lanrezac2023a}{article}{}
+      \name{author}{2}{}{%
         {{hash=867e71dd0050be8001879e04d0ca5f8c}{%
            family={Lanrezac},
            familyi={L\bibinitperiod},
            given={André},
            giveni={A\bibinitperiod}}}%
-        {{hash=cbd007dd50eadec9c891a91e657b63f7}{%
-           family={Férey},
-           familyi={F\bibinitperiod},
-           given={Nicolas},
-           giveni={N\bibinitperiod}}}%
         {{hash=0217c76cc9add9c462e147c0782d4b94}{%
            family={Baaden},
            familyi={B\bibinitperiod},
@@ -40,39 +35,41 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{672e5a7b53b0093c8ae74d03dc605d2c}
-      \strng{fullhash}{672e5a7b53b0093c8ae74d03dc605d2c}
-      \strng{bibnamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
-      \strng{authorbibnamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
-      \strng{authornamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
-      \strng{authorfullhash}{672e5a7b53b0093c8ae74d03dc605d2c}
-      \field{extraname}{1}
+      \strng{namehash}{8f3411b702e389c1ff5068d0d24d3bc7}
+      \strng{fullhash}{8f3411b702e389c1ff5068d0d24d3bc7}
+      \strng{bibnamehash}{8f3411b702e389c1ff5068d0d24d3bc7}
+      \strng{authorbibnamehash}{8f3411b702e389c1ff5068d0d24d3bc7}
+      \strng{authornamehash}{8f3411b702e389c1ff5068d0d24d3bc7}
+      \strng{authorfullhash}{8f3411b702e389c1ff5068d0d24d3bc7}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1759-0876, 1759-0884}
-      \field{journaltitle}{WIREs Computational Molecular Science}
-      \field{month}{7}
-      \field{number}{4}
-      \field{title}{Wielding the power of interactive molecular simulations}
+      \field{abstract}{The insertion of proteins into membranes is crucial for understanding their function in many biological processes. In this work, we present UNILIPID, a universal implicit lipid-protein description as a methodology for dealing with implicit membranes. UNILIPID is independent of the scale of representation and can be applied at the level of all atoms, coarse-grained particles down to the level of a single bead per amino acid. We provide example implementations for these scales and demonstrate the versatility of our approach by accurately reflecting the free energy of transfer for each amino acid. In addition to single membranes, we describe the analytical implementation of double membranes and show that UNILIPID is well suited for modeling at multiple scales. We generalize to membranes of arbitrary shape. With UNILIPID, we provide a methodological framework for a simple and general parameterization tuned to reproduce a selected reference hydrophobicity scale. The software we provide along with the methodological description is optimized for specific user features such as real-time response, live visual analysis, and virtual reality experiences.}
+      \field{issn}{2077-0375}
+      \field{journaltitle}{Membranes}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{UNILIPID}, a {Methodology} for {Energetically} {Accurate} {Prediction} of {Protein} {Insertion} into {Implicit} {Membranes} of {Arbitrary} {Shape}}
       \field{urlday}{20}
       \field{urlmonth}{8}
       \field{urlyear}{2023}
-      \field{volume}{12}
-      \field{year}{2022}
+      \field{volume}{13}
+      \field{year}{2023}
       \field{urldateera}{ce}
+      \field{pages}{362}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1002/wcms.1594
+      \verb 10.3390/membranes13030362
       \endverb
       \verb{file}
-      \verb Full Text:/Users/andrelanrezac/Zotero/storage/H5UMC2YC/Lanrezac et al. - 2022 - Wielding the power of interactive molecular simula.pdf:application/pdf
+      \verb Full Text:/Users/andrelanrezac/Zotero/storage/NZA2QI9Q/Lanrezac and Baaden - 2023 - UNILIPID, a Methodology for Energetically Accurate.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/10.1002/wcms.1594
+      \verb https://www.mdpi.com/2077-0375/13/3/362
       \endverb
       \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/10.1002/wcms.1594
+      \verb https://www.mdpi.com/2077-0375/13/3/362
       \endverb
     \endentry
     \entry{lanrezac2022a}{article}{}
@@ -143,13 +140,18 @@
       \verb https://www.mdpi.com/1999-4893/15/11/415
       \endverb
     \endentry
-    \entry{lanrezac2023a}{article}{}
-      \name{author}{2}{}{%
+    \entry{lanrezac2022}{article}{}
+      \name{author}{3}{}{%
         {{hash=867e71dd0050be8001879e04d0ca5f8c}{%
            family={Lanrezac},
            familyi={L\bibinitperiod},
            given={André},
            giveni={A\bibinitperiod}}}%
+        {{hash=cbd007dd50eadec9c891a91e657b63f7}{%
+           family={Férey},
+           familyi={F\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
         {{hash=0217c76cc9add9c462e147c0782d4b94}{%
            family={Baaden},
            familyi={B\bibinitperiod},
@@ -159,41 +161,39 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{8f3411b702e389c1ff5068d0d24d3bc7}
-      \strng{fullhash}{8f3411b702e389c1ff5068d0d24d3bc7}
-      \strng{bibnamehash}{8f3411b702e389c1ff5068d0d24d3bc7}
-      \strng{authorbibnamehash}{8f3411b702e389c1ff5068d0d24d3bc7}
-      \strng{authornamehash}{8f3411b702e389c1ff5068d0d24d3bc7}
-      \strng{authorfullhash}{8f3411b702e389c1ff5068d0d24d3bc7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{namehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{fullhash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{bibnamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{authorbibnamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{authornamehash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \strng{authorfullhash}{672e5a7b53b0093c8ae74d03dc605d2c}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The insertion of proteins into membranes is crucial for understanding their function in many biological processes. In this work, we present UNILIPID, a universal implicit lipid-protein description as a methodology for dealing with implicit membranes. UNILIPID is independent of the scale of representation and can be applied at the level of all atoms, coarse-grained particles down to the level of a single bead per amino acid. We provide example implementations for these scales and demonstrate the versatility of our approach by accurately reflecting the free energy of transfer for each amino acid. In addition to single membranes, we describe the analytical implementation of double membranes and show that UNILIPID is well suited for modeling at multiple scales. We generalize to membranes of arbitrary shape. With UNILIPID, we provide a methodological framework for a simple and general parameterization tuned to reproduce a selected reference hydrophobicity scale. The software we provide along with the methodological description is optimized for specific user features such as real-time response, live visual analysis, and virtual reality experiences.}
-      \field{issn}{2077-0375}
-      \field{journaltitle}{Membranes}
-      \field{month}{3}
-      \field{number}{3}
-      \field{title}{{UNILIPID}, a {Methodology} for {Energetically} {Accurate} {Prediction} of {Protein} {Insertion} into {Implicit} {Membranes} of {Arbitrary} {Shape}}
+      \field{issn}{1759-0876, 1759-0884}
+      \field{journaltitle}{WIREs Computational Molecular Science}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{Wielding the power of interactive molecular simulations}
       \field{urlday}{20}
       \field{urlmonth}{8}
       \field{urlyear}{2023}
-      \field{volume}{13}
-      \field{year}{2023}
+      \field{volume}{12}
+      \field{year}{2022}
       \field{urldateera}{ce}
-      \field{pages}{362}
-      \range{pages}{1}
       \verb{doi}
-      \verb 10.3390/membranes13030362
+      \verb 10.1002/wcms.1594
       \endverb
       \verb{file}
-      \verb Full Text:/Users/andrelanrezac/Zotero/storage/NZA2QI9Q/Lanrezac and Baaden - 2023 - UNILIPID, a Methodology for Energetically Accurate.pdf:application/pdf
+      \verb Full Text:/Users/andrelanrezac/Zotero/storage/H5UMC2YC/Lanrezac et al. - 2022 - Wielding the power of interactive molecular simula.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb https://www.mdpi.com/2077-0375/13/3/362
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/wcms.1594
       \endverb
       \verb{url}
-      \verb https://www.mdpi.com/2077-0375/13/3/362
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/wcms.1594
       \endverb
     \endentry
     \entry{lanrezac2023b}{incollection}{}
