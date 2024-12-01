@@ -1,5 +1,0 @@
-[0] Config.pm:306> INFO - This is Biber 2.18
-[0] Config.pm:309> INFO - Logfile is 'assets/pdf/en-us/resume_fr-fr.blg'
-[71] biber:340> INFO - === Mon Nov 25, 2024, 21:09:13
-[162] Utils.pm:399> ERROR - Cannot find 'assets/pdf/en-us/resume_fr-fr.bcf'!
-[163] Biber.pm:135> INFO - ERRORS: 1
