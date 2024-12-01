@@ -36,3 +36,12 @@ jobs:
             biber assets/pdf/fr-fr/resume_fr-fr.bcf
             lualatex -output-directory=assets/pdf/fr-fr assets/tex/resume_fr-fr.tex
 
+      - name: Commit and push generated PDFs
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add assets/pdf
+          git commit -m "Update generated PDFs"
+          git push origin main
+
+
