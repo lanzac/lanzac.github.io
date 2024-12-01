@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.11.17)  1 DEC 2024 13:17
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.11.17)  1 DEC 2024 13:33
  restricted system commands enabled.
 **assets/tex/resume_fr-fr.tex
 (./assets/tex/resume_fr-fr.tex
@@ -1367,14 +1367,8 @@ LaTeX Font Info:    Kanji font shape `JY3/gt/m/it' undefined
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 (./assets/pdf/fr-fr/resume_fr-fr.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `resume_fr-fr.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-
-Package biblatex Warning: Please rerun LaTeX.
-
 Package logreq Info: Writing requests to 'resume_fr-fr.run.xml'.
 
 \openout1 = resume_fr-fr.run.xml
@@ -1390,7 +1384,7 @@ c, 20 attribute_list, 1 write, 9 user_defined nodes
 :937
  43234 multiletter control sequences out of 65536+600000
  64 fonts using 35682351 bytes
- 106i,11n,98p,1754b,1736s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,11n,98p,1754b,1732s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Italic.
 ttf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/
 texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texlive/texmf-di

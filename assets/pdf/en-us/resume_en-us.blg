@@ -1,15 +1,15 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'assets/pdf/en-us/resume_en-us.blg'
-[68] biber:340> INFO - === Sun Dec  1, 2024, 13:17:42
-[81] Biber.pm:418> INFO - Reading 'assets/pdf/en-us/resume_en-us.bcf'
+[69] biber:340> INFO - === Sun Dec  1, 2024, 13:33:40
+[82] Biber.pm:418> INFO - Reading 'assets/pdf/en-us/resume_en-us.bcf'
 [132] Biber.pm:975> INFO - Using all citekeys in bib section 0
-[141] Biber.pm:4401> INFO - Processing section 0
+[142] Biber.pm:4401> INFO - Processing section 0
 [149] Biber.pm:4592> INFO - Looking for bibtex file 'assets/tex/publications.bib' for section 0
 [150] bibtex.pm:1713> INFO - LaTeX decoding ...
-[156] bibtex.pm:1518> INFO - Found BibTeX data source 'assets/tex/publications.bib'
-[210] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[210] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[210] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[210] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
-[216] bbl.pm:654> INFO - Writing 'assets/pdf/en-us/resume_en-us.bbl' with encoding 'UTF-8'
-[219] bbl.pm:757> INFO - Output to assets/pdf/en-us/resume_en-us.bbl
+[157] bibtex.pm:1518> INFO - Found BibTeX data source 'assets/tex/publications.bib'
+[212] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[212] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[212] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[212] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[218] bbl.pm:654> INFO - Writing 'assets/pdf/en-us/resume_en-us.bbl' with encoding 'UTF-8'
+[220] bbl.pm:757> INFO - Output to assets/pdf/en-us/resume_en-us.bbl
