@@ -1,12 +1,12 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'assets/pdf/fr-fr/resume_fr-fr.blg'
-[69] biber:340> INFO - === Sun Dec  1, 2024, 13:33:46
-[83] Biber.pm:418> INFO - Reading 'assets/pdf/fr-fr/resume_fr-fr.bcf'
-[133] Biber.pm:975> INFO - Using all citekeys in bib section 0
+[70] biber:340> INFO - === Tue Dec  3, 2024, 22:08:02
+[82] Biber.pm:418> INFO - Reading 'assets/pdf/fr-fr/resume_fr-fr.bcf'
+[132] Biber.pm:975> INFO - Using all citekeys in bib section 0
 [142] Biber.pm:4401> INFO - Processing section 0
 [150] Biber.pm:4592> INFO - Looking for bibtex file 'assets/tex/publications.bib' for section 0
-[152] bibtex.pm:1713> INFO - LaTeX decoding ...
-[158] bibtex.pm:1518> INFO - Found BibTeX data source 'assets/tex/publications.bib'
+[151] bibtex.pm:1713> INFO - LaTeX decoding ...
+[157] bibtex.pm:1518> INFO - Found BibTeX data source 'assets/tex/publications.bib'
 [212] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
 [212] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
 [212] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
