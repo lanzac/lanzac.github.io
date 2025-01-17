@@ -1,0 +1,2 @@
+docker run --rm -it -v "$PWD":/data andrelanrezac/latex:v0.04 /bin/bash -c "python3 /usr/local/bin/prepare_resume.py assets/json/resume_en-us.json assets/tex/template_resume.tex -o assets/tex/resume_en-us.tex && lualatex -output-directory=assets/pdf/en-us assets/tex/resume_en-us.tex"
+docker run --rm -it -v "$PWD":/data andrelanrezac/latex:v0.04 /bin/bash -c "python3 /usr/local/bin/prepare_resume.py assets/json/resume_fr-fr.json assets/tex/template_resume.tex -o assets/tex/resume_fr-fr.tex && lualatex -output-directory=assets/pdf/fr-fr assets/tex/resume_fr-fr.tex"
