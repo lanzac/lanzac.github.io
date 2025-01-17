@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: About
 permalink: /
-subtitle: Bioinformatician | Scientific Developer
+subtitle: Scientific Software Developer
 
 profile:
   align: right
@@ -16,18 +16,25 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+#### Professional Summary
+Backend developer specializing in Python, C++, and C#, with additional 
+front-end experience using Unity and Django. Trained in bioinformatics 
+research, with technical expertise in developing scientific software, 
+particularly for real-time simulations in virtual environments. Sensitivity to 
+programming best practices and software quality.
 
-I am a bioinformatician specialized in structural bioinformatics and large-scale
+
+#### Academic background
+My academic journey was rooted in structural bioinformatics and large-scale
 simulations, working at the intersection of physics, chemistry, and computer
-science.
+science. Most of my work centered on software development to address complex 
+scientific challenges.
 
-I have particularly focused on developing and implementing a
-comprehensive software suite for interactive molecular simulations (IMS),
-enabling real-time human interaction with ongoing simulations, especially for
-studying the insertion profile of membrane proteins.
+Notably, I developed a comprehensive software suite for interactive molecular 
+simulations (IMS), enabling real-time human interaction with ongoing 
+simulations. This was particularly impactful for studying the insertion 
+profile of membrane proteins.
 
-Currently, I am further
-specializing as a scientific developer, enhancing my skills in software
-engineering, in particular software architecture.
-
+This experience laid the groundwork for my focus on designing and implementing 
+robust software architectures for high-performance scientific tools.
 

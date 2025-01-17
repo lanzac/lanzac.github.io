@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: À propos
 permalink: /
-subtitle: Bioinformaticien | Développeur scientifique
+subtitle: Développeur logiciels scientifiques
 
 profile:
   align: right
@@ -16,14 +16,26 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+#### Résumé professionnel
+Développeur backend spécialisé en Python, C++ et C#, avec une expérience 
+complémentaire en front-end utilisant Unity et Django. Formé en recherche 
+bioinformatique, avec une expertise technique dans le développement de 
+logiciels scientifiques, notamment pour des simulations en temps réel dans 
+des environnements virtuels. Sensibilité aux bonnes pratiques de programmation 
+et à la qualité du logiciel.
 
-Je suis bioinformaticien spécialisé en bioinformatique structurale et en
-simulations à grande échelle, travaillant à l'intersection de la physique, de
-la chimie et de l'informatique. Je me suis particulièrement concentré sur le
-développement et la mise en œuvre d'une suite logicielle complète pour les
-simulations moléculaires interactives (IMS), permettant une interaction
-humaine en temps réel avec les simulations en cours, notamment pour étudier
-le profil d'insertion des protéines membranaires. Actuellement, je me
-spécialise davantage en tant que développeur scientifique, améliorant mes
-compétences en génie logiciel, en particulier en architecture logicielle.
+#### Parcours académique
+Mon parcours académique est ancré dans la bioinformatique structurale et les 
+simulations à grande échelle, travaillant à l'intersection de la physique, de 
+la chimie et de l'informatique. La majeure partie de mon travail a été centrée 
+sur le développement de logiciels pour répondre à des défis scientifiques 
+complexes.
 
+Notamment, j'ai développé une suite logicielle complète pour des simulations 
+moléculaires interactives (IMS), permettant une interaction en temps réel avec 
+les simulations en cours. Cela a été particulièrement utile pour étudier le 
+profil d'insertion des protéines membranaires.
+
+Cette expérience a posé les bases de mon orientation vers la conception et 
+l'implémentation d'architectures logicielles robustes pour des outils 
+scientifiques haute performance.
