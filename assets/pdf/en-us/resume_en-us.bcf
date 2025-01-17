@@ -2352,10 +2352,10 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">assets/tex/publications.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">lanrezac2022</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">lanrezac2023a</bcf:citekey>
     <bcf:citekey order="2" intorder="1">lanrezac2022a</bcf:citekey>
     <bcf:citekey order="2" intorder="2">lanrezac2023a</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">lanrezac2023a</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">lanrezac2022</bcf:citekey>
     <bcf:citekey order="4" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.11.17)  3 DEC 2024 22:08
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.11.17)  17 JAN 2025 17:43
  restricted system commands enabled.
 **assets/tex/resume_fr-fr.tex
 (./assets/tex/resume_fr-fr.tex
@@ -1347,12 +1347,12 @@ LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <12> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 275.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 275.
-(load cache: extra_lmmono10-regular.luc)
+(load cache: extra_lmsans10-regular.luc)(load cache: extra_lmmono10-regular.luc)
+
 Overfull \hbox (1.14008pt too wide) in alignment at lines 277--277
 [] []
  []
 
-(load cache: extra_lmsans10-regular.luc)
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 10.53629pt on input line 281.
 LaTeX Font Info:    Kanji font shape `JY3/gt/m/it' undefined
@@ -1367,8 +1367,16 @@ LaTeX Font Info:    Kanji font shape `JY3/gt/m/it' undefined
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 (./assets/pdf/fr-fr/resume_fr-fr.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `resume_fr-fr.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                resume_fr-fr
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'resume_fr-fr.run.xml'.
 
 \openout1 = resume_fr-fr.run.xml
@@ -1376,23 +1384,23 @@ Package logreq Info: Writing requests to 'resume_fr-fr.run.xml'.
 
 Here is how much of LuaTeX's memory you used:
  23992 strings out of 478382
- 244645,1977958 words of node,token memory allocated
+ 244635,1977958 words of node,token memory allocated
  926 words of node memory still in use:
    7 hlist, 1 vlist, 4 rule, 2 glue, 3 kern, 1 glyph, 131 attribute, 75 glue_spe
 c, 20 attribute_list, 1 write, 9 user_defined nodes
-   avail lists: 1:48,2:58931,3:600,4:869,5:114,6:134,7:12317,8:71,9:951,10:19,11
-:937
+   avail lists: 1:40,2:57622,3:591,4:860,5:114,6:134,7:12005,8:71,9:942,10:17,11
+:940
  43234 multiletter control sequences out of 65536+600000
  64 fonts using 35682351 bytes
  106i,11n,98p,1754b,1732s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Italic.
-ttf></usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/
-texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texlive/texmf-di
-st/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf></usr/share/texli
+ttf></usr/share/texlive/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMinc
+ho-Regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf><
+/usr/share/texmf/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/texli
 ve/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Regular.ttf></usr/share/
 fonts/truetype/open-sans/OpenSans-Semibold.ttf></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on resume_fr-fr.pdf (1 page, 45512 bytes).
+Output written on resume_fr-fr.pdf (1 page, 45622 bytes).
 
 PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream
