@@ -19,6 +19,7 @@ social: true # includes social icons at the bottom of the page
 #### Professional Summary
 Backend developer with specialization in Python, C++, and C#, with experience 
 using Unity for interactive 3D applications and Django for web development.
+
 Trained in bioinformatics research, with technical expertise in developing 
 scientific software, particularly for real-time simulations in virtual 
 environments. Sensitivity to programming best practices and software quality.

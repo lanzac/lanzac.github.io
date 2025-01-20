@@ -19,6 +19,7 @@ social: true # includes social icons at the bottom of the page
 #### Résumé professionnel
 Développeur avec une expertise en Python, C++, et C#, et de l'expérience avec 
 Unity pour des applications 3D interactives et Django pour le développement web.
+
 Formé en recherche bioinformatique, avec une expertise technique dans le 
 développement de logiciels scientifiques, notamment pour des simulations en 
 temps réel dans des environnements virtuels. Sensibilité aux bonnes pratiques 
