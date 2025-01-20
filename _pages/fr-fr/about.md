@@ -17,12 +17,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 #### Résumé professionnel
-Développeur backend spécialisé en Python, C++ et C#, avec une expérience 
-complémentaire en front-end utilisant Unity et Django. Formé en recherche 
-bioinformatique, avec une expertise technique dans le développement de 
-logiciels scientifiques, notamment pour des simulations en temps réel dans 
-des environnements virtuels. Sensibilité aux bonnes pratiques de programmation 
-et à la qualité du logiciel.
+Développeur avec une expertise en Python, C++, et C#, et de l'expérience avec 
+Unity pour des applications 3D interactives et Django pour le développement web.
+Formé en recherche bioinformatique, avec une expertise technique dans le 
+développement de logiciels scientifiques, notamment pour des simulations en 
+temps réel dans des environnements virtuels. Sensibilité aux bonnes pratiques 
+de programmation et à la qualité du logiciel.
 
 #### Parcours académique
 Mon parcours académique est ancré dans la bioinformatique structurale et les 
