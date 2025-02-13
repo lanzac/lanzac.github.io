@@ -11,15 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Cache Docker Image
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          push: false
-          load: true
-          tags: andrelanrezac/latex:latest
+        uses: actions/checkout@v4
 
       - name: Run Jsonresume convert
         uses: addnab/docker-run-action@v3
