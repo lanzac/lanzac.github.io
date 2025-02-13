@@ -16,7 +16,7 @@ jobs:
       - name: Run Jsonresume convert
         uses: addnab/docker-run-action@v3
         with:
-          image: andrelanrezac/latex:latest
+          image: andrelanrezac/latex:v0.04
           options: -v ${{ github.workspace }}:/data
           run: |
             python3 /usr/local/bin/prepare_resume.py assets/json/resume_en-us.json assets/tex/template_resume.tex -o assets/tex/resume_en-us.tex
