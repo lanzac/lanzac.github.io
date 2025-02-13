@@ -164,7 +164,7 @@
   \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
     \textbf{\href{ {{- basics.url -}} }{\Large {{ basics.name }}}} & \href{mailto:{{ basics.email }}}{ {{- basics.email -}} }\\
     {% set current_version = config.currentVersion %}
-    {{ basics.label[current_version] }} & \href{ {{- basics.url -}} }{ {{- basics.url | replace("https://", "") -}} } \\
+    {{ basics.label[current_version] }} & \href{ {{- basics.url -}} }{ {{- basics.url -}} } \\
     % Mobile: \href{tel:{{ basics.phone }}}{ {{- basics.phone -}} }
   \end{tabular*}
 }
