@@ -19,7 +19,7 @@ jobs:
           context: .
           push: false
           load: true
-          tags: andrelanrezac/latex:latest
+          tags: andrelanrezac/latex:v0.04
 
       - name: Run Jsonresume convert
         uses: addnab/docker-run-action@v3
