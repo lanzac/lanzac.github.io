@@ -1,15 +1,15 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'assets/pdf/en-us/resume_en-us.blg'
-[69] biber:340> INFO - === Thu Feb 13, 2025, 22:42:36
-[81] Biber.pm:418> INFO - Reading 'assets/pdf/en-us/resume_en-us.bcf'
-[133] Biber.pm:975> INFO - Using all citekeys in bib section 0
-[142] Biber.pm:4401> INFO - Processing section 0
-[151] Biber.pm:4592> INFO - Looking for bibtex file 'assets/tex/publications.bib' for section 0
-[152] bibtex.pm:1713> INFO - LaTeX decoding ...
-[159] bibtex.pm:1518> INFO - Found BibTeX data source 'assets/tex/publications.bib'
-[216] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[216] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[216] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[216] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
-[222] bbl.pm:654> INFO - Writing 'assets/pdf/en-us/resume_en-us.bbl' with encoding 'UTF-8'
-[225] bbl.pm:757> INFO - Output to assets/pdf/en-us/resume_en-us.bbl
+[76] biber:340> INFO - === Fri Feb 14, 2025, 08:49:58
+[89] Biber.pm:418> INFO - Reading 'assets/pdf/en-us/resume_en-us.bcf'
+[141] Biber.pm:975> INFO - Using all citekeys in bib section 0
+[151] Biber.pm:4401> INFO - Processing section 0
+[159] Biber.pm:4592> INFO - Looking for bibtex file 'assets/tex/publications.bib' for section 0
+[160] bibtex.pm:1713> INFO - LaTeX decoding ...
+[167] bibtex.pm:1518> INFO - Found BibTeX data source 'assets/tex/publications.bib'
+[224] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[224] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[224] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[224] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[230] bbl.pm:654> INFO - Writing 'assets/pdf/en-us/resume_en-us.bbl' with encoding 'UTF-8'
+[233] bbl.pm:757> INFO - Output to assets/pdf/en-us/resume_en-us.bbl
