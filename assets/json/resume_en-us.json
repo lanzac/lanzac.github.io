@@ -191,8 +191,8 @@
     "name": "Technologies",
     "level": "",
     "keywords": [
-      "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "Django",
-      "CMake", "SQL", "MongoDB"
+      "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "Django", "Flask",
+      "CMake", "SQL", "MongoDB", "AWS"
     ]
   },{
     "name": "Languages",

@@ -1,6 +1,6 @@
 {
   "config": {
-    "currentVersion": "v2:IT",
+    "currentVersion": "v3:RealTime",
     "versions": {
       "v1:academic": {
         "sections": [
@@ -18,7 +18,7 @@
           "publications"
         ]
       },
-      "v3:EDF": {
+      "v3:RealTime": {
         "sections": [
           "skills",
           "work",
@@ -53,7 +53,7 @@
     "label": {
       "v1:academic": "Bioinformaticien | Développeur scientifique",
       "v2:IT": "Ingénieur de recherche | Développement logiciels scientifiques",
-      "v3:EDF": "Ingénieur de recherche en bioinformatique"
+      "v3:RealTime": "Ingénieur de recherche | Développement logiciels scientifiques"
     },
     "image": "",
     "email": "a.lanrezac@gmail.com",
@@ -97,11 +97,12 @@
         "Mise en œuvre d'un pipeline CI/CD (GitHub Actions, Docker), automatisant les publications logicielles, résolvant les problèmes de dépendances et améliorant l'accessibilité pour les utilisateurs",
         "Auteur principal du premier article de revue sur les simulations moléculaires interactives (IMS) \\cite{lanrezac2022}, synthétisant des décennies de recherches dans ce domaine"
       ],
-      "v3:EDF":[
-        "Développement d'un algorithme Python pour estimer les paramètres d'interaction entre un système de particules simplifié et un champ analytique, optimisant les simulations à grande échelle \\cite{lanrezac2023a}",
-        "Standardisation de workflows multi-threads (\\Cpp, \\Cs) pour le contrôle et suivi en temps réel de simulations moléculaires, assurant un échange fluide et extensible des données",
-        "Amélioration d'une interface 3D de visualisation (Unity, \\Cs), pour l'interaction homme-machine en temps réel et la visualisation des dynamiques complexes des molécules dans l'espace \\cite{lanrezac2022a,lanrezac2023a}",
-        "Mise en œuvre d'un pipeline CI/CD (GitHub Actions, Docker), automatisant les publications logicielles, résolvant les problèmes de dépendances et améliorant l'accessibilité pour les utilisateurs",
+      "v3:RealTime":[
+        "Développement d'une suite logicielle pour la simulation et la visualisation moléculaire, avec gestion des échanges de données en temps réel et analyse dynamique",
+        "Standardisation de workflows multi-threads (\\Cpp, \\Cs) pour le contrôle et le suivi en temps réel de simulations moléculaires, garantissant un échange fluide et extensible des données",
+        "Optimisation d'algorithmes pour des simulations interactive à grande échelle, incluant la modélisation de systèmes biologiques complexes et l'analyse de performance \\cite{lanrezac2023a}",
+        "Amélioration d'une interface 3D de visualisation (Unity, \\Cs), pour l'interaction homme-machine et la visualisation directe des dynamiques complexes des molécules dans l'espace \\cite{lanrezac2022a,lanrezac2023a}",
+        "Mise en œuvre d'un pipeline CI/CD (GitHub Actions, Docker), améliorant l'automatisation des tests et le processus de déploiement",
         "Auteur principal du premier article de revue sur les simulations moléculaires interactives (IMS) \\cite{lanrezac2022}, synthétisant des décennies de recherches dans ce domaine"
       ]
     }
@@ -123,7 +124,7 @@
         "Développement d'un pipeline combinant des simulations de docking et d'échantillonnage, en utilisant un supercalculateur national, et comparé les résultats avec d'autres méthodes",
         "Conception de peptides cycliques à l'aide d'outils de modélisation et de visualisation moléculaire"
       ],
-      "v3:EDF":[
+      "v3:RealTime":[
         "Développement d'une méthode d'amarrage de peptides cycliques en combinant Autodock avec des simulations REMD dans GROMACS (en utilisant un supercalculateur national), et comparaison des résultats avec l'outil d'amarrage HADDOCK",
         "Conception manuelle de peptides cycliques avec UCSF-Chimera"
       ]
@@ -144,7 +145,7 @@
       "v2:IT":[
         "Optimisation d'une recherche de similarité protéique en réimplémentant l'algorithme de Bellman (Python), et en développant des algorithmes heuristiques"
       ],
-      "v3:EDF":[
+      "v3:RealTime":[
         "Optimisation d'une recherche de similarité protéique en réimplémentant l'algorithme de Bellman (Python), et en développant des algorithmes heuristiques"
       ]
     }
@@ -208,14 +209,14 @@
     "name": "Programmation",
     "level": "",
     "keywords": [
-      "Python3", "\\Cpp" , "\\Cs", "Bash", "C", "HTML", "CSS"
+      "\\Cpp", "Python3", "\\Cs", "Bash", "C", "HTML", "CSS"
     ]
   },{
     "name": "Technologies",
     "level": "",
     "keywords": [
-      "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "Django",
-      "CMake", "SQL", "MongoDB"
+      "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "Django", "Flask",
+      "CMake", "SQL", "MongoDB", "AWS"
     ]
   },{
     "name": "Langues",
