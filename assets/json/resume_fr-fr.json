@@ -1,6 +1,6 @@
 {
   "config": {
-    "currentVersion": "v3:RealTime",
+    "currentVersion": "v1:academic",
     "versions": {
       "v1:academic": {
         "sections": [
@@ -212,12 +212,13 @@
       "\\Cpp", "Python3", "\\Cs", "Bash", "C", "HTML", "CSS"
     ]
   },{
-    "name": "Technologies",
+    "name": "Logiciels \\& Frameworks",
     "level": "",
-    "keywords": [
-      "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "Django", "Flask",
-      "CMake", "SQL", "MongoDB", "AWS"
-    ]
+    "keywords": ["Django", "React", "Unity", "CMake", "SQL"]
+  },{
+    "name": "DevOps",
+    "level": "",
+    "keywords": ["Git", "CI/CD (GitHub Actions)", "Docker"]
   },{
     "name": "Langues",
     "level": "",

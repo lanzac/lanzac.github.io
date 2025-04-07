@@ -1,6 +1,6 @@
 {
   "config": {
-    "currentVersion": "v2:IT",
+    "currentVersion": "v1:academic",
     "versions": {
       "v1:academic": {
         "sections": [
@@ -184,16 +184,15 @@
   "skills": [{
     "name": "Programming",
     "level": "",
-    "keywords": [
-      "Python3", "\\Cpp" , "\\Cs", "Bash", "C", "HTML", "CSS"
-    ]
+    "keywords": ["Python3", "\\Cpp" , "\\Cs", "Bash", "C", "HTML", "CSS"]
   },{
-    "name": "Technologies",
+    "name": "Software \\& Frameworks",
     "level": "",
-    "keywords": [
-      "Git", "CI/CD (GitHub Actions)", "Docker", "Unity", "Django", "Flask",
-      "CMake", "SQL", "MongoDB", "AWS"
-    ]
+    "keywords": ["Django", "React", "Unity", "CMake", "SQL"]
+  },{
+    "name": "DevOps",
+    "level": "",
+    "keywords": ["Git", "CI/CD (GitHub Actions)", "Docker"]
   },{
     "name": "Languages",
     "level": "",
