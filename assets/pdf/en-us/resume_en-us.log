@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.11.17)  13 FEB 2025 22:42
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2024.11.17)  14 FEB 2025 08:49
  restricted system commands enabled.
 **assets/tex/resume_en-us.tex
 (./assets/tex/resume_en-us.tex
@@ -1383,7 +1383,7 @@ Here is how much of LuaTeX's memory you used:
  926 words of node memory still in use:
    7 hlist, 1 vlist, 4 rule, 2 glue, 3 kern, 1 glyph, 131 attribute, 75 glue_spe
 c, 20 attribute_list, 1 write, 9 user_defined nodes
-   avail lists: 1:40,2:54723,3:591,4:860,5:117,6:134,7:11366,8:71,9:942,10:15,11
+   avail lists: 1:37,2:54879,3:591,4:860,5:120,6:134,7:11402,8:71,9:942,10:15,11
 :996
  43234 multiletter control sequences out of 65536+600000
  64 fonts using 35682351 bytes
@@ -1395,7 +1395,7 @@ ho-Regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf><
 ve/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Regular.ttf></usr/share/
 fonts/truetype/open-sans/OpenSans-Semibold.ttf></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-Output written on resume_en-us.pdf (1 page, 45280 bytes).
+Output written on resume_en-us.pdf (1 page, 45412 bytes).
 
 PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream
