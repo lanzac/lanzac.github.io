@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'assets/json/**'
+      - 'assets/tex/**'
   workflow_dispatch:
 
 jobs:
