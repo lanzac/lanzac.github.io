@@ -1,4 +1,4 @@
-name: Generate JSon Resume
+name: Generate JSON Resume
 
 on:
   push:
@@ -12,9 +12,28 @@ on:
 jobs:
   generate-resume:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Cache Docker image
+        id: cache-docker
+        uses: actions/cache@v3
+        with:
+          path: /tmp/docker-image
+          key: ${{ runner.os }}-docker-${{ hashFiles('Dockerfile') }}
+
+      - name: Load Docker image
+        if: steps.cache-docker.outputs.cache-hit == 'true'
+        run: docker load -i /tmp/docker-image/image.tar
+
+      - name: Build Docker image
+        if: steps.cache-docker.outputs.cache-hit != 'true'
+        run: |
+          docker pull andrelanrezac/latex:v0.04
+          mkdir -p /tmp/docker-image
+          docker save -o /tmp/docker-image/image.tar andrelanrezac/latex:v0.04
 
       - name: Run Jsonresume convert
         uses: addnab/docker-run-action@v3
@@ -38,5 +57,3 @@ jobs:
           git add assets/pdf/**/*.pdf
           git commit -m "Update generated PDFs"
           git push origin main
-
-
