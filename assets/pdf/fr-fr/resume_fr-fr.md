@@ -24,7 +24,7 @@ Supervisé par [Marc Baaden](https://www.baaden.ibpc.fr/)
 ## Expériences professionnelles
 
 **Assistant de recherche & Ingénieur de recherche**
-  : **Nov 2021 - Juin 2024**
+  : **Nov 2019 - Juin 2024**
 
 [Laboratoire de Biochimie Théorique, IBPC · CNRS , Paris](https://www-lbt.ibpc.fr/)
 

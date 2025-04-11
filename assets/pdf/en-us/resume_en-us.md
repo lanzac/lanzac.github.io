@@ -1,4 +1,4 @@
-$---
+---
 ---
 
 # André Lanrezac  
@@ -24,7 +24,7 @@ Supervised by [Marc Baaden](https://www.baaden.ibpc.fr/)
 ## Experience
 
 **Research Assistant & Reseach engineer**
-  : **Nov 2021 - June 2024**
+  : **Nov 2019 - June 2024**
 
 [Laboratory of Theoretical Biochemistry, IBPC · CNRS , Paris](https://www-lbt.ibpc.fr/)
 
