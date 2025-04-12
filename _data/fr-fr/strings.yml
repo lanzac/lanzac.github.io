@@ -64,7 +64,6 @@ cv:
 footer_text: > # le symbole ">" signifie ignorer les sauts de ligne jusqu'à "titles:"
   Développé avec <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> avec le thème <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
   Hébergé par <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos de <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 latest_posts: dernières publications
 months:
   long:
