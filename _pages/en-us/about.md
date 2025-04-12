@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: About
 permalink: /
-subtitle: Scientific Software Developer
+subtitle: Bioinformatician | Scientific Developer
 
 profile:
   align: right
