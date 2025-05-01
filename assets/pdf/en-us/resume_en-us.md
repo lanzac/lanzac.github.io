@@ -29,7 +29,7 @@ Supervised by [Marc Baaden](https://www.baaden.ibpc.fr/)
 [Laboratory of Theoretical Biochemistry, IBPC · CNRS , Paris](https://www-lbt.ibpc.fr/)
 
 - Lead author of a review article on interactive molecular simulations (IMS) \[[~1]\], summarizing decades of work by the scientific community
-- Enhanced the molecular visualization software UnityMol (Unity, C#) and the molecular engine BioSpring (C++) for real-time experiments on protein insertion into an analytical membrane \[[~2], [~3]\]
+- Enhanced the molecular visualization software UnityMol (Unity, C#) and the molecular engine BioSpring (C++) for real-time experiments on protein insertion into an analytical membrane \[[~2], [~3], [~5]\]
 - Developed UNILIPID, a method and specialized bioinformatic Python tool for adapting lipid–protein interaction parameters, enabling the extension of implicit membrane representations from all-atom to coarse-grained models, and allowing simulations with curved membrane geometries \[[~3]\]
 - Participated in the maintenance and release process of BioSpring by building a CI/CD pipeline (GitHub Actions, Docker) to automate releases, resolve multi-year dependency issues, and enhance software accessibility
 
@@ -83,6 +83,7 @@ simulations”. WIREs Computational Molecular Science (July 2022). DOI:[10.1002/
 of Protein Insertion into Implicit Membranes of Arbitrary Shape”. Membranes (Mar. 2023).
 DOI:[10.3390/membranes13030362](https://www.mdpi.com/2077-0375/13/3/362).
 
-[~4]: André Lanrezac, Nicolas Férey, and Marc Baaden. “Interactive Molecular Dynamics”. Reference
-Module in Chemistry, Molecular Sciences and Chemical Engineering. Elsevier, 2023.
+[~4]: André Lanrezac, Nicolas Férey, and Marc Baaden. “Interactive Molecular Dynamics”. Reference Module in Chemistry, Molecular Sciences and Chemical Engineering. Elsevier, 2023.
 DOI:[10.1016/B978-0-12-821978-2.00115-X](https://linkinghub.elsevier.com/retrieve/pii/B978012821978200115X).
+
+[~5]: Laurent B, Lanrezac A, Santuz H, Ferey N, Delalande O, Baaden M. “BioSpring: An elastic network framework for interactive exploration of macromolecular mechanics”. Protein Science (April 2025). DOI:[10.1002/pro.70130/](https://doi.org/10.1002/pro.70130)

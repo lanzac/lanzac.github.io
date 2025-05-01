@@ -29,7 +29,7 @@ Supervisé par [Marc Baaden](https://www.baaden.ibpc.fr/)
 [Laboratoire de Biochimie Théorique, IBPC · CNRS , Paris](https://www-lbt.ibpc.fr/)
 
 - Auteur principal d'un article de revue sur les simulations moléculaires interactives (IMS) \[[~1]\], synthétisant les travaux de la communauté scientifique sur plusieurs décennies
-- Améliorations des logiciels de visualisation moléculaire UnityMol (Unity, C#) et du moteur BioSpring (C++) pour des expériences en temps réel d'insertion de protéines dans une membrane analytique \[[~2], [~3]\]
+- Améliorations des logiciels de visualisation moléculaire UnityMol (Unity, C#) et du moteur BioSpring (C++) pour des expériences en temps réel d'insertion de protéines dans une membrane analytique \[[~2], [~3], [~5]\]
 - Développement de UNILIPID, méthode et outil Python pour adapter les paramètres lipide-protéine dans des membranes implicites, permettant d’étendre la représentation des membranes des modèles tout-atomes au gros-grain et de simuler des géométries membranaires courbes \[[~3]\]
 - Contribution à la maintenance et à la diffusion de BioSpring via la mise en place d'un pipeline CI/CD (GitHub Actions, Docker) automatisant les versions, résolvant des dépendances anciennes et facilitant l'accès au logiciel
 
@@ -85,3 +85,5 @@ DOI:[10.3390/membranes13030362](https://www.mdpi.com/2077-0375/13/3/362).
 [~4]: André Lanrezac, Nicolas Férey, and Marc Baaden. “Interactive Molecular Dynamics”. Reference
 Module in Chemistry, Molecular Sciences and Chemical Engineering. Elsevier, 2023.
 DOI:[10.1016/B978-0-12-821978-2.00115-X](https://linkinghub.elsevier.com/retrieve/pii/B978012821978200115X).
+
+[~5]: Laurent B, Lanrezac A, Santuz H, Ferey N, Delalande O, Baaden M. “BioSpring: An elastic network framework for interactive exploration of macromolecular mechanics”. Protein Science (April 2025). DOI:[10.1002/pro.70130/](https://doi.org/10.1002/pro.70130)
