@@ -110,11 +110,16 @@
 
 #vue-smart-pages-preview ul.crossref-list {
   padding-left: 1.2em;
+  line-height: 1.0;
 }
 
 #vue-smart-pages-preview li.crossref-item p {
-  margin-left: 0.5em;
+  margin-left: .5em;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding:0 0 0 0em;
 }
+
 
 #vue-smart-pages-preview li.crossref-item::marker {
   content: attr(data-caption);
@@ -124,6 +129,7 @@
   font-size: 100%;
   top: 0;
 }
+
 
 /* Dark & print mode */
 
