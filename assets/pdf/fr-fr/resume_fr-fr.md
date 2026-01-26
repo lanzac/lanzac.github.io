@@ -15,9 +15,8 @@ Bioinformaticien | Développeur scientifique
 **Doctorat en Bioinformatique** – Université Paris Cité
   : **2023**
 
-Supervisé par [Marc Baaden](https://www.baaden.ibpc.fr/)
 
-**Licence en Biologie & Master en Bioinformatique** – Sorbonne Université, Paris
+**Licence en Biologie ⇒ Master en Bioinformatique** – Sorbonne Université, Paris
   : **2019**
 
 
@@ -28,10 +27,12 @@ Supervisé par [Marc Baaden](https://www.baaden.ibpc.fr/)
 
 [Laboratoire de Biochimie Théorique, IBPC · CNRS , Paris](https://www-lbt.ibpc.fr/)
 
-- Auteur principal d'un article de revue sur les simulations moléculaires interactives (IMS) \[[~1]\], synthétisant les travaux de la communauté scientifique sur plusieurs décennies
-- Améliorations des logiciels de visualisation moléculaire UnityMol (Unity, C#) et du moteur BioSpring (C++) pour des expériences en temps réel d'insertion de protéines dans une membrane analytique \[[~2], [~3], [~5]\]
-- Développement de UNILIPID, méthode et outil Python pour adapter les paramètres lipide-protéine dans des membranes implicites, permettant d’étendre la représentation des membranes des modèles tout-atomes au gros-grain et de simuler des géométries membranaires courbes \[[~3]\]
-- Contribution à la maintenance et à la diffusion de BioSpring via la mise en place d'un pipeline CI/CD (GitHub Actions, Docker) automatisant les versions, résolvant des dépendances anciennes et facilitant l'accès au logiciel
+Supervisé par Dr. Marc Baaden
+
+- Auteur principal d'un article de revue sur les simulations moléculaires interactives (IMS) \[[~1]\]
+- Extension et optimisation des logiciels de visualisation moléculaire UnityMol (Unity, C#) et du moteur BioSpring (C++) pour simuler l’insertion de protéines dans des membranes implicites (modèle analytique), avec interaction et supervision en temps réel des données de simulation \[[~2], [~3], [~5]\]
+- Développement d'UNILIPID, méthodologie multi-échelle pour décrire les interactions lipide-protéine dans des membranes implicites simples, doubles ou courbes, avec paramétrisation reproduisant des échelles expérimentales d'hydrophobicité \[[~3]\]
+- Mise en place de pipelines CI/CD (GitHub Actions, Docker), facilitant la maintenance et la diffusion de la suite interactive en open-source
 
 
 **Stagiaire en conception de médicaments en bioinformatique**
@@ -41,9 +42,9 @@ Supervisé par [Marc Baaden](https://www.baaden.ibpc.fr/)
 
 Supervisé par [Dirk Stratmann](http://www-ext.impmc.upmc.fr/~stratmann/)
 
-- Élaboration d'un workflow combinant AutoDock et simulations REMD (GROMACS) pour évaluer l'affinité et la stabilité de peptides cycliques, avec comparaison aux résultats HADDOCK pour optimiser les designs
-
-- Conception manuelle de peptides cycliques avec UCSF-Chimera pour optimiser les séquences et structures ciblant des poches protéiques spécifiques
+- Développement d’un protocole automatisé couplant REMD (GROMACS) et docking moléculaire (AutoDock4/Vina) pour l’amarrage de peptides cycliques sur des poches allostériques protéiques.
+- Mise en œuvre et validation du workflow sur un système modèle cristallisé (streptavidine–ligand cyclique), incluant échantillonnage conformationnel, clusterisation, docking massif et analyse RMSD/énergie.
+- Design et évaluation de peptides cycliques allostériques ciblant la caspase-3, intégrant REMD, docking et premiers tests de flexibilité du récepteur (HADDOCK).
 
 
 **Stagiaire en analyse structurale en bioinformatique**
