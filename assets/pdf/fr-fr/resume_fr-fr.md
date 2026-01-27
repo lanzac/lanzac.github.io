@@ -12,11 +12,11 @@ Bioinformaticien | Développeur scientifique
 
 ## Formation
 
-**Doctorat en Bioinformatique** – Université Paris Cité
+**Doctorat en Bioinformatique** - Université Paris Cité
   : **2023**
 
 
-**Licence en Biologie ⇒ Master en Bioinformatique** – Sorbonne Université, Paris
+**Licence en Biologie ⇒ Master en Bioinformatique** - Sorbonne Université, Paris
   : **2019**
 
 
@@ -30,7 +30,7 @@ Bioinformaticien | Développeur scientifique
 Supervisé par Dr. Marc Baaden
 
 - Auteur principal d'un article de revue sur les simulations moléculaires interactives (IMS) \[[~1]\]
-- Extension et optimisation des logiciels de visualisation moléculaire UnityMol (Unity, C#) et du moteur BioSpring (C++) pour simuler l’insertion de protéines dans des membranes implicites (modèle analytique), avec interaction et supervision en temps réel des données de simulation \[[~2], [~3], [~5]\]
+- Extension et optimisation des logiciels de visualisation moléculaire UnityMol (Unity, C#) et du moteur BioSpring (C++) pour simuler l'insertion de protéines dans des membranes implicites (modèle analytique), avec interaction et supervision en temps réel des données de simulation \[[~2], [~3], [~5]\]
 - Développement d'UNILIPID, méthodologie multi-échelle pour décrire les interactions lipide-protéine dans des membranes implicites simples, doubles ou courbes, avec paramétrisation reproduisant des échelles expérimentales d'hydrophobicité \[[~3]\]
 - Mise en place de pipelines CI/CD (GitHub Actions, Docker), facilitant la maintenance et la diffusion de la suite interactive en open-source
 
@@ -38,21 +38,22 @@ Supervisé par Dr. Marc Baaden
 **Stagiaire en conception de médicaments en bioinformatique**
   : **Fev 2019 - Juin 2019**
 
-[Bioinformatics Research Team, ISYEB · Sorbonne université , Paris](https://impmc.sorbonne-universite.fr/fr/equipes/biophysique_et_bioinformatique.html)
+[Équipe de bioinformatique et de biophysique, IMPMC · Sorbonne université, Paris](https://impmc.sorbonne-universite.fr/fr/equipes/biophysique_et_bioinformatique.html)
 
-Supervisé par [Dirk Stratmann](http://www-ext.impmc.upmc.fr/~stratmann/)
 
-- Développement d’un protocole automatisé couplant REMD (GROMACS) et docking moléculaire (AutoDock4/Vina) pour l’amarrage de peptides cycliques sur des poches allostériques protéiques.
-- Mise en œuvre et validation du workflow sur un système modèle cristallisé (streptavidine–ligand cyclique), incluant échantillonnage conformationnel, clusterisation, docking massif et analyse RMSD/énergie.
+Supervisé par Dr. Dirk Stratmann
+
+- Développement d'un protocole automatisé couplant REMD (GROMACS) et docking moléculaire (AutoDock4/Vina) pour l'amarrage de peptides cycliques sur des poches allostériques protéiques.
+- Mise en œuvre et validation du workflow sur un système modèle cristallisé (streptavidine-ligand cyclique), incluant échantillonnage conformationnel, clusterisation, docking massif et analyse RMSD/énergie.
 - Design et évaluation de peptides cycliques allostériques ciblant la caspase-3, intégrant REMD, docking et premiers tests de flexibilité du récepteur (HADDOCK).
 
 
 **Stagiaire en analyse structurale en bioinformatique**
   : **Juillet 2018**
 
-[Bioinformatics Research Team, ISYEB · Sorbonne université , Paris](https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384)
+[Atelier de bioinformatique (ABI), ISYEB · Sorbonne université, Paris](https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384)
 
-Supervisé par [Mathilde Carpentier](https://isyeb.mnhn.fr/fr/annuaire/mathilde-carpentier-368)
+Supervisé par Dr. Mathilde Carpentier
 
 - Poursuite du développement de YAKUSA, outil de recherche rapide de similarité structurale basé sur les SHSPs (motifs structuraux communs à haut score)
 
@@ -62,14 +63,14 @@ Supervisé par [Mathilde Carpentier](https://isyeb.mnhn.fr/fr/annuaire/mathilde-
 
 ## Compétences
 
-**Programmation:**  Python, C++, C#, Bash, C, HTML, CSS
 
-**Logiciels & Frameworks:** Django, React, Unity, CMake, SQL
-
-**DevOps:** Git, CI/CD (GitHub Actions), Docker
-
-**Langues::** Français (natif), Anglais (maîtrisé), Mandarin (débutant)
-
+|                    |                                    |
+| ----------------------------------- | ------------------------------------------------------- |
+|                   **Programmation**                  |                             Python, C++, C# (Unity), Bash                            |
+| **Bioinformatique**                 | VMD, GROMACS, AutoDock, HADDOCK, Chimera                |
+| **Web & Data Viz**                   | Django (PostgreSQL), Plotly, HTML, CSS, Bootstrap 5             |
+| **Ingénierie logicielle & CI/CD**   | Git, GitHub Actions, Docker, pytest                     |
+| **Langues**                         | Français (natif), Anglais (avancé), Mandarin (débutant) |
 
 ## Publications
 
@@ -88,3 +89,27 @@ Module in Chemistry, Molecular Sciences and Chemical Engineering. Elsevier, 2023
 DOI:[10.1016/B978-0-12-821978-2.00115-X](https://linkinghub.elsevier.com/retrieve/pii/B978012821978200115X).
 
 [~5]: Laurent B, Lanrezac A, Santuz H, Ferey N, Delalande O, Baaden M. “BioSpring: An elastic network framework for interactive exploration of macromolecular mechanics”. Protein Science (April 2025). DOI:[10.1002/pro.70130/](https://doi.org/10.1002/pro.70130)
+
+
+<!-- Add active to class if needed -->
+<div class="optional-section">
+
+<br>
+
+## Projets personnels
+
+**OpenNutriLab** Application web open source de nutrition
+  : **Janvier 2025 - Présent**
+
+<span class="iconify" data-icon="tabler:brand-github"></span>[github.com/lanzac/OpenNutriLab](https://github.com/lanzac/OpenNutriLab)
+
+
+- Développement d'une application web open source sous Python/Django, exploitant les bases de données publiques
+OpenFoodFacts et Ciqual (Anses) pour l'analyse des produits alimentaires et de leur composition nutritionnelle. Ce
+projet, à vocation de service public et d'aide à la décision en matière de nutrition, est en phase initiale mais en
+développement actif.
+
+**Environnement de développement** : Python 3.13 & Django | Docker / DevContainer, Uvicorn | PostgreSQL |
+Bootstrap 5, Node.js & npm, Webpack | pytest, pyright | uv.
+
+</div>

@@ -51,7 +51,7 @@
 
 #vue-smart-pages-preview ul,
 #vue-smart-pages-preview ol {
-  padding-left: 1.5em;
+  padding-left: 1.0em;
   margin: 0.2em 0 1.0em 0;
 }
 
@@ -108,20 +108,19 @@
 
 /* Citations */
 
+
 #vue-smart-pages-preview ul.crossref-list {
-  padding-left: 1.2em;
-  line-height: 1.0;
+  padding-left: 0.2em;
 }
 
 #vue-smart-pages-preview li.crossref-item p {
   margin-left: .5em;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  padding:0 0 0 0em;
+  line-height: 1.0;
 }
 
 
-#vue-smart-pages-preview li.crossref-item::marker {
+
+#vue-smart-pages-preview li.ulcrossref-item::marker {
   content: attr(data-caption);
 }
 
@@ -130,6 +129,11 @@
   top: 0;
 }
 
+/* Table */
+
+table td:first-child {
+  padding-right: 20px;
+}
 
 /* Dark & print mode */
 
@@ -142,9 +146,20 @@
   #vue-smart-pages-preview {
     background-color: white !important;
     color: black !important;
+    page-break-inside: avoid;
   }
 
   .dark #vue-smart-pages-preview a {
     color: black !important;
   }
+}
+
+
+
+.optional-section {
+    display: none;
+}
+
+.optional-section.active {
+    display: block;
 }
