@@ -12,64 +12,65 @@ Bioinformatician | Scientific Developer
 
 ## Education
 
-**Ph.D. in Bioinformatics** – Université Paris Cité
+**Ph.D. in Bioinformatics** - Université Paris Cité
   : **2023**
 
-Supervised by [Marc Baaden](https://www.baaden.ibpc.fr/)
 
-**B.S. in Biology & M.S. in Bioinformatics** – Sorbonne Université, Paris
+**B.S. in Biology ⇒ M.S. in Bioinformatics** - Sorbonne Université, Paris
   : **2019**
 
 
 ## Experience
 
-**Research Assistant & Reseach engineer**
+**Research Assistant ⇒ Reseach engineer**
   : **Nov 2019 - June 2024**
 
-[Laboratory of Theoretical Biochemistry, IBPC · CNRS , Paris](https://www-lbt.ibpc.fr/)
+[Laboratoire de Biochimie Théorique, IBPC · CNRS , Paris](https://www-lbt.ibpc.fr/)
 
-- Lead author of a review article on interactive molecular simulations (IMS) \[[~1]\], summarizing decades of work by the scientific community
-- Enhanced the molecular visualization software UnityMol (Unity, C#) and the molecular engine BioSpring (C++) for real-time experiments on protein insertion into an analytical membrane \[[~2], [~3], [~5]\]
-- Developed UNILIPID, a method and specialized bioinformatic Python tool for adapting lipid–protein interaction parameters, enabling the extension of implicit membrane representations from all-atom to coarse-grained models, and allowing simulations with curved membrane geometries \[[~3]\]
-- Participated in the maintenance and release process of BioSpring by building a CI/CD pipeline (GitHub Actions, Docker) to automate releases, resolve multi-year dependency issues, and enhance software accessibility
+Supervised by Dr. Marc Baaden
+
+- Lead author of a review article on interactive molecular simulations (IMS) \[[~1]\]
+- Extended and optimized the molecular-visualization software UnityMol (Unity, C#) and the BioSpring engine (C++) to simulate protein insertion into implicit membranes (analytical model), including real-time interaction and monitoring of simulation data \[[~2],[~3],[~5]\]
+- Developed UNILIPID, a multiscale methodology to describe lipid–protein interactions in simple, bilayer or curved implicit membranes, with parameterization reproducing experimental hydrophobicity scales \[[~3]\]
+- Implemented CI/CD pipelines (GitHub Actions, Docker) to facilitate maintenance and open-source distribution of the interactive suite
 
 
 **Bioinformatics Drug Design Intern**
   : **Feb 2019 - June 2019**
 
-[Bioinformatics Research Team, ISYEB · Sorbonne université , Paris](https://impmc.sorbonne-universite.fr/fr/equipes/biophysique_et_bioinformatique.html)
+[Bioinformatics & Biophysics Research Team, IMPMC · Sorbonne université, Paris](https://impmc.sorbonne-universite.fr/fr/equipes/biophysique_et_bioinformatique.html)
 
-Supervised by [Dirk Stratmann](http://www-ext.impmc.upmc.fr/~stratmann/)
 
-- Developed a workflow combining Autodock with REMD simulations in GROMACS to assess binding affinity and stability of cyclic peptides, comparing results with HADDOCK to optimize peptide designs
+Supervised by Dr. Dirk Stratmann
 
-- Manually designed cyclic peptides using UCSF-Chimera to optimize sequences and structures for targeted protein pockets, ensuring high binding affinity and stability
+- Developed an automated protocol coupling REMD (GROMACS) and molecular docking (AutoDock4/Vina) for docking cyclic peptides into allosteric protein pockets
+- Implemented and validated the workflow on a crystallographic model system (streptavidin–cyclic ligand), including conformational sampling, clustering, large-scale docking and RMSD/energy analysis
+- Designed and evaluated allosteric cyclic peptides targeting caspase-3, integrating REMD, docking and preliminary receptor-flexibility tests (HADDOCK)
 
 
 **Bioinformatics Structural Analysis Intern**
   : **July 2018**
 
-[Bioinformatics Research Team, ISYEB · Sorbonne université , Paris](https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384)
+[Atelier de bioinformatique (ABI), ISYEB · Sorbonne université, Paris](https://isyeb.mnhn.fr/fr/atelier-de-bio-informatique-384)
 
-Supervised by [Mathilde Carpentier](https://isyeb.mnhn.fr/fr/annuaire/mathilde-carpentier-368)
+Supervised by Dr. Mathilde Carpentier
 
-- Continued development of [YAKUSA](https://pubmed.ncbi.nlm.nih.gov/16049912/), a fast protein structural similarity search tool based on shared high-scoring structural pairs (SHSPs)
+- Continued development of YAKUSA, a fast protein structural similarity search tool based on shared high-scoring structural pairs (SHSPs)
 
 - Re-implemented Bellman's algorithm (Python) to compute the longest path through shared motifs and optimize similarity search
 
 - Developed heuristic algorithms to accelerate structural alignment and improve matching speed
 
-
 ## Skills
 
-**Programming:**  Python, C++, C#, Bash, C, HTML, CSS
 
-**Softwares & Frameworks:** Django, React, Unity, CMake, SQL
-
-**DevOps:** Git, CI/CD (GitHub Actions), Docker
-
-**Languages:** French (native), English (proficient), Mandarin (beginner)
-
+|                    |                                    |
+| ----------------------------------- | ------------------------------------------------------- |
+|                   **Programming**                  |                             Python, C++, C# (Unity), Bash                            |
+| **Bioinformatics**                 | VMD, GROMACS, AutoDock, HADDOCK, Chimera                |
+| **Web & Data Viz**                   | Django (PostgreSQL), Plotly, HTML, CSS, Bootstrap 5             |
+| **Software Engineering & CI/CD**   | Git, GitHub Actions, Docker, pytest                     |
+| **Languages**                         | French (native), English (proficient), Mandarin (beginner) |
 
 ## Publications
 
@@ -83,7 +84,27 @@ simulations”. WIREs Computational Molecular Science (July 2022). DOI:[10.1002/
 of Protein Insertion into Implicit Membranes of Arbitrary Shape”. Membranes (Mar. 2023).
 DOI:[10.3390/membranes13030362](https://www.mdpi.com/2077-0375/13/3/362).
 
-[~4]: André Lanrezac, Nicolas Férey, and Marc Baaden. “Interactive Molecular Dynamics”. Reference Module in Chemistry, Molecular Sciences and Chemical Engineering. Elsevier, 2023.
+[~4]: André Lanrezac, Nicolas Férey, and Marc Baaden. “Interactive Molecular Dynamics”. Reference
+Module in Chemistry, Molecular Sciences and Chemical Engineering. Elsevier, 2023.
 DOI:[10.1016/B978-0-12-821978-2.00115-X](https://linkinghub.elsevier.com/retrieve/pii/B978012821978200115X).
 
 [~5]: Laurent B, Lanrezac A, Santuz H, Ferey N, Delalande O, Baaden M. “BioSpring: An elastic network framework for interactive exploration of macromolecular mechanics”. Protein Science (April 2025). DOI:[10.1002/pro.70130/](https://doi.org/10.1002/pro.70130)
+
+
+<!-- Add active to class if needed -->
+<div class="optional-section">
+
+## Personal projects
+
+**OpenNutriLab** Open-source web application for nutrition
+  : **Jan 2025 - Present**
+
+<span class="iconify" data-icon="tabler:brand-github"></span>[github.com/lanzac/OpenNutriLab](https://github.com/lanzac/OpenNutriLab)
+
+
+- Developing an open-source web application using Python/Django that leverages public databases (OpenFoodFacts and Ciqual / ANSES) to analyze food products and their nutritional composition. The project is intended as a public-service decision-support tool for nutrition; it is in an early stage but actively developed.
+
+**Development environment**: Python 3.13 & Django | Docker / DevContainer, Uvicorn | PostgreSQL |
+Bootstrap 5, Node.js & npm, Webpack | pytest, pyright | uv
+
+</div>

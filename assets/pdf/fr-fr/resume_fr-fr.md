@@ -22,7 +22,7 @@ Bioinformaticien | Développeur scientifique
 
 ## Expériences professionnelles
 
-**Assistant de recherche & Ingénieur de recherche**
+**Assistant de recherche ⇒ Ingénieur de recherche**
   : **Nov 2019 - Juin 2024**
 
 [Laboratoire de Biochimie Théorique, IBPC · CNRS , Paris](https://www-lbt.ibpc.fr/)
@@ -43,9 +43,9 @@ Supervisé par Dr. Marc Baaden
 
 Supervisé par Dr. Dirk Stratmann
 
-- Développement d'un protocole automatisé couplant REMD (GROMACS) et docking moléculaire (AutoDock4/Vina) pour l'amarrage de peptides cycliques sur des poches allostériques protéiques.
-- Mise en œuvre et validation du workflow sur un système modèle cristallisé (streptavidine-ligand cyclique), incluant échantillonnage conformationnel, clusterisation, docking massif et analyse RMSD/énergie.
-- Design et évaluation de peptides cycliques allostériques ciblant la caspase-3, intégrant REMD, docking et premiers tests de flexibilité du récepteur (HADDOCK).
+- Développement d'un protocole automatisé couplant REMD (GROMACS) et docking moléculaire (AutoDock4/Vina) pour l'amarrage de peptides cycliques sur des poches allostériques protéiques
+- Mise en œuvre et validation du workflow sur un système modèle cristallisé (streptavidine-ligand cyclique), incluant échantillonnage conformationnel, clusterisation, docking massif et analyse RMSD/énergie
+- Design et évaluation de peptides cycliques allostériques ciblant la caspase-3, intégrant REMD, docking et premiers tests de flexibilité du récepteur (HADDOCK)
 
 
 **Stagiaire en analyse structurale en bioinformatique**
@@ -72,6 +72,7 @@ Supervisé par Dr. Mathilde Carpentier
 | **Ingénierie logicielle & CI/CD**   | Git, GitHub Actions, Docker, pytest                     |
 | **Langues**                         | Français (natif), Anglais (avancé), Mandarin (débutant) |
 
+
 ## Publications
 
 [~1]: André Lanrezac, Nicolas Férey, and Marc Baaden. “Wielding the power of interactive molecular
@@ -94,7 +95,9 @@ DOI:[10.1016/B978-0-12-821978-2.00115-X](https://linkinghub.elsevier.com/retriev
 <!-- Add active to class if needed -->
 <div class="optional-section">
 
-<br>
+
+\newpage
+
 
 ## Projets personnels
 
@@ -107,9 +110,9 @@ DOI:[10.1016/B978-0-12-821978-2.00115-X](https://linkinghub.elsevier.com/retriev
 - Développement d'une application web open source sous Python/Django, exploitant les bases de données publiques
 OpenFoodFacts et Ciqual (Anses) pour l'analyse des produits alimentaires et de leur composition nutritionnelle. Ce
 projet, à vocation de service public et d'aide à la décision en matière de nutrition, est en phase initiale mais en
-développement actif.
+développement actif
 
 **Environnement de développement** : Python 3.13 & Django | Docker / DevContainer, Uvicorn | PostgreSQL |
-Bootstrap 5, Node.js & npm, Webpack | pytest, pyright | uv.
+Bootstrap 5, Node.js & npm, Webpack | pytest, pyright | uv
 
 </div>
