@@ -24,10 +24,11 @@ la chimie et de l'informatique. La majeure partie de mon travail a été centré
 sur le développement de logiciels pour répondre à des défis scientifiques 
 complexes.
 
-Notamment, j'ai développé une suite logicielle complète pour des simulations 
-moléculaires interactives (IMS), permettant une interaction en temps réel avec 
-les simulations en cours. Cela a été particulièrement utile pour étudier le 
-profil d'insertion des protéines membranaires.
+Notamment, j'ai contributé au développement d'une suite logicielle complète 
+pour des simulations moléculaires interactives (IMS), permettant une 
+interaction en temps réel avec les simulations en cours. Cela a été 
+particulièrement utile pour étudier le profil d'insertion des protéines 
+membranaires.
 
 Cette expérience a posé les bases de mon orientation vers la conception et 
 l’implémentation d’architectures logicielles robustes pour des outils 

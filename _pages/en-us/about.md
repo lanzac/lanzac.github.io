@@ -23,10 +23,10 @@ simulations, working at the intersection of physics, chemistry, and computer
 science. Most of my work centered on software development to address complex 
 scientific challenges.
 
-Notably, I developed a comprehensive software suite for interactive molecular 
-simulations (IMS), enabling real-time human interaction with ongoing 
-simulations. This was particularly impactful for studying the insertion 
-profile of membrane proteins.
+Notably, I contributed to the development of a comprehensive software suite 
+for interactive molecular simulations (IMS), enabling real-time human 
+interaction with ongoing simulations. This was particularly impactful for 
+studying the insertion profile of membrane proteins.
 
 This experience sparked my focus on designing and implementing robust software 
 architectures for high-performance scientific tools, with a strong sensitivity 
